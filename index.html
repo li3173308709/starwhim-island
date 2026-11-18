@@ -41,7 +41,7 @@
   <footer class="dock-wrap"><nav class="dock glass" aria-label="游戏主菜单"><button data-nav="map"><span class="dock-icon">🗺️</span><span>地图</span></button><button data-nav="pets"><span class="dock-icon">🐾</span><span>精灵</span></button><button data-nav="wishes"><span class="dock-icon">💌</span><span>邮局</span></button><button data-nav="minigames" class="featured"><span class="dock-icon">🎲</span><span>玩游戏</span></button><button data-nav="decorate"><span class="dock-icon">🏡</span><span>装饰</span></button><button data-nav="bag"><span class="dock-icon">🎒</span><span>背包</span></button></nav></footer>
 </div>
 <div id="loading" class="loading-screen"><span class="loading-star">✦</span><h2>星星正在准备梦幻小岛…</h2></div>
-<div id="titleScreen" class="screen-overlay hidden"><div class="title-card"><div class="title-stars">✧　☁️　✦　🌙　✧</div><span class="title-tag">献给小冒险家丁一一小朋友</span><div class="logo-emoji">🌸</div><h1>星绒岛<br><span>奇遇记</span></h1><div class="title-english">STARWHIM ISLAND</div><p>一个有精灵、有魔法、有好多好多惊喜的小世界。<br>丁一一，今天我们一起去冒险吧！</p><div class="title-hero-picker"><span class="small-label">选择你喜欢的衣服</span><div id="heroColors" class="swatches"></div></div><button id="playBtn" class="primary-button big-button">✦　进入梦幻小岛　✦</button><div class="title-foot">💗 无广告 · 不花钱 · 自动保存 · 随时回来</div></div></div>
+<div id="titleScreen" class="screen-overlay hidden"><div class="title-card"><div class="title-stars">✧　☁️　✦　🌙　✧</div><span class="title-tag">送给丁一一小朋友</span><div class="logo-emoji">🌸</div><h1>星绒岛<br><span>奇遇记</span></h1><div class="title-english">STARWHIM ISLAND</div><p>一个有精灵、有魔法、有好多好多惊喜的小世界。<br>丁一一，今天我们一起去冒险吧！</p><div class="title-hero-picker"><span class="small-label">选择你喜欢的衣服</span><div id="heroColors" class="swatches"></div></div><button id="playBtn" class="primary-button big-button">✦　进入梦幻小岛　✦</button><div class="title-foot">💗 无广告 · 不花钱 · 自动保存 · 随时回来</div></div></div>
 <div id="panelBackdrop" class="panel-backdrop hidden"><div id="panel" class="panel glass" role="dialog" aria-modal="true" aria-label="游戏菜单"><div class="panel-bar"><div><span class="panel-kicker" id="panelKicker">星绒岛</span><h2 id="panelTitle">童话菜单</h2></div><button class="close-button" id="panelClose" aria-label="关闭菜单">✕</button></div><div id="panelBody" class="panel-body"></div></div></div>
 <div id="dialogueBackdrop" class="dialogue-backdrop hidden"><div class="dialogue-card glass" role="dialog" aria-modal="true"><div id="speakerIcon" class="speaker-icon">☁️</div><div class="dialogue-copy"><div class="speaker-name" id="speakerName">泡泡</div><p id="speakerText"></p></div><button id="dialogueContinue" class="dialogue-next">好呀！ ✦</button></div></div>
 <div id="celebration" class="celebration hidden"><div class="celebration-box glass"><div class="celeb-emoji">🌈 ✨ 🌸</div><h2 id="celebTitle"></h2><p id="celebText"></p><button id="celebBtn" class="primary-button">继续快乐探险！</button></div></div>
@@ -544,9 +544,9 @@ let chosen=null,started=false,lastWords='',lastError='',pendingMusic=null,curren
 let voiceCallId=0,voiceTestTimer=null;
 const synth=('speechSynthesis' in window&&'SpeechSynthesisUtterance' in window)?window.speechSynthesis:null;
 const profiles={
- cute:{label:'🧸 泡泡萌萌音',pitch:1.43,rate:1.01},
- gentle:{label:'🌙 月芽温柔音',pitch:1.24,rate:.92},
- sunny:{label:'🍬 栗栗活力音',pitch:1.32,rate:1.12}
+ cute:{label:'🧸 泡泡软萌音',pitch:1.11,rate:.92},
+ gentle:{label:'🌙 月芽温柔音',pitch:1.04,rate:.88},
+ sunny:{label:'🍬 栗栗活力音',pitch:1.16,rate:1.04}
 };
 function profile(){return profiles[S.game?.state?.settings?.voiceStyle]||profiles.cute}
 function voices(){if(!synth)return [];
