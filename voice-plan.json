@@ -1,0 +1,727 @@
+{
+  "version": 4,
+  "provider": "Voxy 语界",
+  "voiceName": "活泼女孩 2.0",
+  "voices": {
+    "all": {
+      "name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "role": "全部角色及旁白"
+    }
+  },
+  "count": 79,
+  "total_characters": 2390,
+  "lines": [
+    {
+      "id": "0d8b9b9e72135c5c",
+      "role": "bubble",
+      "text": "小冒险家丁一一小朋友，你好呀！我是泡泡！欢迎来到星绒岛！这里有软绵绵的云朵、闪闪的星星，还有好多可爱的精灵朋友。丁一一，点一下进入梦幻小岛，我们一起去冒险吧！",
+      "context": "开场/试听",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/0d8b9b9e72135c5c.mp3"
+    },
+    {
+      "id": "359f33f619b8b4d8",
+      "role": "bubble",
+      "text": "小冒险家丁一一小朋友，欢迎来到星绒岛奇遇记！我是泡泡，你最最可爱的冒险伙伴。点一下进入梦幻小岛，我们出发啦！",
+      "context": "开场/试听",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/359f33f619b8b4d8.mp3"
+    },
+    {
+      "id": "ad4b40a3606a85bc",
+      "role": "bubble",
+      "text": "丁一一小朋友，你好呀！我是泡泡！听到我的声音了吗？我们一起去星绒岛冒险吧！",
+      "context": "开场/试听",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/ad4b40a3606a85bc.mp3"
+    },
+    {
+      "id": "dae00df5c697cc2c",
+      "role": "narrator",
+      "text": "送给丁一一小朋友。欢迎来到星绒岛奇遇记。这是一个有精灵、有魔法、也有温柔故事的小世界。",
+      "context": "童话旁白试听",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/dae00df5c697cc2c.mp3"
+    },
+    {
+      "id": "7f119ff44237bfd9",
+      "role": "bubble",
+      "text": "丁一一，你真棒！我们又收集到闪闪的小星光啦！",
+      "context": "通关祝贺",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/7f119ff44237bfd9.mp3"
+    },
+    {
+      "id": "f8262b518477899b",
+      "role": "bubble",
+      "text": "丁一一，我们来看看今天的小任务吧！",
+      "context": "任务引导",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/f8262b518477899b.mp3"
+    },
+    {
+      "id": "883fd2b82c74b723",
+      "role": "narrator",
+      "text": "欢迎来到星绒岛，今天会发生哪些奇妙的童话故事呢？",
+      "context": "场景介绍",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/883fd2b82c74b723.mp3"
+    },
+    {
+      "id": "b2686e5bedd44140",
+      "role": "bubble",
+      "text": "小冒险家丁一一小朋友，欢迎来到星绒岛！我是泡泡，从今天开始我们就是好朋友啦！点一点我，我们一起去找闪闪的星星吧！",
+      "context": "互动：泡泡",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/b2686e5bedd44140.mp3"
+    },
+    {
+      "id": "e2868d8a768b5185",
+      "role": "bubble",
+      "text": "我最喜欢和你一起找星星啦！今天要不要去花园看看？对啦，点一下星光树会有惊喜哦！",
+      "context": "互动：泡泡",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/e2868d8a768b5185.mp3"
+    },
+    {
+      "id": "ee1e54e0297999df",
+      "role": "narrator",
+      "text": "谢谢你唤醒我，勇敢的小守护者！从今天开始，花朵和云朵都会陪你旅行。",
+      "context": "互动：彩虹星树",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/ee1e54e0297999df.mp3"
+    },
+    {
+      "id": "e864afe2670fac54",
+      "role": "narrator",
+      "text": "每一颗小小的善意，都会变成亮晶晶的星光。继续享受星绒岛的美好吧！",
+      "context": "互动：彩虹星树",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/e864afe2670fac54.mp3"
+    },
+    {
+      "id": "06cef252fd24137b",
+      "role": "narrator",
+      "text": "你好呀……森林里藏着三颗闪亮的橡果。可以和我一起找到它们吗？我想做一个小花环送你！",
+      "context": "互动：栗栗",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/06cef252fd24137b.mp3"
+    },
+    {
+      "id": "ced9274dccb6fb9b",
+      "role": "narrator",
+      "text": "你真的找到了全部橡果！我以后想一直陪你冒险，可以吗？",
+      "context": "互动：栗栗",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/ced9274dccb6fb9b.mp3"
+    },
+    {
+      "id": "c6896daf713dd7a6",
+      "role": "narrator",
+      "text": "把小种子放在花圃里，轻轻浇点水，就会长出一朵神奇的花！",
+      "context": "互动：花仙子莉莉",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/c6896daf713dd7a6.mp3"
+    },
+    {
+      "id": "3a99227f89c2d60f",
+      "role": "narrator",
+      "text": "嘘……萤火虫正准备开一场小舞会。你可以画一幅星空画送给它们！",
+      "context": "互动：森林蘑菇",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/3a99227f89c2d60f.mp3"
+    },
+    {
+      "id": "a598df7c581309b1",
+      "role": "narrator",
+      "text": "在月光下，所有的声音都可以变成旋律。想跟我一起弹一首歌吗？",
+      "context": "互动：月芽",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/a598df7c581309b1.mp3"
+    },
+    {
+      "id": "eb6b41539515c4bf",
+      "role": "narrator",
+      "text": "呼噜……我闻到了草莓蛋糕的香味！你也会制作魔法甜点吗？",
+      "context": "互动：呼噜",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/eb6b41539515c4bf.mp3"
+    },
+    {
+      "id": "ee36c75bc6dd6cfb",
+      "role": "narrator",
+      "text": "星星学堂第一课：每个人都有属于自己的魔法，善良就是最厉害的一种。",
+      "context": "互动：魔法故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/ee36c75bc6dd6cfb.mp3"
+    },
+    {
+      "id": "43f982c9b9890f1c",
+      "role": "narrator",
+      "text": "七种温柔的颜色，连接着每一颗小小的心。",
+      "context": "互动：彩虹桥",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/43f982c9b9890f1c.mp3"
+    },
+    {
+      "id": "d1d4ee4bccb3ea4c",
+      "role": "narrator",
+      "text": "我帮你收集了一点星光。愿你今天遇到美好的事情！",
+      "context": "互动：水晶精灵",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/d1d4ee4bccb3ea4c.mp3"
+    },
+    {
+      "id": "4653644f5c00999a",
+      "role": "narrator",
+      "text": "一封信从云端飘下来：亲爱的星星守护者，谢谢你让这里变得那么温柔。",
+      "context": "随机故事：彩虹邮差",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/4653644f5c00999a.mp3"
+    },
+    {
+      "id": "7c9310e1fe9552a4",
+      "role": "bubble",
+      "text": "咦？是谁放在树下的小包裹？里面是好多亮晶晶的星星！",
+      "context": "随机故事：泡泡",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/7c9310e1fe9552a4.mp3"
+    },
+    {
+      "id": "9eb1c5bb812e68e5",
+      "role": "narrator",
+      "text": "微风穿过小屋，把每个小朋友的微笑都编成了旋律。",
+      "context": "随机故事：风铃精灵",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/9eb1c5bb812e68e5.mp3"
+    },
+    {
+      "id": "890dfdea5f2b8f71",
+      "role": "narrator",
+      "text": "今天采到了最香的花蜜，我想邀请你来参加花园的下午茶！",
+      "context": "随机故事：蜜蜂妮妮",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/890dfdea5f2b8f71.mp3"
+    },
+    {
+      "id": "9816350673a6f93f",
+      "role": "narrator",
+      "text": "蝴蝶说：希望每一朵花都有机会和太阳说早安。",
+      "context": "随机故事：彩蝶小姐",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/9816350673a6f93f.mp3"
+    },
+    {
+      "id": "d0797c116bd18eec",
+      "role": "narrator",
+      "text": "一阵风吹过，花瓣在空中排成了一颗大大的爱心！",
+      "context": "随机故事：花仙子莉莉",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/d0797c116bd18eec.mp3"
+    },
+    {
+      "id": "49ceb2b99ce658e0",
+      "role": "narrator",
+      "text": "今晚的森林舞会没有门票，只要带着开心的心情就能参加！",
+      "context": "随机故事：萤火虫乐队",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/49ceb2b99ce658e0.mp3"
+    },
+    {
+      "id": "7cba0405d21ea8f5",
+      "role": "narrator",
+      "text": "我不敢和别人说话，但今天鼓起勇气对你说了第一声你好。",
+      "context": "随机故事：蘑菇布布",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/7cba0405d21ea8f5.mp3"
+    },
+    {
+      "id": "97d5a7c696dd495b",
+      "role": "narrator",
+      "text": "栗栗悄悄做了一个蝴蝶结：谢谢你愿意陪着我冒险。",
+      "context": "随机故事：栗栗",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/97d5a7c696dd495b.mp3"
+    },
+    {
+      "id": "0c3aa346b105d838",
+      "role": "narrator",
+      "text": "每当有人许下一个善良的愿望，湖水就会多亮起一颗星星。",
+      "context": "随机故事：星星鱼",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/0c3aa346b105d838.mp3"
+    },
+    {
+      "id": "87cc7126844c17ea",
+      "role": "narrator",
+      "text": "漂流瓶里写着：你和世界都拥有独一无二的光。",
+      "context": "随机故事：月芽",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/87cc7126844c17ea.mp3"
+    },
+    {
+      "id": "9e46e222437bf568",
+      "role": "narrator",
+      "text": "咚！叮！沙沙！荷叶和露珠演奏了一首特别的清晨交响曲。",
+      "context": "随机故事：青蛙小乐手",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/9e46e222437bf568.mp3"
+    },
+    {
+      "id": "ca8921ff9b60d83d",
+      "role": "narrator",
+      "text": "书页飞呀飞，最后拼出一句话：真正厉害的魔法，是分享和关心。",
+      "context": "随机故事：魔法故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/ca8921ff9b60d83d.mp3"
+    },
+    {
+      "id": "603e2e40ba54b3db",
+      "role": "narrator",
+      "text": "阿嚏！呼噜一不小心打了个喷嚏，竟然喷出了七个颜色的小泡泡！",
+      "context": "随机故事：呼噜",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/603e2e40ba54b3db.mp3"
+    },
+    {
+      "id": "88911ec925cda7ba",
+      "role": "narrator",
+      "text": "今天的魔法咒语是：勇敢试一试！没有什么比好奇更珍贵。",
+      "context": "随机故事：魔法老师",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/88911ec925cda7ba.mp3"
+    },
+    {
+      "id": "c74a993202a830ae",
+      "role": "narrator",
+      "text": "对着溪谷说一句喜欢的话，彩虹就会把它送给整个天空。",
+      "context": "随机故事：彩虹小精灵",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/c74a993202a830ae.mp3"
+    },
+    {
+      "id": "6238717a94af84c0",
+      "role": "narrator",
+      "text": "一条云朵做的小船载着三朵小花，正在寻找今天最漂亮的风景。",
+      "context": "随机故事：云船长",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/6238717a94af84c0.mp3"
+    },
+    {
+      "id": "0edcb088041467a4",
+      "role": "narrator",
+      "text": "叮的一声，水晶对你眨了眨眼睛：发现美好的你，也是一个小小的奇迹。",
+      "context": "随机故事：水晶精灵",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/0edcb088041467a4.mp3"
+    },
+    {
+      "id": "103b2aa82dcf68df",
+      "role": "bubble",
+      "text": "这次的任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/103b2aa82dcf68df.mp3"
+    },
+    {
+      "id": "a64b3ddcef28b12b",
+      "role": "narrator",
+      "text": "星光故事书。和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/a64b3ddcef28b12b.mp3"
+    },
+    {
+      "id": "99be3fbb2bf6d30a",
+      "role": "bubble",
+      "text": "这次的任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/99be3fbb2bf6d30a.mp3"
+    },
+    {
+      "id": "c1c17867f0fe3f67",
+      "role": "narrator",
+      "text": "星光故事书。唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/c1c17867f0fe3f67.mp3"
+    },
+    {
+      "id": "0f8754a071b0c7bf",
+      "role": "bubble",
+      "text": "这次的任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/0f8754a071b0c7bf.mp3"
+    },
+    {
+      "id": "a8401653a60caab7",
+      "role": "narrator",
+      "text": "星光故事书。种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/a8401653a60caab7.mp3"
+    },
+    {
+      "id": "470193c9e8205fd0",
+      "role": "bubble",
+      "text": "这次的任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/470193c9e8205fd0.mp3"
+    },
+    {
+      "id": "ffbeb6f9ba8b4367",
+      "role": "narrator",
+      "text": "星光故事书。发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/ffbeb6f9ba8b4367.mp3"
+    },
+    {
+      "id": "a3b0e997810ebf1f",
+      "role": "bubble",
+      "text": "这次的任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/a3b0e997810ebf1f.mp3"
+    },
+    {
+      "id": "7e15a9e415583e0b",
+      "role": "narrator",
+      "text": "星光故事书。前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/7e15a9e415583e0b.mp3"
+    },
+    {
+      "id": "330062f6528b51b8",
+      "role": "bubble",
+      "text": "这次的任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/330062f6528b51b8.mp3"
+    },
+    {
+      "id": "77a3d00295be0642",
+      "role": "narrator",
+      "text": "星光故事书。找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/77a3d00295be0642.mp3"
+    },
+    {
+      "id": "d76f04523ae006d2",
+      "role": "bubble",
+      "text": "这次的任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/d76f04523ae006d2.mp3"
+    },
+    {
+      "id": "54d76bb62985d047",
+      "role": "narrator",
+      "text": "星光故事书。收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/54d76bb62985d047.mp3"
+    },
+    {
+      "id": "18e8983d4bcec3a4",
+      "role": "bubble",
+      "text": "这次的任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/18e8983d4bcec3a4.mp3"
+    },
+    {
+      "id": "e62d70eab924a9d4",
+      "role": "narrator",
+      "text": "星光故事书。拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/e62d70eab924a9d4.mp3"
+    },
+    {
+      "id": "035dc5463c31341d",
+      "role": "bubble",
+      "text": "这次的任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/035dc5463c31341d.mp3"
+    },
+    {
+      "id": "c53559f68d12d5ec",
+      "role": "narrator",
+      "text": "星光故事书。制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/c53559f68d12d5ec.mp3"
+    },
+    {
+      "id": "97ccb9fca16d5ada",
+      "role": "bubble",
+      "text": "这次的任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/97ccb9fca16d5ada.mp3"
+    },
+    {
+      "id": "6d407cce1aacd629",
+      "role": "narrator",
+      "text": "星光故事书。学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/6d407cce1aacd629.mp3"
+    },
+    {
+      "id": "15824406cb91210e",
+      "role": "bubble",
+      "text": "这次的任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "context": "任务",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/15824406cb91210e.mp3"
+    },
+    {
+      "id": "d56435c1b1e97272",
+      "role": "narrator",
+      "text": "星光故事书。点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "context": "星光故事书",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/d56435c1b1e97272.mp3"
+    },
+    {
+      "id": "00956de299a5641b",
+      "role": "bubble",
+      "text": "花朵翻翻乐。轻轻翻开两张卡片，找一找有没有相同的小花和小精灵。记住它们在哪里就能找到好朋友！",
+      "context": "小游戏：memory",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/00956de299a5641b.mp3"
+    },
+    {
+      "id": "f785d53acd2f8710",
+      "role": "bubble",
+      "text": "星星捉迷藏。看看美丽的天空，把躲起来的星星一颗一颗找出来吧！",
+      "context": "小游戏：find",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/f785d53acd2f8710.mp3"
+    },
+    {
+      "id": "86de38cc34236114",
+      "role": "bubble",
+      "text": "彩虹拼拼图。把小图片轻轻挪回正确的位置，让彩虹图案重新出现吧！",
+      "context": "小游戏：puzzle",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/86de38cc34236114.mp3"
+    },
+    {
+      "id": "08848b62e6f89409",
+      "role": "bubble",
+      "text": "魔法烘焙屋。选择喜欢的蛋糕、奶油和装饰，做出属于丁一一的独一无二的甜点！",
+      "context": "小游戏：bakery",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/08848b62e6f89409.mp3"
+    },
+    {
+      "id": "1b9fe9797601e7aa",
+      "role": "bubble",
+      "text": "月芽音乐会。听一听亮起来的音符，再按照一样的顺序轻轻点一遍吧！",
+      "context": "小游戏：music",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/1b9fe9797601e7aa.mp3"
+    },
+    {
+      "id": "777a22c48060e807",
+      "role": "bubble",
+      "text": "萤火虫画布。选择喜欢的颜色，在画布上随意画一画。你的创意就是最棒的魔法！",
+      "context": "小游戏：paint",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/777a22c48060e807.mp3"
+    },
+    {
+      "id": "ef7bcb16f77983dd",
+      "role": "bubble",
+      "text": "水晶小机关。轻点水晶，直到它们的颜色和上面的魔法提示一样，就能打开彩虹门啦！",
+      "context": "小游戏：crystal",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/ef7bcb16f77983dd.mp3"
+    },
+    {
+      "id": "ca07abc266b96d96",
+      "role": "bubble",
+      "text": "云朵跳跳。找到发亮的小云朵，带着泡泡慢慢跳过去，就能到达彩虹的另一边！",
+      "context": "小游戏：hop",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/ca07abc266b96d96.mp3"
+    },
+    {
+      "id": "e0a23d177bcc60d6",
+      "role": "narrator",
+      "text": "丁一一，现在来到星绒广场。每一个角落，都藏着暖暖的小惊喜。",
+      "context": "区域：plaza",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/e0a23d177bcc60d6.mp3"
+    },
+    {
+      "id": "464c4db03e6759a1",
+      "role": "narrator",
+      "text": "丁一一，现在来到花语庭院。每一个角落，都藏着暖暖的小惊喜。",
+      "context": "区域：garden",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/464c4db03e6759a1.mp3"
+    },
+    {
+      "id": "3103f50f2b109928",
+      "role": "narrator",
+      "text": "丁一一，现在来到糖果森林。每一个角落，都藏着暖暖的小惊喜。",
+      "context": "区域：forest",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/3103f50f2b109928.mp3"
+    },
+    {
+      "id": "5244e137679a4cfc",
+      "role": "narrator",
+      "text": "丁一一，现在来到彩虹溪谷。每一个角落，都藏着暖暖的小惊喜。",
+      "context": "区域：valley",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/5244e137679a4cfc.mp3"
+    },
+    {
+      "id": "78f2a79961198df4",
+      "role": "narrator",
+      "text": "丁一一，现在来到月亮湖畔。每一个角落，都藏着暖暖的小惊喜。",
+      "context": "区域：lake",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/78f2a79961198df4.mp3"
+    },
+    {
+      "id": "38a98c9b6f1f2616",
+      "role": "narrator",
+      "text": "丁一一，现在来到云端学院。每一个角落，都藏着暖暖的小惊喜。",
+      "context": "区域：academy",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/38a98c9b6f1f2616.mp3"
+    },
+    {
+      "id": "77e92fadc8f89d11",
+      "role": "bubble",
+      "text": "真棒！丁一一，今天又有新发现啦！",
+      "context": "通用提示",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/77e92fadc8f89d11.mp3"
+    },
+    {
+      "id": "096786a6ab29105c",
+      "role": "bubble",
+      "text": "哇！你找到了一份小惊喜！",
+      "context": "通用提示",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/096786a6ab29105c.mp3"
+    },
+    {
+      "id": "5d9c7cd98d4f6a1d",
+      "role": "bubble",
+      "text": "慢慢来，丁一一，我们再试一次吧。",
+      "context": "通用提示",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/5d9c7cd98d4f6a1d.mp3"
+    },
+    {
+      "id": "c9028c114fe31593",
+      "role": "bubble",
+      "text": "新的好朋友正在等着你！",
+      "context": "通用提示",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/c9028c114fe31593.mp3"
+    },
+    {
+      "id": "f4f4f73d348648e0",
+      "role": "bubble",
+      "text": "轻轻点一下发光的地方，看看会出现什么！",
+      "context": "通用提示",
+      "voice_name": "活泼女孩 2.0",
+      "provider": "Voxy 语界",
+      "file": "assets/voice/lively-girl/f4f4f73d348648e0.mp3"
+    }
+  ]
+}
