@@ -57,8 +57,11 @@ jobs:
         run: python scripts/clone_on_github.py --shard 0 --shards 4 --limit 1
       - name: Verify MP3 format and duration
         run: |
-          test -n "$(find generated -maxdepth 1 -name '*.mp3' -type f -size +1k -print -quit)"
-          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 generated/*.mp3
+          test -n "$(find generated -maxdepth 1 -name '*.mp3' ! -name 'original.mp3' -type f -size +1k -print -quit)"
+          for clip in generated/*.mp3; do
+            [ "$(basename "$clip")" = "original.mp3" ] && continue
+            ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 "$clip"
+          done
       - uses: actions/upload-artifact@v4
         if: always()
         with:
