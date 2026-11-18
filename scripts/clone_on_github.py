@@ -46,11 +46,14 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--shard', type=int, default=0)
     parser.add_argument('--shards', type=int, default=4)
+    parser.add_argument('--limit', type=int, default=0, help='Generate only first N assigned clips for smoke testing')
     args = parser.parse_args()
     if args.shard < 0 or args.shard >= args.shards:
         parser.error('shard out of range')
     plan = json.loads((ROOT / 'voice-plan.json').read_text(encoding='utf-8'))['lines']
     picked = [(n, r) for n, r in enumerate(plan) if n % args.shards == args.shard]
+    if args.limit > 0:
+        picked = picked[:args.limit]
     ref = load_reference()
     import torch
     torch.set_num_threads(max(1, min(4, os.cpu_count() or 1)))
