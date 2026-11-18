@@ -529,9 +529,9 @@ const UI={game:null,currentScreen:'',gardenIndex:null,modalOpen:false,toastCount
 };S.minigames=M;})();
 
 </script><script>
-window.StarwhimVoicePack={"version":3,"voices":{"bubble":{"name":"云小朵","voiceType":403000,"role":"泡泡"},"narrator":{"name":"云小团","voiceType":402001,"role":"童话旁白"}},"planned":79,"available":0,"audio":{}};
+window.StarwhimVoicePack={"version":4,"provider":"Voxy 语界","voiceName":"活泼女孩 2.0","voices":{"all":{"name":"活泼女孩 2.0","provider":"Voxy 语界","role":"全部角色及旁白"}},"planned":79,"available":0,"audio":{}};
 </script><script>
-/* 星绒岛 v1.3 | 双角色离线配音优先：泡泡=云小朵 403000，童话旁白=云小团 402001。 */
+/* 星绒岛 v1.4 | 全部角色与旁白统一使用 Voxy 语界「活泼女孩 2.0」离线音频；未安装录音时用系统朗读过渡，并明确提示。 */
 (()=>{
 'use strict';
 const S=window.Starwhim;if(!S||!S.UI||!S.audio)return;
@@ -561,12 +561,8 @@ const voiceRole=speaker=>speaker==='泡泡'||String(speaker||'').includes('泡�
 function stopRecorded(){if(activeAudio){try{activeAudio.pause();activeAudio.currentTime=0;activeAudio.removeAttribute('src');activeAudio.load()}catch(e){}activeAudio=null}}
 
 const synth=('speechSynthesis' in window&&'SpeechSynthesisUtterance' in window)?window.speechSynthesis:null;
-const profiles={
- cute:{label:'🧸 泡泡软萌音',pitch:1.11,rate:.92},
- gentle:{label:'🌙 月芽温柔音',pitch:1.04,rate:.88},
- sunny:{label:'🍬 栗栗活力音',pitch:1.16,rate:1.04}
-};
-function profile(){return profiles[S.game?.state?.settings?.voiceStyle]||profiles.cute}
+const profiles={temporary:{label:'临时设备朗读',pitch:1,rate:.94}};
+function profile(){return profiles.temporary}
 function voices(){if(!synth)return [];
  let list=[];try{list=synth.getVoices()||[]}catch(e){}
  const zh=list.filter(v=>/^(zh|cmn)([-_]|$)/i.test(v.lang||''));
@@ -596,7 +592,7 @@ function speak(phrase,{force=false,speaker='',role=''}={}){
  const words=toText(phrase);
  if(!words||(!force&&!allowed()))return false;
  const selectedRole=role||(speaker?voiceRole(speaker):'bubble');
- const recordedPath=voicePack.audio?.[selectedRole+'\n'+words];
+ const recordedPath=voicePack.audio?.[words] || voicePack.audio?.[selectedRole+'\n'+words];
  if(recordedPath){
   // MP3 playback is started synchronously from the touch/click event. No async fetch or API keys in browsers.
   stop();const id=voiceCallId;
@@ -607,7 +603,7 @@ function speak(phrase,{force=false,speaker='',role=''}={}){
    clip.onerror=()=>{if(id!==voiceCallId)return;activeAudio=null;started=false;noteStatus('录音文件加载失败，正在尝试设备朗读。');speakSystem(words)};
    const startedPromise=clip.play();
    if(startedPromise?.catch)startedPromise.catch(()=>{if(id!==voiceCallId)return;activeAudio=null;started=false;noteStatus('手机阻止自动播放。请点喇叭重新播放；尝试设备朗读中。');speakSystem(words)});
-   noteStatus('🔊 正在播放 '+(selectedRole==='bubble'?'云小朵 · 泡泡':'云小团 · 童话旁白')+' 的录制配音');
+   noteStatus('🔊 正在播放语界「活泼女孩 2.0」配音');
    return true;
   }catch(e){activeAudio=null;started=false}
  }
@@ -625,7 +621,7 @@ function speakSystem(words){
    voices();const u=new SpeechSynthesisUtterance(words),sty=profile();
    currentUtterance=u;u.lang='zh-CN';u.rate=sty.rate;u.pitch=sty.pitch;u.volume=1;
    if(chosen)u.voice=chosen;
-   u.onstart=()=>{if(id!==voiceCallId)return;everStarted=true;started=true;noteStatus('🔊 '+sty.label+'正在讲故事…')};
+   u.onstart=()=>{if(id!==voiceCallId)return;everStarted=true;started=true;noteStatus('🔊 临时设备朗读中（不是语界「活泼女孩 2.0」录音）')};
    u.onend=()=>{if(id!==voiceCallId)return;started=false;currentUtterance=null;noteStatus('🔊 已朗读。听不清可以点击再听一遍。')};
    u.onerror=e=>{if(id!==voiceCallId)return;started=false;currentUtterance=null;lastError=e.error||'unknown';noteStatus('语音引擎出现问题（'+lastError+'）。请确认手机已安装中文朗读音色。')};
    lastWords=words;
@@ -644,7 +640,7 @@ function speakSystem(words){
 }
 S.audio.speak=speak;S.audio.stopSpeech=stop;
 S.audio.voiceAvailable=()=>!!synth||Object.keys(voicePack.audio||{}).length>0;
-S.audio.voiceStatus=()=>voicePack.available?('已安装 '+voicePack.available+'/'+voicePack.planned+' 句腾讯云双角色 MP3；其余语句用设备朗读。'):('配音角色已确定：泡泡=云小朵、旁白=云小团。实际 MP3 尚未合成，当前仅有设备朗读过渡。');
+S.audio.voiceStatus=()=>voicePack.available?('已安装 '+voicePack.available+'/'+voicePack.planned+' 句语界「活泼女孩 2.0」MP3；其余句子会使用临时设备朗读。'):('已统一选定语界「活泼女孩 2.0」；实际录音尚未导入，现阶段只有临时设备朗读，不是该音色。');
 S.audio.playNarration=(text)=>speak(text,{force:true,role:'narrator'});
 S.audio.voiceProfiles=profiles;S.audio.voicePack=voicePack;
 const sequence=[392,440,523,587,523,440,392,349,392,440,523,659,587,523,440,392];
@@ -722,16 +718,16 @@ S.UI.showScreen=function(which){const result=oldScreen.call(this,which);if(which
   const body=el('panelBody');if(body&&!el('voiceTestButton')){
    const group=document.createElement('div');group.className='voice-test-row';group.innerHTML='<button id="voiceTestButton" type="button" class="small-button pink">🔊 试听中文语音</button><span id="voiceStatus" class="voice-support-note" role="status"></span>';
    const grid=body.querySelector('.settings-grid');(grid||body).insertAdjacentElement('afterend',group);noteStatus(S.audio.voiceStatus());
-   // 角色音色是固定选定的腾讯云云小朵、云小团。缺失真实 MP3 时诚实标识过渡状态。
+   // 所有角色共用 Voxy 语界「活泼女孩 2.0」。没导入 MP3 时必须明确标注临时状态。
    const control=document.createElement('div');control.className='voice-style-row';
-   control.innerHTML='<b>☁️ 泡泡：云小朵（403000）</b><small>🌙 童话旁白：云小团（402001）</small><small id="voicePackStatus">当前声音包状态：'+(voicePack.available?('已安装 '+voicePack.available+' 句真实 MP3，未命中语句使用设备朗读。'):'尚未生成真人感 MP3 配音；试听目前会使用设备自带朗读，请勿误以为是云小朵。')+'</small><button id="narratorTestButton" class="small-button" type="button">🔊 试听童话旁白</button>';
+   control.innerHTML='<b>🌷 全部配音：语界「活泼女孩 2.0」</b><small>泡泡、童话旁白、任务说明、小游戏提示全部使用同一种声音。</small><small id="voicePackStatus">声音包：'+(voicePack.available?('已安装 '+voicePack.available+' 句 MP3，未命中时暂用设备朗读。'):'尚未导入语界 MP3；试听暂用设备朗读，声音与选定音色不同。')+'</small><button id="narratorTestButton" class="small-button" type="button">🔊 试听旁白句子</button>';
    group.insertAdjacentElement('afterend',control);
    el('narratorTestButton').onclick=()=>{resumeAudio();speak(NARRATOR_TEST,{force:true,role:'narrator'})};
    // 对于手机，分开测试媒体音效和 TTS；只有直接手势才尝试启动。
    const audioTest=document.createElement('button');audioTest.id='soundTestButton';audioTest.type='button';audioTest.className='small-button';audioTest.textContent='🎵 试听叮咚音效';
    audioTest.onclick=()=>{resumeAudio();const old=S.game.state.settings.sound;S.game.state.settings.sound=true;S.audio.success();S.game.state.settings.sound=old;noteStatus('如果听到了叮咚声却听不到中文语音，问题通常是手机朗读引擎，而非音量。')};
    group.insertAdjacentElement('afterend',audioTest);
-   el('voiceTestButton').textContent='🔊 试听泡泡 · 云小朵';el('voiceTestButton').onclick=()=>{resumeAudio();speak(BUBBLE_TEST,{force:true,role:'bubble'})};
+   el('voiceTestButton').textContent='🔊 试听泡泡配音';el('voiceTestButton').onclick=()=>{resumeAudio();speak(BUBBLE_TEST,{force:true,role:'bubble'})};
   }
   const input=body?.querySelector('[data-setting="speech"]');if(input)input.addEventListener('change',()=>{if(!input.checked)stop();else speak('中文语音已经打开！',{force:true})});
   if(body&&!body.querySelector('[data-setting="music"]')){
