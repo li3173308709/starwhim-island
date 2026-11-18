@@ -23,6 +23,9 @@
 @media(max-width:760px){.voice-action{font-size:12px;padding:9px 10px;min-height:40px;margin:0 4px}.panel-bar h2,.mini-head h2{font-size:21px}.child-voice-round{width:41px!important;height:41px!important}.hud-left .zone-text{max-width:70px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.dialogue-voice{position:absolute;top:-47px;right:4px;box-shadow:0 3px 10px #e7a7cd50}.dialogue-card{position:relative}}
 @media(max-width:370px){.hud-currency{padding:7px 5px;gap:2px}.hud-currency strong{font-size:11px}.hud-right{gap:3px}.hud-location{padding:7px 5px}.hud-left .zone-text{max-width:50px}.hud-round{width:36px!important;height:36px!important}}
 
+/* v1.2: 幼儿语音样式 */
+.voice-style-row{margin:9px 0 13px;display:flex;flex-wrap:wrap;align-items:center;gap:9px;padding:10px 12px;border-radius:16px;background:#fff4fc;border:1px solid #f4daec}.voice-style-row label{font-size:14px;color:#7e608f}.voice-style-row select{border:1px solid #efd2e9;border-radius:12px;background:white;color:#705583;padding:9px;min-height:42px;max-width:100%}.voice-style-row small{width:100%;font-size:12px;color:#8c7899}.voice-intro{background:#fff0f5}
+
 </style>
 </head>
 <body>
@@ -33,12 +36,12 @@
     <div class="hud-left"><button id="homeBtn" class="hud-location glass" title="打开地图" aria-label="打开地图"><span class="zone-emoji">🏡</span><span class="zone-text">星绒广场</span><span class="chevron">⌄</span></button><div class="hud-currency glass"><span>⭐</span><strong id="starCount">35</strong><span class="currency-sep"></span><span>🌸</span><strong id="petalCount">12</strong></div></div>
     <div class="hud-right"><div class="save-indicator" id="saveIndicator">✓ 自动存档</div><button class="hud-round glass" id="settingsBtn" aria-label="设置">⚙️</button></div>
   </header>
-  <button id="questHint" class="quest-hint glass"><span class="quest-icon">✨</span><span class="quest-detail"><small>下一段小冒险</small><strong id="questText">和泡泡交个朋友</strong></span><span class="quest-arrow">›</span></button>
-  <div class="world-tip" id="worldTip">点点地面就可以走动，点击发光的小伙伴试试看 ✨</div>
+  <button id="questHint" class="quest-hint glass"><span class="quest-icon">✨</span><span class="quest-detail"><small>丁一一的小冒险</small><strong id="questText">和泡泡交个朋友</strong></span><span class="quest-arrow">›</span></button>
+  <div class="world-tip" id="worldTip">丁一一，点点地面就能走动，点击发光的小伙伴试试看 ✨</div>
   <footer class="dock-wrap"><nav class="dock glass" aria-label="游戏主菜单"><button data-nav="map"><span class="dock-icon">🗺️</span><span>地图</span></button><button data-nav="pets"><span class="dock-icon">🐾</span><span>精灵</span></button><button data-nav="wishes"><span class="dock-icon">💌</span><span>邮局</span></button><button data-nav="minigames" class="featured"><span class="dock-icon">🎲</span><span>玩游戏</span></button><button data-nav="decorate"><span class="dock-icon">🏡</span><span>装饰</span></button><button data-nav="bag"><span class="dock-icon">🎒</span><span>背包</span></button></nav></footer>
 </div>
 <div id="loading" class="loading-screen"><span class="loading-star">✦</span><h2>星星正在准备梦幻小岛…</h2></div>
-<div id="titleScreen" class="screen-overlay hidden"><div class="title-card"><div class="title-stars">✧　☁️　✦　🌙　✧</div><span class="title-tag">献给每一位爱幻想的小小冒险家</span><div class="logo-emoji">🌸</div><h1>星绒岛<br><span>奇遇记</span></h1><div class="title-english">STARWHIM ISLAND</div><p>一个有精灵、有魔法、有好多好多惊喜的小世界。<br>今天，我们一起去冒险吧！</p><div class="title-hero-picker"><span class="small-label">选择你喜欢的衣服</span><div id="heroColors" class="swatches"></div></div><button id="playBtn" class="primary-button big-button">✦　进入梦幻小岛　✦</button><div class="title-foot">💗 无广告 · 不花钱 · 自动保存 · 随时回来</div></div></div>
+<div id="titleScreen" class="screen-overlay hidden"><div class="title-card"><div class="title-stars">✧　☁️　✦　🌙　✧</div><span class="title-tag">献给小冒险家丁一一小朋友</span><div class="logo-emoji">🌸</div><h1>星绒岛<br><span>奇遇记</span></h1><div class="title-english">STARWHIM ISLAND</div><p>一个有精灵、有魔法、有好多好多惊喜的小世界。<br>丁一一，今天我们一起去冒险吧！</p><div class="title-hero-picker"><span class="small-label">选择你喜欢的衣服</span><div id="heroColors" class="swatches"></div></div><button id="playBtn" class="primary-button big-button">✦　进入梦幻小岛　✦</button><div class="title-foot">💗 无广告 · 不花钱 · 自动保存 · 随时回来</div></div></div>
 <div id="panelBackdrop" class="panel-backdrop hidden"><div id="panel" class="panel glass" role="dialog" aria-modal="true" aria-label="游戏菜单"><div class="panel-bar"><div><span class="panel-kicker" id="panelKicker">星绒岛</span><h2 id="panelTitle">童话菜单</h2></div><button class="close-button" id="panelClose" aria-label="关闭菜单">✕</button></div><div id="panelBody" class="panel-body"></div></div></div>
 <div id="dialogueBackdrop" class="dialogue-backdrop hidden"><div class="dialogue-card glass" role="dialog" aria-modal="true"><div id="speakerIcon" class="speaker-icon">☁️</div><div class="dialogue-copy"><div class="speaker-name" id="speakerName">泡泡</div><p id="speakerText"></p></div><button id="dialogueContinue" class="dialogue-next">好呀！ ✦</button></div></div>
 <div id="celebration" class="celebration hidden"><div class="celebration-box glass"><div class="celeb-emoji">🌈 ✨ 🌸</div><h2 id="celebTitle"></h2><p id="celebText"></p><button id="celebBtn" class="primary-button">继续快乐探险！</button></div></div>
@@ -224,12 +227,12 @@ class Game{
  frame(now){const dt=Math.min(.06,(now-this._last)/1000||0);this._last=now;this.time+=dt;if(this.active&&!S.UI.isModalOpen()){this.update(dt);this.state.playMs+=(dt*1000)}this.updateCamera(dt);S.render.draw(this.ctx,this.viewport.w,this.viewport.h,this,this.time);requestAnimationFrame(t=>this.frame(t));}
  update(dt){let vx=(this.keys['arrowright']||this.keys['d']?1:0)-(this.keys['arrowleft']||this.keys['a']?1:0),vy=(this.keys['arrowdown']||this.keys['s']?1:0)-(this.keys['arrowup']||this.keys['w']?1:0);this.isMoving=false;if(vx||vy){const len=Math.hypot(vx,vy);vx/=len;vy/=len;this.target=null;this.pending=null;this.player.x+=vx*dt*300;this.player.y+=vy*dt*300;this.isMoving=true;}else if(this.target){let dx=this.target.x-this.player.x,dy=this.target.y-this.player.y,dis=Math.hypot(dx,dy);const goal=this.pending?Math.max(100,Math.min(140,(this.pending.rad||60)+25)):9;if(dis>goal){let length=Math.min(dis-goal,dt*285);this.player.x+=(dx/dis)*length;this.player.y+=(dy/dis)*length;this.isMoving=true;}else{const p=this.pending;this.pending=null;this.target=null;if(p)this.interact(p)}}this.player.x=S.clamp(this.player.x,160,1450);this.player.y=S.clamp(this.player.y,180,950);this.state.pos={x:Math.round(this.player.x),y:Math.round(this.player.y)};const px=this.player.x-49,py=this.player.y+34;this.follower.x+=(px-this.follower.x)*Math.min(1,dt*3);this.follower.y+=(py-this.follower.y)*Math.min(1,dt*3);this._idleSave+=dt;if(this._idleSave>30){this._idleSave=0;this.save()}
  if(this.state.settings.restReminder&&!this._reminderShown&&this.state.playMs>=25*60*1000){this._reminderShown=true;S.UI.toast('玩得真开心！也可以休息一下，喝口水再回来哦 ☁️',6500)}}
- start(){this.active=true;this._last=performance.now();S.audio.pop();S.UI.update();if(this.state.progress===0){S.UI.say('泡泡','欢迎来到星绒岛！我是泡泡，今天开始我们就是好朋友啦！轻轻点我，我们一起寻找星光吧！','☁️')}else S.UI.toast('欢迎回来！星绒岛一直在等你 🌸')}
+ start(){this.active=true;this._last=performance.now();S.audio.pop();S.UI.update();if(this.state.progress===0){S.UI.say('泡泡','小冒险家丁一一小朋友，欢迎来到星绒岛！我是泡泡，从今天开始我们就是好朋友啦！点一点我，我们一起去找闪闪的星星吧！','☁️')}else S.UI.toast('丁一一小冒险家，欢迎回来！星绒岛一直在等你 🌸')}
  save(){clearTimeout(this._saveTimer);this._saveTimer=setTimeout(()=>this.saveNow(),550)}
  async saveNow(){if(!this.state)return;clearTimeout(this._saveTimer);this.state.lastSaved=Date.now();await S.storage.save(this.state);const e=document.getElementById('saveIndicator');if(e){e.classList.remove('saved');e.textContent='✓ 已保存';e.classList.add('saved');setTimeout(()=>e.classList.remove('saved'),1200)}}
  awardBadge(id){if(!this.state.badges[id]){this.state.badges[id]=Date.now();const b=S.BADGES[id];S.UI.toast('🏅 获得徽章：'+b.name+'！');S.audio.success();this.save();}}
  gain(stars=0,petals=0){this.state.stars+=stars;this.state.petals+=petals;S.UI.update();this.save();if(stars)S.UI.toast('✨ 星光 +'+stars+(petals?'  ·  🌸 花瓣 +'+petals:''));S.audio.collect();}
- advance(event){const p=this.state.progress;const matches=['bubble','tree','plant','mini','forest','fox','acorns','lake','bakery','music','treefinal'];if(event!==matches[p])return false;this.state.progress++;if(p===1||p===3||p===6||p===8||p===10)this.gain(20,8);if(p===6){this.state.pets.fox=true;this.awardBadge('foxfriend')}if(p===8)this.state.pets.dragon=true;if(p===9)this.state.pets.moon=true;if(p===10){this.awardBadge('starTree');S.UI.celebrate('星绒岛重新绽放光芒！','彩虹桥已经点亮，但我们的冒险永远不会结束。现在你可以自由探索、种花、装饰、发现小精灵的新故事！')}const words=['泡泡开心地转了个圈！','星光树醒来啦！','花朵悄悄冒出了新芽！','发现新的冒险方向：糖果森林！','森林正向你挥手呢！','栗栗想请你帮一个小忙。','栗栗成为你的新伙伴！','月光在湖面上轻轻闪耀。','呼噜小龙听到了蛋糕的香味！','月芽小兔加入了你的队伍！'];if(p<10)S.UI.toast('🌟 '+words[p]);S.UI.update();this.save();return true}
+ advance(event){const p=this.state.progress;const matches=['bubble','tree','plant','mini','forest','fox','acorns','lake','bakery','music','treefinal'];if(event!==matches[p])return false;this.state.progress++;if(p===1||p===3||p===6||p===8||p===10)this.gain(20,8);if(p===6){this.state.pets.fox=true;this.awardBadge('foxfriend')}if(p===8)this.state.pets.dragon=true;if(p===9)this.state.pets.moon=true;if(p===10){this.awardBadge('starTree');S.UI.celebrate('丁一一的星绒岛重新绽放光芒！','彩虹桥已经点亮，但我们的冒险永远不会结束。现在你可以自由探索、种花、装饰、发现小精灵的新故事！')}const words=['泡泡开心地转了个圈！','星光树醒来啦！','花朵悄悄冒出了新芽！','发现新的冒险方向：糖果森林！','森林正向你挥手呢！','栗栗想请你帮一个小忙。','栗栗成为你的新伙伴！','月光在湖面上轻轻闪耀。','呼噜小龙听到了蛋糕的香味！','月芽小兔加入了你的队伍！'];if(p<10)S.UI.toast('🌟 '+words[p]);S.UI.update();this.save();return true}
  setZone(id){const dest=S.ZONES[id];if(!dest)return;if(this.state.progress<dest.unlock){S.UI.toast('🌈 继续完成一点点小故事，就能去'+dest.name+'啦！');S.UI.showScreen('quests');return}this.state.zone=id;this.state.stats.visitCount++;this.state.stats.visitsByZone=this.state.stats.visitsByZone||{};this.state.stats.visitsByZone[id]=(this.state.stats.visitsByZone[id]||0)+1;this.player.x=id==='plaza'?765:id==='garden'?365:id==='forest'?400:id==='lake'?350:id==='academy'?390:390;this.player.y=670;this.follower={x:this.player.x-35,y:this.player.y+25};this.target=null;this.pending=null;this.spawnEvent(true);this.updateCamera(1);S.UI.update();S.UI.close();S.UI.toast(dest.emoji+' 欢迎来到'+dest.name+'！');if(id==='forest')this.advance('forest');if(id==='lake')this.advance('lake');this.save()}
  spawnEvent(onEnter){const e=this.state.randomEvent;if(!onEnter&&e&&e.zone===this.state.zone)return;const rng=S.rand(this.state.stats.visitCount*739+this.state.stats.minigames*39+113);const candidates=[[620,330],[1060,720],[1030,310],[545,820],[720,765],[980,430]];const pt=candidates[Math.floor(rng()*candidates.length)];const pool=S.EVENTS.filter(e=>e.zone===this.state.zone&&!this.state.recentEvents.includes(e.id));const candidatesEvents=pool.length?pool:S.EVENTS.filter(e=>e.zone===this.state.zone);const next=candidatesEvents[Math.floor(rng()*candidatesEvents.length)];this.state.randomEvent={zone:this.state.zone,x:pt[0],y:pt[1],id:rng()<.22?'':(next?.id||'')}}
  interact(o){if(!o)return;this.pending=null;this.target=null;if(o.act?.startsWith('zone:'))return this.setZone(o.act.split(':')[1]);if(o.act?.startsWith('plot:'))return S.UI.garden(Number(o.act.split(':')[1]));if(o.act?.startsWith('decor:'))return S.UI.toast('这是你布置的'+o.label+' ✨');switch(o.act){
@@ -526,7 +529,7 @@ const UI={game:null,currentScreen:'',gardenIndex:null,modalOpen:false,toastCount
 };S.minigames=M;})();
 
 </script><script>
-/* 星绒岛 1.1 | 六岁儿童语音导航：无外部依赖、不收集音频；自动朗读依赖设备中文TTS。 */
+/* 星绒岛 1.2 | 丁一一专属童话语音：同步用户手势解锁、手机中文TTS诊断、卡通音色。 */
 (()=>{
 'use strict';
 const S=window.Starwhim;if(!S||!S.UI||!S.audio)return;
@@ -534,36 +537,77 @@ const el=id=>document.getElementById(id);
 const toText=value=>String(value||'').replace(/[🌸🌈🐾⭐✨🧩☁️🪄🧁🎵🎨💎💌🎀🥳🐱🎉🐝💗🎁🐰🦊🎮🌳🍰🍀🌟]/gu,'').replace(/\s+/g,' ').trim().slice(0,230);
 const originalDefault=S.makeDefault;
 S.makeDefault=()=>{const result=originalDefault();result.settings.music=true;return result};
-let chosen=null,started=false,lastWords='',lastTitle='',saidAt=0,lastError='',pendingMusic=null,voiceReady=false;
+const CHILD_NAME='丁一一';
+const CHILD_TITLE='小冒险家丁一一小朋友';
+S.CHILD_NAME=CHILD_NAME;S.CHILD_TITLE=CHILD_TITLE;
+let chosen=null,started=false,lastWords='',lastError='',pendingMusic=null,currentUtterance=null;
+let voiceCallId=0,voiceTestTimer=null;
 const synth=('speechSynthesis' in window&&'SpeechSynthesisUtterance' in window)?window.speechSynthesis:null;
+const profiles={
+ cute:{label:'🧸 泡泡萌萌音',pitch:1.43,rate:1.01},
+ gentle:{label:'🌙 月芽温柔音',pitch:1.24,rate:.92},
+ sunny:{label:'🍬 栗栗活力音',pitch:1.32,rate:1.12}
+};
+function profile(){return profiles[S.game?.state?.settings?.voiceStyle]||profiles.cute}
 function voices(){if(!synth)return [];
-  let vs=[];try{vs=synth.getVoices()||[]}catch(e){}
-  const zh=vs.filter(v=>/^(zh|cmn)([-_]|$)/i.test(v.lang||''));
-  chosen=zh.sort((a,b)=>((b.localService?6:0)+(/zh[-_]CN/i.test(b.lang)?4:0)+(/xiaoxiao|tingting|huihui|xiaoyi|女/i.test(b.name)?3:0))-((a.localService?6:0)+(/zh[-_]CN/i.test(a.lang)?4:0)+(/xiaoxiao|tingting|huihui|xiaoyi|女/i.test(a.name)?3:0)))[0]||null;
-  if(chosen)voiceReady=true;
-  return zh;
+ let list=[];try{list=synth.getVoices()||[]}catch(e){}
+ const zh=list.filter(v=>/^(zh|cmn)([-_]|$)/i.test(v.lang||''));
+ const score=v=>{
+   const name=(v.name||'').toLowerCase();
+   let n=/xiaoxiao|晓晓|tingting|婷婷|meijia|美佳|huihui|慧慧|yunxia|云霞|xiaoyi|晓伊|xiao|女|female/i.test(name)?12:0;
+   if(/xiaoxiao|晓晓|tingting|婷婷|meijia|美佳|女童|child/i.test(name))n+=8;
+   if(/zh[-_]CN/i.test(v.lang||''))n+=5;
+   if(v.localService)n+=3;
+   if(/male|男声|大叔|老人/i.test(name))n-=15;
+   return n
+ };
+ chosen=zh.sort((a,b)=>score(b)-score(a))[0]||null;
+ return zh;
 }
-if(synth){voices();synth.addEventListener?.('voiceschanged',voices)}
+if(synth){voices();try{synth.addEventListener?.('voiceschanged',voices)}catch(e){}}
 function noteStatus(message){const label=el('voiceStatus');if(label)label.textContent=message;}
 function allowed(){return S.game?.state?.settings?.speech!==false}
-function stop(){try{synth?.cancel()}catch(e){};started=false}
+function stop(){
+ ++voiceCallId;
+ if(voiceTestTimer){clearTimeout(voiceTestTimer);voiceTestTimer=null}
+ try{if(synth&&(synth.speaking||synth.pending))synth.cancel()}catch(e){}
+ started=false;currentUtterance=null;
+}
 function speak(phrase,{force=false}={}){
- const words=toText(phrase);if(!words||(!force&&!allowed()))return false;
- if(!synth||typeof SpeechSynthesisUtterance==='undefined'){noteStatus('本机浏览器暂不支持语音，请尝试使用手机系统浏览器。');return false}
+ const words=toText(phrase);
+ if(!words||(!force&&!allowed()))return false;
+ if(!synth){noteStatus('这台设备暂不支持语音，可以点击试听音效、或换手机系统浏览器。');return false}
  try{
-   stop();voices();const utterance=new SpeechSynthesisUtterance(words);
-   utterance.lang='zh-CN';utterance.rate=.87;utterance.pitch=1.12;utterance.volume=.92;
-   if(chosen)utterance.voice=chosen;
-   utterance.onstart=()=>{started=true;noteStatus('🔊 正在朗读…')};
-   utterance.onend=()=>{started=false;noteStatus(chosen?'中文语音已就绪':'语音结束；如听不到请测试中文语音包')};
-   utterance.onerror=e=>{started=false;lastError=e.error||'unknown';noteStatus('未能朗读：请检查系统中文语音和音量（'+lastError+'）')};
-   lastWords=words;saidAt=Date.now();synth.speak(utterance);return true;
- }catch(e){noteStatus('无法播放语音，请在家长设置里检查语音');return false}
+   // iPhone Safari 上无条件 cancel() 再 speak() 容易导致首句无声。
+   // 只取消确实正在读的旧句；第一次朗读必须直接发生在触摸事件里。
+   if(synth.speaking||synth.pending){try{synth.cancel()}catch(e){}}
+   if(voiceTestTimer){clearTimeout(voiceTestTimer);voiceTestTimer=null}
+   const id=++voiceCallId;let everStarted=false;
+   voices();const u=new SpeechSynthesisUtterance(words),sty=profile();
+   currentUtterance=u;u.lang='zh-CN';u.rate=sty.rate;u.pitch=sty.pitch;u.volume=1;
+   if(chosen)u.voice=chosen;
+   u.onstart=()=>{if(id!==voiceCallId)return;everStarted=true;started=true;noteStatus('🔊 '+sty.label+'正在讲故事…')};
+   u.onend=()=>{if(id!==voiceCallId)return;started=false;currentUtterance=null;noteStatus('🔊 已朗读。听不清可以点击再听一遍。')};
+   u.onerror=e=>{if(id!==voiceCallId)return;started=false;currentUtterance=null;lastError=e.error||'unknown';noteStatus('语音引擎出现问题（'+lastError+'）。请确认手机已安装中文朗读音色。')};
+   lastWords=words;
+   // iOS/Android 需要 user gesture。直接调用，无异步 await、无 setTimeout 启动语音。
+   synth.speak(u);
+   try{synth.resume?.()}catch(e){}
+   noteStatus(chosen?'准备使用：'+chosen.name:'🔊 正在请求中文声音；若无声请看下方提示');
+   // 某些手机不触发任何事件，清楚提示，而不是误报“成功”。
+   voiceTestTimer=setTimeout(()=>{
+    if(id===voiceCallId&&!everStarted&&synth&&!synth.speaking){
+      noteStatus('没有检测到开始朗读。请再点一次试听、调大手机媒体音量，或在系统设置中下载中文语音。');
+    }
+   },2600);
+   return true;
+ }catch(e){noteStatus('无法播放语音：请在家长设置里测试音效与中文语音。');return false}
 }
 S.audio.speak=speak;S.audio.stopSpeech=stop;
 S.audio.voiceAvailable=()=>!!synth;
-S.audio.voiceStatus=()=>!synth?'浏览器不支持语音朗读':chosen?'已找到中文语音：'+chosen.name:'尚未检测到中文语音。请先点击“试听中文语音”；若无声请安装设备中文语音包。';
+S.audio.voiceStatus=()=>!synth?'当前浏览器不支持语音朗读':chosen?'准备好的中文声音：'+chosen.name+' · '+profile().label:'没有检测到中文声音。请点击试听；若仍无声，请在手机系统里安装中文朗读音色。';
 S.audio.playNarration=(text)=>speak(text,{force:true});
+S.audio.voiceProfiles=profiles;
 const sequence=[392,440,523,587,523,440,392,349,392,440,523,659,587,523,440,392];
 let musicStep=0;
 function musicNote(freq){const c=S.audio.ctx;if(!c||c.state!=='running')return;try{
@@ -580,14 +624,14 @@ const oldInit=S.UI.init;
 S.UI.init=function(game){oldInit.call(this,game);
  // 可直接触摸的重复播报按钮：不需要识字。
  const right=document.querySelector('.hud-right');if(right&&!el('voiceReplayBtn')){
-   const btn=document.createElement('button');btn.id='voiceReplayBtn';btn.className='hud-round glass child-voice-round';btn.type='button';btn.textContent='🔊';btn.title='听泡泡说一遍';btn.setAttribute('aria-label','重新朗读当前提示');right.insertBefore(btn,right.firstChild);btn.onclick=()=>S.audio.readCurrent()}
+   const btn=document.createElement('button');btn.id='voiceReplayBtn';btn.className='hud-round glass child-voice-round';btn.type='button';btn.textContent='🔊';btn.title='丁一一，听泡泡再说一遍';btn.setAttribute('aria-label','给丁一一小冒险家再读一次提示');right.insertBefore(btn,right.firstChild);btn.onclick=()=>S.audio.readCurrent()}
  const addToBar=(bar,id)=>{if(!bar||el(id))return;const btn=document.createElement('button');btn.id=id;btn.className='voice-action';btn.type='button';btn.textContent='🔊 听一听';btn.setAttribute('aria-label','朗读这页内容');btn.onclick=()=>S.audio.readCurrent();bar.insertBefore(btn,bar.lastElementChild)};
  addToBar(document.querySelector('.panel-bar'),'panelVoiceBtn');addToBar(document.querySelector('.mini-head'),'miniVoiceBtn');
  const box=document.querySelector('.dialogue-card');if(box&&!el('dialogueVoiceBtn')){
    const btn=document.createElement('button');btn.id='dialogueVoiceBtn';btn.className='voice-action dialogue-voice';btn.textContent='🔊 再听一次';btn.type='button';btn.onclick=()=>S.audio.readCurrent();box.appendChild(btn)
  }
  const titleBox=document.querySelector('.title-card');if(titleBox&&!el('introVoiceBtn')){
-  const btn=document.createElement('button');btn.id='introVoiceBtn';btn.type='button';btn.className='voice-action voice-intro';btn.textContent='🔊 听泡泡介绍小岛';btn.onclick=()=>{resumeAudio();speak('你好，小小冒险家！欢迎来到星绒岛！这里有可爱的小精灵、彩虹和魔法花园。点击进入梦幻小岛，我们一起玩吧！',{force:true})};titleBox.insertBefore(btn,el('playBtn'));
+  const btn=document.createElement('button');btn.id='introVoiceBtn';btn.type='button';btn.className='voice-action voice-intro';btn.textContent='🔊 听泡泡介绍小岛';btn.onclick=()=>{resumeAudio();speak('小冒险家丁一一小朋友，你好呀！我是泡泡！欢迎来到星绒岛！这里有软绵绵的云朵、闪闪的星星，还有好多可爱的精灵朋友。丁一一，点一下进入梦幻小岛，我们一起去冒险吧！',{force:true})};titleBox.insertBefore(btn,el('playBtn'));
  }
  // 点击真实开始按钮时解锁设备的声音播放。
  el('playBtn')?.addEventListener('pointerdown',resumeAudio,{passive:true});
@@ -607,9 +651,9 @@ S.audio.readCurrent=()=>{
   const panel=el('panelBody');const desc=panel?.querySelector('.section-desc,.mini-instruction,.wish-letter p,.card-note')?.textContent||'';
   return speak(el('panelTitle').textContent+'。'+desc,{force:true});
  }
- if(visible('titleScreen'))return speak('欢迎来到星绒岛奇遇记！点击进入梦幻小岛，和小精灵一起探索吧！',{force:true});
+ if(visible('titleScreen'))return speak('小冒险家丁一一小朋友，欢迎来到星绒岛奇遇记！我是泡泡，你最最可爱的冒险伙伴。点一下进入梦幻小岛，我们出发啦！',{force:true});
  const quest=S.QUESTS[S.game?.state?.progress];const place=S.ZONES[S.game?.state?.zone];
- return speak((place?.name||'星绒岛')+'。'+(quest?'现在的小任务是'+quest.name+'。'+quest.hint:'你可以自由探索、照顾精灵或者玩小游戏。'),{force:true});
+ return speak('丁一一小冒险家，你现在在'+(place?.name||'星绒岛')+'。'+(quest?'接下来的小任务是：'+quest.name+'。'+quest.hint:'你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。'),{force:true});
 };
 const oldPanel=S.UI.panel;
 S.UI.panel=function(title,kicker,html){const out=oldPanel.call(this,title,kicker,html);
@@ -631,7 +675,7 @@ const oldMiniOpen=S.minigames.open;
 S.minigames.open=function(id){const out=oldMiniOpen.call(this,id);const info=el('miniBody')?.querySelector('.mini-instruction');const game=S.MINIGAMES.find(x=>x.id===id);
  if(allowed()&&game)speak(game.name+'。'+(info?.textContent||game.desc));return out};
 const oldMiniWin=S.minigames.win;
-S.minigames.win=function(id,msg,...args){const out=oldMiniWin.call(this,id,msg,...args);speak('太棒啦！'+msg+'。你获得了小星光和花瓣！');return out};
+S.minigames.win=function(id,msg,...args){const out=oldMiniWin.call(this,id,msg,...args);speak('耶！小冒险家丁一一，你真棒！'+msg+'。送给你亮晶晶的小星光和软软的花瓣！');return out};
 const oldMiniClose=S.minigames.close;
 S.minigames.close=function(...args){stop();return oldMiniClose.apply(this,args)};
 const oldScreen=S.UI.showScreen;
@@ -639,7 +683,17 @@ S.UI.showScreen=function(which){const result=oldScreen.call(this,which);if(which
   const body=el('panelBody');if(body&&!el('voiceTestButton')){
    const group=document.createElement('div');group.className='voice-test-row';group.innerHTML='<button id="voiceTestButton" type="button" class="small-button pink">🔊 试听中文语音</button><span id="voiceStatus" class="voice-support-note" role="status"></span>';
    const grid=body.querySelector('.settings-grid');(grid||body).insertAdjacentElement('afterend',group);noteStatus(S.audio.voiceStatus());
-   el('voiceTestButton').onclick=()=>{resumeAudio();speak('你好呀！我是泡泡。现在可以听到我说话吗？让我们一起在星绒岛开心玩耍吧！',{force:true})};
+   // 语音风格不会上传服务器，仅保存到本机游戏存档。
+   const control=document.createElement('div');control.className='voice-style-row';
+   control.innerHTML='<label for="cartoonVoiceSelect"><b>🧸 泡泡的卡通语调</b></label><select id="cartoonVoiceSelect" aria-label="选择卡通语音风格">'+Object.entries(profiles).map(([id,p])=>'<option value="'+id+'">'+p.label+'</option>').join('')+'</select><small>使用手机自带中文女声来调节语速和音高。不同手机音色可能不同。</small>';
+   group.insertAdjacentElement('afterend',control);
+   el('cartoonVoiceSelect').value=S.game.state.settings.voiceStyle||'cute';
+   el('cartoonVoiceSelect').onchange=e=>{S.game.state.settings.voiceStyle=e.target.value;S.game.save();speak('丁一一，听听泡泡这个新声音，是不是更可爱啦？',{force:true})};
+   // 对于手机，分开测试媒体音效和 TTS；只有直接手势才尝试启动。
+   const audioTest=document.createElement('button');audioTest.id='soundTestButton';audioTest.type='button';audioTest.className='small-button';audioTest.textContent='🎵 试听叮咚音效';
+   audioTest.onclick=()=>{resumeAudio();const old=S.game.state.settings.sound;S.game.state.settings.sound=true;S.audio.success();S.game.state.settings.sound=old;noteStatus('如果听到了叮咚声却听不到中文语音，问题通常是手机朗读引擎，而非音量。')};
+   group.insertAdjacentElement('afterend',audioTest);
+   el('voiceTestButton').onclick=()=>{resumeAudio();speak('小冒险家丁一一小朋友，你好呀！我是泡泡！嘻嘻，能听到我可爱的声音吗？我们一起去星绒岛冒险吧！',{force:true})};
   }
   const input=body?.querySelector('[data-setting="speech"]');if(input)input.addEventListener('change',()=>{if(!input.checked)stop();else speak('中文语音已经打开！',{force:true})});
   if(body&&!body.querySelector('[data-setting="music"]')){
