@@ -19,7 +19,8 @@ jobs:
       - name: Install browser automation
         run: |
           python -m pip install playwright==1.56.0
-          python -m playwright install --with-deps chromium
+          command -v google-chrome || command -v google-chrome-stable
+          google-chrome --version || google-chrome-stable --version
       - name: Audit packaged MP3 and game JS
         run: python scripts/audit_full_voice.py
       - name: Test actual game UI at desktop and phone sizes
