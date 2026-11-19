@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "count": 11,
+  "lines": [
+    {
+      "id": "b5689bdcb52fc8d1",
+      "text": "奇妙小游戏。这里没有考试和排名，喜欢哪个就玩哪个。每次尝试，都是一次有趣的小冒险！",
+      "context": "功能面板：奇妙小游戏",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/b5689bdcb52fc8d1.mp3"
+    },
+    {
+      "id": "44cb52643515c9e9",
+      "text": "魔法世界地图。点一下喜欢的小岛，就可以乘坐彩虹云朵过去，探索新的童话秘密！",
+      "context": "功能面板：魔法世界地图",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/44cb52643515c9e9.mp3"
+    },
+    {
+      "id": "d783bd94a3ebc93b",
+      "text": "我的精灵朋友。每只小精灵都有自己的性格和故事，和它们成为好朋友，一起去冒险吧！",
+      "context": "功能面板：我的精灵朋友",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/d783bd94a3ebc93b.mp3"
+    },
+    {
+      "id": "21c21690ee2e3dcf",
+      "text": "我的魔法背包。丁一一，你收集的小星光、小花瓣和神奇道具，都珍藏在这里啦！",
+      "context": "功能面板：我的魔法背包",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/21c21690ee2e3dcf.mp3"
+    },
+    {
+      "id": "da3f245b2f3408e6",
+      "text": "我的奇妙换装屋。挑选最喜欢的颜色和发饰，打扮成独一无二的小小魔法师吧！",
+      "context": "功能面板：我的奇妙换装屋",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/da3f245b2f3408e6.mp3"
+    },
+    {
+      "id": "3f97df4d55affd90",
+      "text": "布置我的小岛。选择喜欢的小装饰，回到星绒广场，在草地上轻轻点一下，就可以摆放啦！",
+      "context": "功能面板：布置我的小岛",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/3f97df4d55affd90.mp3"
+    },
+    {
+      "id": "8e40f726de9de399",
+      "text": "星光故事书。你可以沿着星光任务探索，也可以自由玩游戏、照顾小精灵和装饰小岛！",
+      "context": "功能面板：星光故事书",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/8e40f726de9de399.mp3"
+    },
+    {
+      "id": "71f11c6fc515efed",
+      "text": "家长与游戏设置。这里可以调节声音和音乐，备份游戏存档，选择最舒适的冒险方式。",
+      "context": "功能面板：家长与游戏设置",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/71f11c6fc515efed.mp3"
+    },
+    {
+      "id": "cb8ce323e0a74534",
+      "text": "星愿邮局。帮助岛上的朋友完成心愿，就能收获一枚闪亮的邮票，读到温柔的故事！",
+      "context": "功能面板：星愿邮局",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/cb8ce323e0a74534.mp3"
+    },
+    {
+      "id": "b927f397bebd092c",
+      "text": "魔法礼物工坊。把你种出的漂亮小花变成礼物，送给喜欢的精灵朋友吧！",
+      "context": "功能面板：魔法礼物工坊",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/b927f397bebd092c.mp3"
+    },
+    {
+      "id": "e83b130e44a9c5ae",
+      "text": "我的小花圃。种下小小的种子，浇一点魔法泉水，等待美丽的花朵绽放吧！",
+      "context": "功能面板：我的小花圃",
+      "role": "narrator",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/e83b130e44a9c5ae.mp3"
+    }
+  ]
+}
