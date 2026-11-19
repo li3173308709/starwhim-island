@@ -27,6 +27,18 @@ with sync_playwright() as pw:
         except PWTimeout:
             raise AssertionError(f'{label} production not loaded: title={page.title()} body={page.locator("body").inner_text()[:450]} errors={errors[-3:]}')
         count=page.evaluate("Object.keys(window.StarwhimVoicePack.audio).length")
+        decoded=page.evaluate("""async () => {
+          const uri=Object.values(window.StarwhimVoicePack.audio)[0];
+          const audio=new Audio(uri);
+          audio.preload='auto';
+          await audio.play();
+          await new Promise(resolve=>setTimeout(resolve,650));
+          const result={currentTime:audio.currentTime,duration:audio.duration,readyState:audio.readyState};
+          audio.pause();
+          return result;
+        }""")
+        assert decoded['currentTime']>0.15 and decoded['readyState']>=2, f'{label} MP3 playback stalled: {decoded}'
+        print(f"{label} MP3 playback progressed {decoded['currentTime']:.2f}s of {decoded['duration']:.2f}s",flush=True)
         assert not errors, f'{label} runtime errors {errors[:4]}'
         assert page.locator('button:has-text("待配音")').count()==0, f'{label} outstanding voice placeholders'
         # On the game's welcome screen the user-gesture audio replay control is invoked when visible.
