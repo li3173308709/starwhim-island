@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Append exact contextual speech MP3 clips to the game, preserving older audio."""
 from pathlib import Path
-import base64, json, re, subprocess
+import base64, json, re, subprocess, argparse
+parser=argparse.ArgumentParser()
+parser.add_argument('--manifest',default='voice-extra-plan.json')
+args=parser.parse_args()
 
 ROOT=Path(__file__).resolve().parent.parent
 p=ROOT/'index.html'
@@ -10,7 +13,7 @@ m=re.search(r'(window\.StarwhimVoicePack\s*=\s*)({.*?})(;\s*</script>)',s,re.S)
 if not m:
     raise RuntimeError('Embedded voice pack missing')
 pack=json.loads(m.group(2))
-rows=json.loads((ROOT/'voice-extra-plan.json').read_text(encoding='utf-8'))['lines']
+rows=json.loads((ROOT/args.manifest).read_text(encoding='utf-8'))['lines']
 assert len(pack.get('audio',{}))>=79
 missing=[]
 added=0
