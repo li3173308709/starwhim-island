@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/repair-voice.yml'
+      - 'scripts/repair_voice_ui.py'
   workflow_dispatch:
 permissions:
   contents: write
