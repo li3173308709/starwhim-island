@@ -1,0 +1,943 @@
+{
+  "version": 1,
+  "description": "Supplemental exact game messages",
+  "count": 104,
+  "lines": [
+    {
+      "id": "d00434211d097fd0",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/d00434211d097fd0.mp3"
+    },
+    {
+      "id": "36c8727b7d1f19e1",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/36c8727b7d1f19e1.mp3"
+    },
+    {
+      "id": "6ef1eb2afca47f6f",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/6ef1eb2afca47f6f.mp3"
+    },
+    {
+      "id": "4484b507b25d7727",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/4484b507b25d7727.mp3"
+    },
+    {
+      "id": "80b021a93a66bbf3",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/80b021a93a66bbf3.mp3"
+    },
+    {
+      "id": "4b4990be3f35ee27",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/4b4990be3f35ee27.mp3"
+    },
+    {
+      "id": "4e14b9fcfcec890c",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/4e14b9fcfcec890c.mp3"
+    },
+    {
+      "id": "1c0fec915f30ab8d",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/1c0fec915f30ab8d.mp3"
+    },
+    {
+      "id": "892f8cd34a2710bf",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/892f8cd34a2710bf.mp3"
+    },
+    {
+      "id": "2ae79edf3dd590b2",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/2ae79edf3dd590b2.mp3"
+    },
+    {
+      "id": "2a88ee916f1d4483",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/2a88ee916f1d4483.mp3"
+    },
+    {
+      "id": "65baa5ee0f71bbb2",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒岛。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "context": "当前场景自由探索",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/65baa5ee0f71bbb2.mp3"
+    },
+    {
+      "id": "bfd3a3411a07e915",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/bfd3a3411a07e915.mp3"
+    },
+    {
+      "id": "d564a38909d9e201",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/d564a38909d9e201.mp3"
+    },
+    {
+      "id": "af30326e1b388417",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/af30326e1b388417.mp3"
+    },
+    {
+      "id": "c1fdf67a42aaaf55",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/c1fdf67a42aaaf55.mp3"
+    },
+    {
+      "id": "8157735d313b4883",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/8157735d313b4883.mp3"
+    },
+    {
+      "id": "178b335d14083f91",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/178b335d14083f91.mp3"
+    },
+    {
+      "id": "7d3adfa03942ef59",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/7d3adfa03942ef59.mp3"
+    },
+    {
+      "id": "3344c129ae619b39",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/3344c129ae619b39.mp3"
+    },
+    {
+      "id": "c21cbe8fb297cfe1",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/c21cbe8fb297cfe1.mp3"
+    },
+    {
+      "id": "aadeb1fc4a4045b0",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/aadeb1fc4a4045b0.mp3"
+    },
+    {
+      "id": "4ea21071a686d622",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/4ea21071a686d622.mp3"
+    },
+    {
+      "id": "6077cee08fed5f2c",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在星绒广场。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "context": "当前场景自由探索",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/6077cee08fed5f2c.mp3"
+    },
+    {
+      "id": "d18b1e9b41f177a6",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/d18b1e9b41f177a6.mp3"
+    },
+    {
+      "id": "10e5fa0b155f6234",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/10e5fa0b155f6234.mp3"
+    },
+    {
+      "id": "403be734caed4216",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/403be734caed4216.mp3"
+    },
+    {
+      "id": "d499dcde2e8c5b07",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/d499dcde2e8c5b07.mp3"
+    },
+    {
+      "id": "6bf3f974d8326e2d",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/6bf3f974d8326e2d.mp3"
+    },
+    {
+      "id": "86b2b374a0f115a5",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/86b2b374a0f115a5.mp3"
+    },
+    {
+      "id": "29be628681d75535",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/29be628681d75535.mp3"
+    },
+    {
+      "id": "2b321bc3303838ea",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/2b321bc3303838ea.mp3"
+    },
+    {
+      "id": "9a77575dc95eb8d8",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/9a77575dc95eb8d8.mp3"
+    },
+    {
+      "id": "69a27d90d5bb333e",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/69a27d90d5bb333e.mp3"
+    },
+    {
+      "id": "6adc031b8c7ee492",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/6adc031b8c7ee492.mp3"
+    },
+    {
+      "id": "7ff1d86c8df9605f",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在花语庭院。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "context": "当前场景自由探索",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/7ff1d86c8df9605f.mp3"
+    },
+    {
+      "id": "0a899ecf6fd6fa05",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/0a899ecf6fd6fa05.mp3"
+    },
+    {
+      "id": "79ca6275214ff0a8",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/79ca6275214ff0a8.mp3"
+    },
+    {
+      "id": "e60f4b378df6cdef",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/e60f4b378df6cdef.mp3"
+    },
+    {
+      "id": "7f83c790336286f3",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/7f83c790336286f3.mp3"
+    },
+    {
+      "id": "04f62226c03a4186",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/04f62226c03a4186.mp3"
+    },
+    {
+      "id": "e301290b1ee38fdb",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/e301290b1ee38fdb.mp3"
+    },
+    {
+      "id": "0a74dae55696df17",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/0a74dae55696df17.mp3"
+    },
+    {
+      "id": "12519dd298ff9dda",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/12519dd298ff9dda.mp3"
+    },
+    {
+      "id": "90e7e8d095374346",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/90e7e8d095374346.mp3"
+    },
+    {
+      "id": "cdf0b5c0b1590e2d",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/cdf0b5c0b1590e2d.mp3"
+    },
+    {
+      "id": "53e4dec6a58d7c7b",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/53e4dec6a58d7c7b.mp3"
+    },
+    {
+      "id": "51051356037ae893",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在糖果森林。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "context": "当前场景自由探索",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/51051356037ae893.mp3"
+    },
+    {
+      "id": "a23f1c94dd18f9b0",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/a23f1c94dd18f9b0.mp3"
+    },
+    {
+      "id": "13a0ec8e862e919a",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/13a0ec8e862e919a.mp3"
+    },
+    {
+      "id": "7590b2f54cfa5425",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/7590b2f54cfa5425.mp3"
+    },
+    {
+      "id": "704f17b0c8494866",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/704f17b0c8494866.mp3"
+    },
+    {
+      "id": "ad20a5cdc37d1504",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/ad20a5cdc37d1504.mp3"
+    },
+    {
+      "id": "76203e16df43a90c",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/76203e16df43a90c.mp3"
+    },
+    {
+      "id": "43ea42d51bdf15bc",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/43ea42d51bdf15bc.mp3"
+    },
+    {
+      "id": "14e2723c2401dd7d",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/14e2723c2401dd7d.mp3"
+    },
+    {
+      "id": "2c2fa96a4cc40512",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/2c2fa96a4cc40512.mp3"
+    },
+    {
+      "id": "f0074f3a1bd745a9",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/f0074f3a1bd745a9.mp3"
+    },
+    {
+      "id": "7d9f854ae796a3c4",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/7d9f854ae796a3c4.mp3"
+    },
+    {
+      "id": "c2562c0f2b912614",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在彩虹溪谷。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "context": "当前场景自由探索",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/c2562c0f2b912614.mp3"
+    },
+    {
+      "id": "a4e19c77b3085ce4",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/a4e19c77b3085ce4.mp3"
+    },
+    {
+      "id": "f57157ab66eec8a2",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/f57157ab66eec8a2.mp3"
+    },
+    {
+      "id": "72d3d80703cd96d6",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/72d3d80703cd96d6.mp3"
+    },
+    {
+      "id": "91f5822b31b12b2e",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/91f5822b31b12b2e.mp3"
+    },
+    {
+      "id": "c303f1bdc7b09b58",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/c303f1bdc7b09b58.mp3"
+    },
+    {
+      "id": "24378e28cecbb7a6",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/24378e28cecbb7a6.mp3"
+    },
+    {
+      "id": "469a5ff43d6ada9e",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/469a5ff43d6ada9e.mp3"
+    },
+    {
+      "id": "cb61de30c59d5582",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/cb61de30c59d5582.mp3"
+    },
+    {
+      "id": "bc47561b0735f1e3",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/bc47561b0735f1e3.mp3"
+    },
+    {
+      "id": "6f9fb6dabe47f38e",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/6f9fb6dabe47f38e.mp3"
+    },
+    {
+      "id": "6b5f56df55903893",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/6b5f56df55903893.mp3"
+    },
+    {
+      "id": "fe8d256310263a63",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在月亮湖畔。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "context": "当前场景自由探索",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/fe8d256310263a63.mp3"
+    },
+    {
+      "id": "95bac5c89fbe7b2f",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/95bac5c89fbe7b2f.mp3"
+    },
+    {
+      "id": "f1cfd3efe575f978",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/f1cfd3efe575f978.mp3"
+    },
+    {
+      "id": "17de73600f29fac1",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/17de73600f29fac1.mp3"
+    },
+    {
+      "id": "a2d7b164c6d49b0b",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/a2d7b164c6d49b0b.mp3"
+    },
+    {
+      "id": "79acaedb35fb8150",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/79acaedb35fb8150.mp3"
+    },
+    {
+      "id": "ea8de698105ba687",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/ea8de698105ba687.mp3"
+    },
+    {
+      "id": "d09cfbbfc2cdc55c",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/d09cfbbfc2cdc55c.mp3"
+    },
+    {
+      "id": "cc5b0dd6e0ce42ca",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/cc5b0dd6e0ce42ca.mp3"
+    },
+    {
+      "id": "4a0435b7b83acd55",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/4a0435b7b83acd55.mp3"
+    },
+    {
+      "id": "d3609177e3de7748",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/d3609177e3de7748.mp3"
+    },
+    {
+      "id": "4525ff9899c877c6",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "context": "当前场景与任务",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/4525ff9899c877c6.mp3"
+    },
+    {
+      "id": "69ab279f423c9576",
+      "role": "bubble",
+      "text": "丁一一小冒险家，你现在在云端学院。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "context": "当前场景自由探索",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/69ab279f423c9576.mp3"
+    },
+    {
+      "id": "593fbfca46ee4cfb",
+      "role": "bubble",
+      "text": "你完成了星光旅程，现在可以自由探索啦！",
+      "context": "任务/通关",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/593fbfca46ee4cfb.mp3"
+    },
+    {
+      "id": "dc69b02219fc4b20",
+      "role": "bubble",
+      "text": "星光故事已经完成，尽情自由探索吧！",
+      "context": "任务/通关",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/dc69b02219fc4b20.mp3"
+    },
+    {
+      "id": "81236c40fac70ce7",
+      "role": "narrator",
+      "text": "丁一一小朋友，你好呀！我是泡泡。欢迎来到星绒岛！瞧，云朵像棉花糖一样软软的。我们一起去寻找亮晶晶的小星星，好不好呀？",
+      "context": "互动角色",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/81236c40fac70ce7.mp3"
+    },
+    {
+      "id": "1f3c43b9e6773682",
+      "role": "bubble",
+      "text": "玩得真开心！也可以休息一下，喝口水再回来哦 ☁️",
+      "context": "系统鼓励提示",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/1f3c43b9e6773682.mp3"
+    },
+    {
+      "id": "c4a508128712b520",
+      "role": "bubble",
+      "text": "种子用光啦，完成小游戏可以获得新的种子！",
+      "context": "系统鼓励提示",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/c4a508128712b520.mp3"
+    },
+    {
+      "id": "a6859944ee8c3c74",
+      "role": "bubble",
+      "text": "小花还在慢慢长大，先给它浇点水吧！",
+      "context": "系统鼓励提示",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/a6859944ee8c3c74.mp3"
+    },
+    {
+      "id": "b196f8f8dccf3cf8",
+      "role": "bubble",
+      "text": "🌸 收获了",
+      "context": "系统鼓励提示",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/b196f8f8dccf3cf8.mp3"
+    },
+    {
+      "id": "d61e54b28f4f46b4",
+      "role": "bubble",
+      "text": "还差一些星光，去玩小游戏收集吧！",
+      "context": "系统鼓励提示",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/d61e54b28f4f46b4.mp3"
+    },
+    {
+      "id": "734ae25e17c42505",
+      "role": "bubble",
+      "text": "🎀 现在点一下小岛草地，就能摆放",
+      "context": "系统鼓励提示",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/734ae25e17c42505.mp3"
+    },
+    {
+      "id": "a6e9a19622004dcd",
+      "role": "narrator",
+      "text": "奇妙小游戏",
+      "context": "功能面板标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/a6e9a19622004dcd.mp3"
+    },
+    {
+      "id": "363bb3bbb157a167",
+      "role": "narrator",
+      "text": "魔法世界地图",
+      "context": "功能面板标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/363bb3bbb157a167.mp3"
+    },
+    {
+      "id": "baa439191e5ee8d0",
+      "role": "narrator",
+      "text": "我的精灵朋友",
+      "context": "功能面板标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/baa439191e5ee8d0.mp3"
+    },
+    {
+      "id": "23aa13c6bd966d1f",
+      "role": "narrator",
+      "text": "我的魔法背包",
+      "context": "功能面板标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/23aa13c6bd966d1f.mp3"
+    },
+    {
+      "id": "626244d64c0c8748",
+      "role": "narrator",
+      "text": "我的奇妙换装屋",
+      "context": "功能面板标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/626244d64c0c8748.mp3"
+    },
+    {
+      "id": "b66f14911f179b0e",
+      "role": "narrator",
+      "text": "布置我的小岛",
+      "context": "功能面板标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/b66f14911f179b0e.mp3"
+    },
+    {
+      "id": "7179fe9e932f77a5",
+      "role": "narrator",
+      "text": "星光故事书",
+      "context": "功能面板标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/7179fe9e932f77a5.mp3"
+    },
+    {
+      "id": "57127b3faab8dbfc",
+      "role": "narrator",
+      "text": "家长与游戏设置",
+      "context": "功能面板标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/57127b3faab8dbfc.mp3"
+    },
+    {
+      "id": "422e935a35ea14f4",
+      "role": "narrator",
+      "text": "星愿邮局",
+      "context": "功能面板标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/422e935a35ea14f4.mp3"
+    },
+    {
+      "id": "52a688b11d2818cf",
+      "role": "narrator",
+      "text": "我的小花圃",
+      "context": "功能面板标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/52a688b11d2818cf.mp3"
+    },
+    {
+      "id": "920653e5617ede4a",
+      "role": "narrator",
+      "text": "丁一一的星绒岛重新绽放光芒！",
+      "context": "庆典标题",
+      "voice_name": "参考MP3相近女孩音色",
+      "provider": "F5-TTS",
+      "file": "generated/920653e5617ede4a.mp3"
+    }
+  ]
+}
