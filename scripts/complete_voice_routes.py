@@ -38,6 +38,11 @@ old="if(allowed()&&/欢迎来到|点一下小岛|小花还在|种子用光|还�
 new="if(allowed()&&/欢迎来到|点一下小岛|小花还在|种子用光|还差一些|收获了|需要.*邮票|陪你冒险|和你一起|再看一眼|休息一下/.test(message))speak(findVoiceClip(message)?message:'真棒！丁一一，今天又有新发现啦！');"
 if old in s:s=s.replace(old,new,1)
 elif new not in s:raise RuntimeError("Toast voice route missing")
+# The replay button in celebration scenes uses the same audible congratulations.
+old="if(visible('celebration'))return speak(el('celebTitle').textContent+'。'+el('celebText').textContent,{force:true,role:'narrator'});"
+new="if(visible('celebration')){const line=el('celebTitle').textContent+'。'+el('celebText').textContent;return speak(findVoiceClip(line,'narrator')?line:'丁一一，你真棒！我们又收集到闪闪的小星光啦！',{force:true,role:'bubble'});}"
+if old in s:s=s.replace(old,new,1)
+elif new not in s:raise RuntimeError("Celebration replay route missing")
 if s.count('</html>')!=1 or len(s)<4_000_000:raise RuntimeError("Unexpected output page size")
 p.write_text(s,encoding='utf-8')
 print('Updated all main panel voice routes:',len(panels))
