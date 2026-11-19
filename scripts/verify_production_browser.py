@@ -16,6 +16,7 @@ with sync_playwright() as pw:
         page.add_init_script("""(() => {
            window.__voiceEvents=[];
            const orig=HTMLMediaElement.prototype.play;
+           window.__nativeAudioPlay=orig;
            HTMLMediaElement.prototype.play=function() {
              window.__voiceEvents.push(this.currentSrc||this.src||'');
              return Promise.resolve();
@@ -31,7 +32,7 @@ with sync_playwright() as pw:
           const uri=Object.values(window.StarwhimVoicePack.audio)[0];
           const audio=new Audio(uri);
           audio.preload='auto';
-          await audio.play();
+          await window.__nativeAudioPlay.call(audio);
           await new Promise(resolve=>setTimeout(resolve,650));
           const result={currentTime:audio.currentTime,duration:audio.duration,readyState:audio.readyState};
           audio.pause();
