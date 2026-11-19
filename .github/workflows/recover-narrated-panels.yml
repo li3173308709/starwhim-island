@@ -1,0 +1,68 @@
+name: Recover narrated panel package from completed MP3 artifacts
+on:
+  push:
+    paths:
+      - '.github/workflows/recover-narrated-panels.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: narrated-panel-recovery
+  cancel-in-progress: false
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install MP3 validation utility
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - name: Download 11 already-generated voice clips
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 44452079261
+          github-token: ${{ github.token }}
+          pattern: narrated-panel-clips-*
+          path: generated
+          merge-multiple: true
+      - name: Rebuild exactly the same eleven-clip manifest
+        run: python scripts/prepare_panel_voice.py
+      - name: Package MP3 and wire dialogue playback
+        run: |
+          python scripts/pack_additional_voice.py --manifest voice-panel-plan.json
+          python scripts/complete_voice_routes.py
+      - name: Verify final 194-recording voice inventory
+        run: |
+          python scripts/audit_full_voice.py
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          s=Path('index.html').read_text()
+          m=re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S)
+          assert m, 'voice pack missing'
+          voice=json.loads(m.group(1))['audio']
+          for manifest in ('voice-plan.json','voice-extra-plan.json','voice-panel-plan.json'):
+              for row in json.loads(Path(manifest).read_text())['lines']:
+                  assert row['text'] in voice, (manifest,row['id'])
+          assert len(voice)>=194, len(voice)
+          print('Final voice manifest coverage:', len(voice))
+          PY
+      - name: Commit validated fully narrated game
+        run: |
+          git config user.name "starwhim-voice-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html voice-panel-plan.json
+          if git diff --cached --quiet; then
+            echo "Already packaged and up to date"
+          else
+            git commit -m "feat: finish packing 11 narrated panels and validate 194 voice clips"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
