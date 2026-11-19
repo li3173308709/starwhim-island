@@ -53,6 +53,10 @@ s=s.replace("btn.textContent=available?'🔊 再听':'📖 待配音';","btn.tex
 s=s.replace("el('narratorTestButton').textContent='📖 旁白音频待补充';el('narratorTestButton').disabled=true;",
 """el('narratorTestButton').textContent='🔊 试听女孩旁白';el('narratorTestButton').disabled=false;
     el('narratorTestButton').onclick=()=>{resumeAudio();speak(NARRATOR_TEST,{force:true,role:'narrator'})};""",1)
+# Remove misleading claims that a missing recording will use a system voice.
+s=s.replace("已安装 '+voicePack.available+' 句 MP3，未命中时暂用设备朗读。", "已安装 '+voicePack.available+' 句女孩音频，缺失录音会明确提示。")
+s=s.replace("尚未导入语界 MP3；试听暂用设备朗读，声音与选定音色不同。", "尚未安装录音；不会使用系统机械朗读替代。")
+s=s.replace("btn.setAttribute('aria-label','此页正式配音待补充');", "btn.setAttribute('aria-label','播放本页已安装的女孩配音');")
 # Existing status is stale after AI clip pack; show actual verified installed count.
 s=s.replace("'已安装 '+voicePack.available+'/'+voicePack.planned+' 句真实「活泼女孩 2.0」配音：欢迎语可播放。其他台词需按相同音色合成后导入；不会播放机械音。'",
 """'已安装 '+Object.keys(voicePack.audio||{}).length+' 段女孩声音；未收录的台词会提示缺失，绝不切换为系统机械朗读。'""",1)
