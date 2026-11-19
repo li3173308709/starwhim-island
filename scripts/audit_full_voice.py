@@ -22,8 +22,11 @@ for file in manifests:
     missing=[x['text'] for x in rows if x['text'] not in clips]
     if missing:
         raise SystemExit(f'{file}: {len(missing)} missing recordings, e.g. {missing[:4]}')
-if not len(clips)>=len(all_lines)+1:
-    raise SystemExit(f'Expected {len(all_lines)} generated clips plus sample; found {len(clips)}')
+# The original reference sample can share a spoken-text key with a generated clip.
+# Require every distinct planned line, not a fabricated extra dictionary entry.
+unique_planned = {row['text'] for row in all_lines}
+if len(clips) < len(unique_planned):
+    raise SystemExit(f'Expected {len(unique_planned)} distinct planned lines; found {len(clips)}')
 if len(clips)<190:
     raise SystemExit('Insufficient voices for all mandatory gameplay contexts')
 for name in ('findVoiceClip(', 'const PANEL_VOICE_SCRIPTS=', 'panelVoiceScript('):
