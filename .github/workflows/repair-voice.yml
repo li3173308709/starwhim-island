@@ -1,0 +1,44 @@
+name: Repair game voice UI and matching
+on:
+  push:
+    paths:
+      - '.github/workflows/repair-voice.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Repair bundled MP3 routing, buttons, and spoken-dialogue matching
+        run: python scripts/repair_voice_ui.py
+      - name: Validate resulting single-file game
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,re
+          p=Path('index.html'); s=p.read_text()
+          m=re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S)
+          assert m and len(json.loads(m.group(1))['audio'])>=79
+          assert 'function findVoiceClip(' in s
+          assert "btn.disabled=true;btn.title='这部分尚未生成" not in s
+          assert s.count('</html>')==1
+          print("Voice runtime checks passed; HTML size",p.stat().st_size)
+          PY
+      - name: Commit the repaired game page
+        run: |
+          git config user.name "starwhim-voice-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "fix: repair missing voice labels and match bundled girl voice clips"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
