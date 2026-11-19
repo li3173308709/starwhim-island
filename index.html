@@ -662,11 +662,24 @@ function stop(){
  try{if(synth&&(synth.speaking||synth.pending))synth.cancel()}catch(e){}
  started=false;currentUtterance=null;
 }
+function findVoiceClip(words,role='bubble'){
+ const audio=voicePack.audio||{};
+ if(audio[words])return audio[words];
+ if(audio[role+'\n'+words])return audio[role+'\n'+words];
+ const normalize=x=>String(x||'').normalize('NFKC').replace(/[\s\u200b-\u200d\ufeff]/g,'').replace(/[，,。.!！?？：:；;、“”‘’\"'（）()—–…·]/g,'');
+ const key=normalize(words);
+ if(!key)return null;
+ // Normalization only: never play a different dialogue just to hide an absent MP3.
+ for(const [text,path] of Object.entries(audio)){
+  if(normalize(text)===key || normalize(text.replace(/^(bubble|narrator)\n/,''))===key)return path;
+ }
+ return null;
+}
 function speak(phrase,{force=false,speaker='',role=''}={}){
  const words=toText(phrase);
  if(!words||(!force&&!allowed()))return false;
  const selectedRole=role||(speaker?voiceRole(speaker):'bubble');
- const recordedPath=voicePack.audio?.[words] || voicePack.audio?.[selectedRole+'\n'+words];
+ const recordedPath=findVoiceClip(words,selectedRole);
  if(recordedPath){
   // MP3 playback is started synchronously from the touch/click event. No async fetch or API keys in browsers.
   stop();const id=voiceCallId;
@@ -736,7 +749,7 @@ S.UI.init=function(game){oldInit.call(this,game);
  // 可直接触摸的重复播报按钮：不需要识字。
  const right=document.querySelector('.hud-right');if(right&&!el('voiceReplayBtn')){
    const btn=document.createElement('button');btn.id='voiceReplayBtn';btn.className='hud-round glass child-voice-round';btn.type='button';btn.textContent='🔊';btn.title='重听泡泡的卡通欢迎语';btn.setAttribute('aria-label','播放泡泡真实配音欢迎语');right.insertBefore(btn,right.firstChild);btn.onclick=()=>{resumeAudio();speak(INTRO_TEXT,{force:true,role:'bubble'})}}
- const addToBar=(bar,id)=>{if(!bar||el(id))return;const btn=document.createElement('button');btn.id=id;btn.className='voice-action';btn.type='button';btn.textContent='📖 待配音';btn.disabled=true;btn.title='这部分尚未生成相同音色的录音';btn.setAttribute('aria-label','此页正式配音待补充');btn.onclick=()=>S.audio.readCurrent();bar.insertBefore(btn,bar.lastElementChild)};
+ const addToBar=(bar,id)=>{if(!bar||el(id))return;const btn=document.createElement('button');btn.id=id;btn.className='voice-action';btn.type='button';btn.textContent='🔊 听本页';btn.disabled=false;btn.title='播放已收录的女孩配音；缺失台词会明确提示';btn.setAttribute('aria-label','此页正式配音待补充');btn.onclick=()=>S.audio.readCurrent();bar.insertBefore(btn,bar.lastElementChild)};
  addToBar(document.querySelector('.panel-bar'),'panelVoiceBtn');addToBar(document.querySelector('.mini-head'),'miniVoiceBtn');
  const box=document.querySelector('.dialogue-card');if(box&&!el('dialogueVoiceBtn')){
    const btn=document.createElement('button');btn.id='dialogueVoiceBtn';btn.className='voice-action dialogue-voice';btn.textContent='🔊 听语音';btn.type='button';btn.onclick=()=>S.audio.readCurrent();box.appendChild(btn)
@@ -747,7 +760,7 @@ S.UI.init=function(game){oldInit.call(this,game);
  // 点击真实开始按钮时解锁设备的声音播放。
  el('playBtn')?.addEventListener('pointerdown',resumeAudio,{passive:true});
 };
-const oldSay=S.UI.say; S.UI.say=function(name,words,emoji){const result=oldSay.call(this,name,words,emoji);const btn=el('dialogueVoiceBtn');if(btn){const available=!!voicePack.audio?.[toText(words)];btn.disabled=!available;btn.textContent=available?'🔊 再听':'📖 待配音';btn.title=available?'播放真正的活泼女孩录音':'这段对话还没有同音色录音'}return result;};
+const oldSay=S.UI.say; S.UI.say=function(name,words,emoji){const result=oldSay.call(this,name,words,emoji);const btn=el('dialogueVoiceBtn');if(btn){const available=!!findVoiceClip(toText(words),voiceRole(name));btn.disabled=!available;btn.textContent=available?'🔊 再听':'📖 暂无录音';btn.title=available?'播放真正的活泼女孩录音':'这段对话还没有同音色录音'}return result;};
 S.audio.readCurrent=()=>{
  const visible=id=>{const node=el(id);return node&&!node.classList.contains('hidden')};
  if(visible('dialogueBackdrop'))return speak(el('speakerText').textContent,{force:true,speaker:el('speakerName').textContent});
@@ -799,7 +812,8 @@ S.UI.showScreen=function(which){const result=oldScreen.call(this,which);if(which
    const control=document.createElement('div');control.className='voice-style-row';
    control.innerHTML='<b>🌷 全部配音：语界「活泼女孩 2.0」</b><small>泡泡、童话旁白、任务说明、小游戏提示全部使用同一种声音。</small><small id="voicePackStatus">声音包：'+(voicePack.available?('已安装 '+voicePack.available+' 句 MP3，未命中时暂用设备朗读。'):'尚未导入语界 MP3；试听暂用设备朗读，声音与选定音色不同。')+'</small><button id="narratorTestButton" class="small-button" type="button">🔊 试听旁白句子</button>';
    group.insertAdjacentElement('afterend',control);
-   el('narratorTestButton').textContent='📖 旁白音频待补充';el('narratorTestButton').disabled=true;
+   el('narratorTestButton').textContent='🔊 试听女孩旁白';el('narratorTestButton').disabled=false;
+    el('narratorTestButton').onclick=()=>{resumeAudio();speak(NARRATOR_TEST,{force:true,role:'narrator'})};
    // 对于手机，分开测试媒体音效和 TTS；只有直接手势才尝试启动。
    const audioTest=document.createElement('button');audioTest.id='soundTestButton';audioTest.type='button';audioTest.className='small-button';audioTest.textContent='🎵 试听叮咚音效';
    audioTest.onclick=()=>{resumeAudio();const old=S.game.state.settings.sound;S.game.state.settings.sound=true;S.audio.success();S.game.state.settings.sound=old;noteStatus('如果听到了叮咚声却听不到中文语音，问题通常是手机朗读引擎，而非音量。')};
