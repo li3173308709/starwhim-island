@@ -109,6 +109,8 @@ jobs:
           assert s.count('</html>')==1
           print('Voice sample inventory:',len(a),'narrated panels:',len(p))
           PY
+      - name: Audit every installed MP3 and game playback route
+        run: python scripts/audit_full_voice.py
       - name: Commit final narrated game
         run: |
           git config user.name "starwhim-voice-bot"
