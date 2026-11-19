@@ -26,7 +26,7 @@ for utterance, uri in clips.items():
     assert len(base64.b64decode(uri.split(",", 1)[1])) > 1000, utterance[:30]
 
 with sync_playwright() as pw:
-    browser = pw.chromium.launch(headless=True, args=["--autoplay-policy=no-user-gesture-required"])
+    browser = pw.chromium.launch(channel='chrome', headless=True, args=["--autoplay-policy=no-user-gesture-required"])
     for profile in [
         dict(name="desktop", width=1440, height=900, is_mobile=False, has_touch=False),
         dict(name="phone-390", width=390, height=844, is_mobile=True, has_touch=True),
