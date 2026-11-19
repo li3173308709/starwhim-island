@@ -40,14 +40,14 @@ with sync_playwright() as pw:
         page = context.new_page()
         errors=[]
         page.on("pageerror", lambda exc: errors.append(str(exc)))
-        page.add_init_script("""() => {
+        page.add_init_script("""(() => {
            window.__voiceEvents=[];
            const p=HTMLMediaElement.prototype.play;
            HTMLMediaElement.prototype.play=function() {
               window.__voiceEvents.push({src: this.currentSrc || this.src, media: this.tagName});
               return Promise.resolve();
            };
-        }""")
+        })()""")
         page.goto(html.as_uri(), wait_until="load", timeout=60000)
         page.wait_for_timeout(500)
         assert not errors, f"{profile['name']} script errors: {errors[:3]}"
