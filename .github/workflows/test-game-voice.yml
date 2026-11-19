@@ -1,0 +1,33 @@
+name: Verify full game voice on desktop and mobile
+on:
+  push:
+    paths:
+      - '.github/workflows/test-game-voice.yml'
+      - 'scripts/browser_voice_smoke.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser-voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install browser automation
+        run: |
+          python -m pip install playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Audit packaged MP3 and game JS
+        run: python scripts/audit_full_voice.py
+      - name: Test actual game UI at desktop and phone sizes
+        run: python scripts/browser_voice_smoke.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: game-voice-browser-screenshots
+          path: smoke-*.png
+          retention-days: 7
+          if-no-files-found: ignore
