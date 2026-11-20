@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "count": 5,
+  "lines": [
+    {
+      "id": "80d5ecaf6a82c80d",
+      "text": "泡泡弹弹乐。移动挡板让泡泡弹来弹去，击碎彩虹砖块，连闯五关。越往后越考验你的眼力和反应哦！",
+      "context": "bubblebreaker",
+      "role": "bubble",
+      "file": "generated/80d5ecaf6a82c80d.mp3",
+      "voice_name": "女孩参考音色 F5-TTS"
+    },
+    {
+      "id": "4ec24d1285a9511e",
+      "text": "月光机关工坊。旋转小机关，找到能把太阳和月亮连接起来的正确路线。开动小脑筋，点亮五座月亮灯塔吧！",
+      "context": "moontracks",
+      "role": "bubble",
+      "file": "generated/4ec24d1285a9511e.mp3",
+      "voice_name": "女孩参考音色 F5-TTS"
+    },
+    {
+      "id": "e8eec797fdb5e72c",
+      "text": "云端飞跃跑酷。和小独角兽一起出发！轻轻点一下跳跃，再点一次可以二段跳。躲过乌云，接住闪亮的星星！",
+      "context": "cloudrunner",
+      "role": "bubble",
+      "file": "generated/e8eec797fdb5e72c.mp3",
+      "voice_name": "女孩参考音色 F5-TTS"
+    },
+    {
+      "id": "5f6c2d36818d9624",
+      "text": "汉字寻宝乐园。这里有两百个有趣的汉字。看图认字、认识拼音、词语填空。今天我们一起认识新的汉字朋友！",
+      "context": "hanzi200",
+      "role": "bubble",
+      "file": "generated/5f6c2d36818d9624.mp3",
+      "voice_name": "女孩参考音色 F5-TTS"
+    },
+    {
+      "id": "dd2401ca27ea52ec",
+      "text": "英语魔法冒险。一起玩英文找图、单词拼拼乐和记忆配对。每天学一点，英语也能变成好玩的小游戏！",
+      "context": "englishquest",
+      "role": "bubble",
+      "file": "generated/dd2401ca27ea52ec.mp3",
+      "voice_name": "女孩参考音色 F5-TTS"
+    }
+  ]
+}
