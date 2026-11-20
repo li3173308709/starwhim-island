@@ -1,0 +1,33 @@
+name: Verify final 14-game production website
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-arcade-online.yml'
+      - 'scripts/verify_arcade_online.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  online:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate all 200 bundled MP3 on main
+        run: python scripts/audit_full_voice.py
+      - name: Install Chrome test adapter
+        run: |
+          python -m pip install playwright==1.56.0
+          google-chrome --version
+      - name: Verify actual production game and sound on three devices
+        run: python scripts/verify_arcade_online.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: arcade-online-screenshots
+          path: arcade-live-*.png
+          retention-days: 7
+          if-no-files-found: ignore
