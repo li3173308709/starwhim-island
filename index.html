@@ -860,6 +860,7 @@ S.UI.showScreen=function(which){const result=oldScreen.call(this,which);if(which
 </script><script>
 window.addEventListener('DOMContentLoaded',async()=>{try{const game=new Starwhim.Game();Starwhim.game=game;await game.init();}catch(e){console.error(e);document.getElementById('loading').innerHTML='<div style="max-width:340px;padding:20px"><h2>⭐ 星绒岛暂时迷路了</h2><p>请刷新网页重试；如果持续出现问题，可以把错误信息发给开发者。</p><pre style="white-space:pre-wrap">'+String(e.message||e)+'</pre></div>'}});
 </script>
+
 <script>
 /* Starwhim Island: advanced puzzles, compatible with existing save and rewards */
 (function(){
@@ -985,9 +986,9 @@ setup();
 const open=M.open;M.open=function(id){const out=open.call(this,id);if(defs.some(g=>g.id===id)&&S.game?.state?.settings?.speech!==false){
 // Use only previously bundled recorded female-voice lines until new F5-TTS recordings land.
 // No system TTS substitution is ever used.
-const ref={starmaze:'星星捉迷藏。看看美丽的天空，把躲起来的星星一颗一颗找出来吧！',
-starsudoku:'水晶小机关。轻点水晶，直到它们的颜色和上面的魔法提示一样，就能打开彩虹门啦！',
-elfcode:'彩虹拼拼图。把小图片轻轻挪回正确的位置，让彩虹图案重新出现吧！'};
+const ref={starmaze:'星光迷宫探险。丁一一，先找到金钥匙，再带着泡泡走向彩虹门。每一关的路线都会更复杂，仔细想一想再出发！',
+starsudoku:'魔法数独学院。每一行、每一列和每一个小方格，都需要不同的魔法图案。先观察，再推理，你一定能找到答案！',
+elfcode:'精灵密码实验室。猜一猜隐藏的精灵密码。粉色爱心代表位置和图案都正确，黄色爱心代表只有图案正确。根据线索不断缩小范围吧！'};
 S.audio.speak(ref[id],{role:'bubble'});
 }return out;};
 window.StarwhimAdvancedGames={version:1,ids:defs.map(x=>x.id)};
