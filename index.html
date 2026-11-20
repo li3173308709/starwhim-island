@@ -1281,6 +1281,10 @@ M.englishquestStart=function(){const id='englishquest';let category='动物🐾'
  const render=()=>{show(stat(`记忆 第 ${stage}/5 关`,`${matched.size}/${subset.length} 对`,`翻牌 ${turns} 次`)+`<h3>🧠 英文和图画配对</h3><div class="grid">${deck.map((x,i)=>`<button data-card="${i}" ${matched.has(x.id)?'disabled':''} class="${open.includes(i)?'sel':''}">${matched.has(x.id)||open.includes(i)?x.label:'❔'}</button>`).join('')}</div><div class="actions">${b('重新洗牌','restart')}${b('返回菜单','home')}</div>`);root().querySelectorAll('[data-card]').forEach(el=>el.onclick=()=>{let i=+el.dataset.card;if(busy||open.includes(i)||matched.has(deck[i].id))return;open.push(i);if(open.length===2){turns++;if(deck[open[0]].id===deck[open[1]].id){matched.add(deck[i].id);open=[];sound();if(matched.size===subset.length){stageDone();return}}else{busy=true;setTimeout(()=>{if(alive(id)){open=[];busy=false;render()}},850)}}render()});bind('restart',memory);bind('home',home)};render()};
  home();
 };
+// Only play recorded user's-reference girl voice. Never use system speechSynthesis.
+const v19Intro={"bubblebreaker":"泡泡弹弹乐。移动挡板让泡泡弹来弹去，击碎彩虹砖块，连闯五关。越往后越考验你的眼力和反应哦！","moontracks":"月光机关工坊。旋转小机关，找到能把太阳和月亮连接起来的正确路线。开动小脑筋，点亮五座月亮灯塔吧！","cloudrunner":"云端飞跃跑酷。和小独角兽一起出发！轻轻点一下跳跃，再点一次可以二段跳。躲过乌云，接住闪亮的星星！","hanzi200":"汉字寻宝乐园。这里有两百个有趣的汉字。看图认字、认识拼音、词语填空。今天我们一起认识新的汉字朋友！","englishquest":"英语魔法冒险。一起玩英文找图、单词拼拼乐和记忆配对。每天学一点，英语也能变成好玩的小游戏！"};
+const v19PrevOpen=M.open;
+M.open=function(id){const result=v19PrevOpen.call(this,id);const phrase=v19Intro[id];if(phrase&&window.StarwhimVoicePack?.audio?.[phrase]&&S.game?.state?.settings?.speech!==false){S.audio?.speak?.(phrase,{role:'bubble'})}return result};
 window.StarwhimExpansion19={version:'1.9',games:defs.map(x=>x.id),hanziCount:HANZI.length,englishCount:ENGLISH.length};
 })();
 </script>
