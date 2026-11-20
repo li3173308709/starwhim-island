@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/export-game.yml'
+      - 'index.html'
   workflow_dispatch:
 permissions:
   contents: read
