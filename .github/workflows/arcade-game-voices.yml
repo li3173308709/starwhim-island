@@ -1,0 +1,117 @@
+name: Generate three replayable arcade girl voices
+on:
+  push:
+    paths:
+      - '.github/workflows/arcade-game-voices.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: arcade-game-voice-recordings
+  cancel-in-progress: false
+env:
+  HF_HUB_DISABLE_TELEMETRY: '1'
+  HF_HUB_DOWNLOAD_TIMEOUT: '180'
+  OMP_NUM_THREADS: '4'
+  PYTHONUNBUFFERED: '1'
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/install_arcade_games.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arcade-voice-manifest
+          path: voice-arcade-plan.json
+          if-no-files-found: error
+  synthesize:
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          name: arcade-voice-manifest
+      - name: Install F5-TTS and required CPU libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          printf 'numpy==1.26.4\npyarrow==25.0.1\ndatasets==5.0.1\ntorch==2.5.1+cpu\ntorchaudio==2.5.1+cpu\n' > /tmp/starwhim-constraints.txt
+          python -m pip install -c /tmp/starwhim-constraints.txt 'f5-tts==1.1.5' 'transformers<5'
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface/hub
+            ~/.cache/torch/hub
+          key: starwhim-f5tts-model-v1-20261118
+      - name: Generate new recorded girl voice
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: python scripts/clone_on_github.py --manifest voice-arcade-plan.json --shard "$SHARD" --shards 3
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arcade-voice-clip-${{ matrix.shard }}
+          path: generated/*.mp3
+          if-no-files-found: error
+          retention-days: 7
+  package:
+    needs: synthesize
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          name: arcade-voice-manifest
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: arcade-voice-clip-*
+          path: generated
+          merge-multiple: true
+      - name: Integrate original game plus exact new voice recordings
+        run: |
+          python scripts/install_arcade_games.py
+          python scripts/pack_additional_voice.py --manifest voice-arcade-plan.json
+          python scripts/audit_full_voice.py
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          s=Path('index.html').read_text()
+          voice=json.loads(re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S).group(1))['audio']
+          plan=json.loads(Path('voice-arcade-plan.json').read_text())['lines']
+          assert len(voice)>=200 and all(x['text'] in voice for x in plan),len(voice)
+          assert 'window.StarwhimArcade' in s
+          print('PASS: 200 or more complete recorded voice clips and 14 games')
+          PY
+      - name: Commit fully narrated new games
+        run: |
+          git config user.name "starwhim-game-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html voice-arcade-plan.json
+          git commit -m "feat: install three replayable games with recorded girl's narration"
+          git pull --rebase origin main
+          git push origin HEAD:main
