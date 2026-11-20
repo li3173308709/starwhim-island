@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/recover-advanced-game-voices.yml'
+      - 'scripts/pack_additional_voice.py'
   workflow_dispatch:
 permissions:
   contents: write
@@ -21,10 +22,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Confirm packaged audio tools are already available
-        run: |
-          ffmpeg -version | head -n 1
-          ffprobe -version | head -n 1
+      - name: Install lightweight MP3 integrity checker
+        run: python -m pip install mutagen==1.47.0
       - uses: actions/download-artifact@v4
         with:
           run-id: 44691627679
