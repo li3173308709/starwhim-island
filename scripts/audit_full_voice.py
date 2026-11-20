@@ -15,6 +15,8 @@ if not m:
 pack=json.loads(m.group(1))
 clips=pack.get('audio',{})
 manifests=['voice-plan.json','voice-extra-plan.json','voice-panel-plan.json']
+for extra in ('voice-advanced-plan.json','voice-arcade-plan.json'):
+    if (root/extra).is_file(): manifests.append(extra)
 all_lines=[]
 for file in manifests:
     rows=json.loads((root/file).read_text(encoding='utf-8'))['lines']
