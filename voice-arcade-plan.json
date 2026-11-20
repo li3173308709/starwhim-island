@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "count": 3,
+  "lines": [
+    {
+      "id": "d84ec252859a7b65",
+      "role": "bubble",
+      "text": "彩虹飞行大冒险。左右移动躲开乌云，接住星星。连续接中就会得到更多分数！",
+      "context": "rainbowdash新游戏介绍",
+      "file": "generated/d84ec252859a7b65.mp3",
+      "voice_name": "女孩参考音色 F5-TTS"
+    },
+    {
+      "id": "33a9c70fc1eb9221",
+      "role": "bubble",
+      "text": "星星合成研究所。滑动魔法棋盘，把相同的星星合在一起。一路合成闪耀的一百二十八点星星！",
+      "context": "starmerge新游戏介绍",
+      "file": "generated/33a9c70fc1eb9221.mp3",
+      "voice_name": "女孩参考音色 F5-TTS"
+    },
+    {
+      "id": "6c84e9d0f4d0b851",
+      "role": "bubble",
+      "text": "精灵花园守卫战。种下魔法花朵，守护三条小路。先照顾每一条路，再把花朵升级！",
+      "context": "spriteguard新游戏介绍",
+      "file": "generated/6c84e9d0f4d0b851.mp3",
+      "voice_name": "女孩参考音色 F5-TTS"
+    }
+  ]
+}
