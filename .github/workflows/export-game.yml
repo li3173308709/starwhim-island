@@ -14,11 +14,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Validate all 194 recordings
-        run: python scripts/audit_full_voice.py
+      - name: Validate complete 197-recording new game
+        run: |
+          python scripts/audit_full_voice.py
+          python - <<'PY'
+          from pathlib import Path
+          import re,json
+          s=Path('index.html').read_text()
+          m=re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S)
+          assert m and len(json.loads(m.group(1))['audio'])>=197
+          assert 'StarwhimAdvancedGames' in s and 'starsudoku' in s
+          print('PASS complete advanced single-file game')
+          PY
       - uses: actions/upload-artifact@v4
         with:
-          name: starwhim-island-complete-game
+          name: starwhim-island-197-voice-11-game-complete
           path: index.html
           if-no-files-found: error
           retention-days: 30
