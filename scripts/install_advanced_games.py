@@ -6,8 +6,12 @@ root=Path(__file__).resolve().parent.parent
 page=root/'index.html'
 s=page.read_text(encoding='utf-8')
 source=(root/'scripts/advanced_games.js').read_text(encoding='utf-8')
-if 'window.StarwhimAdvancedGames={version:1' in s:
-    print('Already installed');exit(0)
+if '/* Starwhim Island: advanced puzzles, compatible' in s:
+    beginning=s.rfind('<script>',0,s.index('/* Starwhim Island: advanced puzzles, compatible'))
+    ending=s.find('</script>',s.index('/* Starwhim Island: advanced puzzles, compatible'))+len('</script>')
+    assert beginning>=0 and ending>beginning
+    s=s[:beginning]+s[ending:]
+    print('Replacing previous advanced games script')
 assert 'S.MINIGAMES=[' in s and 'S.minigames=M;' in s
 assert 'S.audio.speak=speak;' in s
 assert s.count('</body>')==1
