@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Append exact contextual speech MP3 clips to the game, preserving older audio."""
 from pathlib import Path
-import base64, json, re, subprocess, argparse
+import base64, json, re, subprocess, argparse, shutil
 parser=argparse.ArgumentParser()
 parser.add_argument('--manifest',default='voice-extra-plan.json')
 args=parser.parse_args()
@@ -22,10 +22,18 @@ for row in rows:
     if not filename.is_file() or filename.stat().st_size<1000:
         missing.append(row['id'])
         continue
-    # ffprobe verifies we have decodable MP3 rather than empty/corrupt files
-    subprocess.run(['ffprobe','-v','error','-show_entries','format=duration',
-                    '-of','default=noprint_wrappers=1:nokey=1',str(filename)],
-                    check=True,capture_output=True,text=True)
+    # Validate the actual MP3, even on runners without the ffprobe executable.
+    if shutil.which('ffprobe'):
+        result=subprocess.run(['ffprobe','-v','error','-show_entries','format=duration',
+                               '-of','default=noprint_wrappers=1:nokey=1',str(filename)],
+                               check=True,capture_output=True,text=True)
+        if float(result.stdout.strip())<=0:
+            raise RuntimeError(f'Empty MP3 duration: {filename}')
+    else:
+        from mutagen.mp3 import MP3
+        info=MP3(str(filename)).info
+        if info.length<=0 or info.bitrate<=0:
+            raise RuntimeError(f'Invalid MP3: {filename}')
     if row['text'] not in pack['audio']:
         pack['audio'][row['text']]='data:audio/mpeg;base64,'+base64.b64encode(filename.read_bytes()).decode()
         added+=1
