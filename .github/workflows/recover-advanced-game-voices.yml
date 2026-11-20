@@ -1,0 +1,73 @@
+name: Recover advanced game MP3 package
+on:
+  push:
+    paths:
+      - '.github/workflows/recover-advanced-game-voices.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: recover-advanced-recordings
+  cancel-in-progress: false
+jobs:
+  finish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Confirm packaged audio tools are already available
+        run: |
+          ffmpeg -version | head -n 1
+          ffprobe -version | head -n 1
+      - uses: actions/download-artifact@v4
+        with:
+          run-id: 44691627679
+          github-token: ${{ github.token }}
+          name: advanced-voice-manifest
+      - uses: actions/download-artifact@v4
+        with:
+          run-id: 44691627679
+          github-token: ${{ github.token }}
+          pattern: advanced-voice-clip-*
+          path: generated
+          merge-multiple: true
+      - name: Merge the new original female-voice recordings
+        run: |
+          python scripts/install_advanced_games.py
+          python scripts/pack_additional_voice.py --manifest voice-advanced-plan.json
+          python scripts/audit_full_voice.py
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          s=Path('index.html').read_text()
+          m=re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S)
+          assert m
+          audio=json.loads(m.group(1))['audio']
+          lines=json.loads(Path('voice-advanced-plan.json').read_text())['lines']
+          assert len(audio)>=197,(len(audio),'expected 197+')
+          assert all(row['text'] in audio for row in lines)
+          assert 'window.StarwhimAdvancedGames' in s
+          print('PASS:',len(audio),'MP3s and all three advanced narrated games')
+          PY
+      - name: Verify every level of every advanced game on desktop and phones
+        run: |
+          python -m pip install playwright==1.56.0
+          python scripts/test_advanced_games.py
+      - name: Publish the finished single-file game to main
+        run: |
+          git config user.name "starwhim-game-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html voice-advanced-plan.json
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: deliver 3 full challenge games with 197 girl's voice clips"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "Already installed"
+          fi
