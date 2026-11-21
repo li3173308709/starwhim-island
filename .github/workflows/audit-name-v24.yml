@@ -1,0 +1,34 @@
+name: Listen-check Ding Yiyi name pronunciation using Chinese ASR
+on:
+  workflow_run:
+    workflows:
+      - Repair voice playback, speed and MP3 starts
+    types:
+      - completed
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  screen:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Chinese speech recognizer and dependencies
+        run: |
+          python -m pip install 'faster-whisper==1.2.1' numpy
+      - name: Check name spoken in recorded clips
+        run: python -u scripts/audit_name_pronunciation.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: name-pronunciation-audit
+          path: name-pronunciation-qa.json
+          retention-days: 14
+          if-no-files-found: ignore
