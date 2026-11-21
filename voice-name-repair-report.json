@@ -1,0 +1,689 @@
+{
+  "method": "ASR-confirmed three-syllable name from existing reference-voice recording + word-aligned sentence",
+  "reference_key": "小冒险家丁一一小朋友，你好呀！我是泡泡！欢迎来到星绒岛！这里有软绵绵的云朵、闪闪的星星，还有好多可爱的精灵朋友。丁一一，点一下进入梦幻小岛，我们一起去冒险吧！",
+  "repaired": 97,
+  "skipped": 0,
+  "entries": [
+    {
+      "key": "丁一一小朋友，你好呀！我是泡泡。欢迎来到星绒岛！瞧，云朵像棉花糖一样软软的。我们一起去寻找亮晶晶的小星星，好不好呀？",
+      "next": "小",
+      "following_word_at": 0.394,
+      "original_length_ms": 11376,
+      "revised_length_ms": 11478
+    },
+    {
+      "key": "丁一一小朋友，你好呀！我是泡泡！听到我的声音了吗？我们一起去星绒岛冒险吧！",
+      "next": "小",
+      "following_word_at": 0.474,
+      "original_length_ms": 6312,
+      "revised_length_ms": 6334
+    },
+    {
+      "key": "丁一一，你真棒！我们又收集到闪闪的小星光啦！",
+      "next": "你",
+      "following_word_at": 0.554,
+      "original_length_ms": 3600,
+      "revised_length_ms": 3542
+    },
+    {
+      "key": "丁一一，我们来看看今天的小任务吧！",
+      "next": "我",
+      "following_word_at": 0.634,
+      "original_length_ms": 2712,
+      "revised_length_ms": 2574
+    },
+    {
+      "key": "丁一一，现在来到星绒广场。每一个角落，都藏着暖暖的小惊喜。",
+      "next": "现",
+      "following_word_at": 0.894,
+      "original_length_ms": 4920,
+      "revised_length_ms": 4522
+    },
+    {
+      "key": "丁一一，现在来到花语庭院。每一个角落，都藏着暖暖的小惊喜。",
+      "next": "现",
+      "following_word_at": 0.894,
+      "original_length_ms": 4848,
+      "revised_length_ms": 4450
+    },
+    {
+      "key": "丁一一，现在来到糖果森林。每一个角落，都藏着暖暖的小惊喜。",
+      "next": "现",
+      "following_word_at": 0.674,
+      "original_length_ms": 4872,
+      "revised_length_ms": 4694
+    },
+    {
+      "key": "丁一一，现在来到彩虹溪谷。每一个角落，都藏着暖暖的小惊喜。",
+      "next": "现",
+      "following_word_at": 0.934,
+      "original_length_ms": 4920,
+      "revised_length_ms": 4482
+    },
+    {
+      "key": "丁一一，现在来到月亮湖畔。每一个角落，都藏着暖暖的小惊喜。",
+      "next": "现",
+      "following_word_at": 0.874,
+      "original_length_ms": 4800,
+      "revised_length_ms": 4422
+    },
+    {
+      "key": "丁一一，现在来到云端学院。每一个角落，都藏着暖暖的小惊喜。",
+      "next": "现",
+      "following_word_at": 0.814,
+      "original_length_ms": 5016,
+      "revised_length_ms": 4698
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "next": "小",
+      "following_word_at": 0.634,
+      "original_length_ms": 8592,
+      "revised_length_ms": 8454
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "next": "小",
+      "following_word_at": 0.614,
+      "original_length_ms": 7944,
+      "revised_length_ms": 7826
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "next": "小",
+      "following_word_at": 0.634,
+      "original_length_ms": 8520,
+      "revised_length_ms": 8382
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "next": "小",
+      "following_word_at": 0.534,
+      "original_length_ms": 9000,
+      "revised_length_ms": 8962
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "next": "小",
+      "following_word_at": 0.474,
+      "original_length_ms": 8784,
+      "revised_length_ms": 8806
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "next": "小",
+      "following_word_at": 0.514,
+      "original_length_ms": 8472,
+      "revised_length_ms": 8454
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "next": "小",
+      "following_word_at": 0.594,
+      "original_length_ms": 8688,
+      "revised_length_ms": 8590
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "next": "小",
+      "following_word_at": 0.614,
+      "original_length_ms": 8328,
+      "revised_length_ms": 8210
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "next": "小",
+      "following_word_at": 0.554,
+      "original_length_ms": 9360,
+      "revised_length_ms": 9302
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "next": "小",
+      "following_word_at": 0.674,
+      "original_length_ms": 9000,
+      "revised_length_ms": 8822
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "next": "小",
+      "following_word_at": 0.474,
+      "original_length_ms": 8976,
+      "revised_length_ms": 8998
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒岛。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "next": "小",
+      "following_word_at": 0.574,
+      "original_length_ms": 7008,
+      "revised_length_ms": 6930
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "next": "小",
+      "following_word_at": 0.634,
+      "original_length_ms": 8832,
+      "revised_length_ms": 8694
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "next": "小",
+      "following_word_at": 0.654,
+      "original_length_ms": 8232,
+      "revised_length_ms": 8074
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "next": "小",
+      "following_word_at": 0.494,
+      "original_length_ms": 8880,
+      "revised_length_ms": 8882
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "next": "小",
+      "following_word_at": 0.674,
+      "original_length_ms": 9264,
+      "revised_length_ms": 9086
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "next": "小",
+      "following_word_at": 0.494,
+      "original_length_ms": 8976,
+      "revised_length_ms": 8978
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "next": "小",
+      "following_word_at": 0.514,
+      "original_length_ms": 8568,
+      "revised_length_ms": 8550
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "next": "小",
+      "following_word_at": 0.574,
+      "original_length_ms": 8952,
+      "revised_length_ms": 8874
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "next": "小",
+      "following_word_at": 0.454,
+      "original_length_ms": 8496,
+      "revised_length_ms": 8538
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "next": "小",
+      "following_word_at": 0.594,
+      "original_length_ms": 9504,
+      "revised_length_ms": 9406
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "next": "小",
+      "following_word_at": 0.594,
+      "original_length_ms": 9168,
+      "revised_length_ms": 9070
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "next": "小",
+      "following_word_at": 0.514,
+      "original_length_ms": 9216,
+      "revised_length_ms": 9198
+    },
+    {
+      "key": "丁一一小冒险家，你现在在星绒广场。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "next": "小",
+      "following_word_at": 0.654,
+      "original_length_ms": 7176,
+      "revised_length_ms": 7018
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "next": "小",
+      "following_word_at": 0.514,
+      "original_length_ms": 8736,
+      "revised_length_ms": 8718
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "next": "小",
+      "following_word_at": 0.494,
+      "original_length_ms": 8136,
+      "revised_length_ms": 8138
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "next": "小",
+      "following_word_at": 0.534,
+      "original_length_ms": 8784,
+      "revised_length_ms": 8746
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "next": "小",
+      "following_word_at": 0.594,
+      "original_length_ms": 9072,
+      "revised_length_ms": 8974
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "next": "小",
+      "following_word_at": 0.454,
+      "original_length_ms": 8904,
+      "revised_length_ms": 8946
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "next": "小",
+      "following_word_at": 0.654,
+      "original_length_ms": 8616,
+      "revised_length_ms": 8458
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "next": "小",
+      "following_word_at": 0.474,
+      "original_length_ms": 8832,
+      "revised_length_ms": 8854
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "next": "小",
+      "following_word_at": 0.654,
+      "original_length_ms": 8424,
+      "revised_length_ms": 8266
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "next": "小",
+      "following_word_at": 0.534,
+      "original_length_ms": 9408,
+      "revised_length_ms": 9370
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "next": "小",
+      "following_word_at": 0.674,
+      "original_length_ms": 9216,
+      "revised_length_ms": 9038
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "next": "小",
+      "following_word_at": 0.654,
+      "original_length_ms": 9240,
+      "revised_length_ms": 9082
+    },
+    {
+      "key": "丁一一小冒险家，你现在在花语庭院。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "next": "小",
+      "following_word_at": 0.514,
+      "original_length_ms": 7152,
+      "revised_length_ms": 7134
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "next": "小",
+      "following_word_at": 0.494,
+      "original_length_ms": 8808,
+      "revised_length_ms": 8810
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "next": "小",
+      "following_word_at": 0.614,
+      "original_length_ms": 8160,
+      "revised_length_ms": 8042
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "next": "小",
+      "following_word_at": 0.694,
+      "original_length_ms": 8832,
+      "revised_length_ms": 8634
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "next": "小",
+      "following_word_at": 0.454,
+      "original_length_ms": 9048,
+      "revised_length_ms": 9090
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "next": "小",
+      "following_word_at": 0.634,
+      "original_length_ms": 9096,
+      "revised_length_ms": 8958
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "next": "小",
+      "following_word_at": 0.534,
+      "original_length_ms": 8688,
+      "revised_length_ms": 8650
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "next": "小",
+      "following_word_at": 0.374,
+      "original_length_ms": 8688,
+      "revised_length_ms": 8810
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "next": "小",
+      "following_word_at": 0.534,
+      "original_length_ms": 8544,
+      "revised_length_ms": 8506
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "next": "小",
+      "following_word_at": 0.574,
+      "original_length_ms": 9552,
+      "revised_length_ms": 9474
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "next": "小",
+      "following_word_at": 0.694,
+      "original_length_ms": 9264,
+      "revised_length_ms": 9066
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "next": "小",
+      "following_word_at": 0.474,
+      "original_length_ms": 9072,
+      "revised_length_ms": 9094
+    },
+    {
+      "key": "丁一一小冒险家，你现在在糖果森林。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "next": "小",
+      "following_word_at": 0.634,
+      "original_length_ms": 7248,
+      "revised_length_ms": 7110
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "next": "小",
+      "following_word_at": 0.534,
+      "original_length_ms": 8928,
+      "revised_length_ms": 8890
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "next": "小",
+      "following_word_at": 0.654,
+      "original_length_ms": 8016,
+      "revised_length_ms": 7858
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "next": "小",
+      "following_word_at": 0.634,
+      "original_length_ms": 8880,
+      "revised_length_ms": 8742
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "next": "小",
+      "following_word_at": 0.454,
+      "original_length_ms": 9168,
+      "revised_length_ms": 9210
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "next": "小",
+      "following_word_at": 0.534,
+      "original_length_ms": 8976,
+      "revised_length_ms": 8938
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "next": "小",
+      "following_word_at": 0.474,
+      "original_length_ms": 8640,
+      "revised_length_ms": 8662
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "next": "小",
+      "following_word_at": 0.494,
+      "original_length_ms": 8832,
+      "revised_length_ms": 8834
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "next": "小",
+      "following_word_at": 0.694,
+      "original_length_ms": 8496,
+      "revised_length_ms": 8298
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "next": "小",
+      "following_word_at": 0.634,
+      "original_length_ms": 9432,
+      "revised_length_ms": 9294
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "next": "小",
+      "following_word_at": 0.554,
+      "original_length_ms": 9240,
+      "revised_length_ms": 9182
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "next": "小",
+      "following_word_at": 0.514,
+      "original_length_ms": 9240,
+      "revised_length_ms": 9222
+    },
+    {
+      "key": "丁一一小冒险家，你现在在彩虹溪谷。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "next": "小",
+      "following_word_at": 0.494,
+      "original_length_ms": 7152,
+      "revised_length_ms": 7154
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "next": "小",
+      "following_word_at": 0.514,
+      "original_length_ms": 8808,
+      "revised_length_ms": 8790
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "next": "小",
+      "following_word_at": 0.574,
+      "original_length_ms": 8112,
+      "revised_length_ms": 8034
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "next": "小",
+      "following_word_at": 0.634,
+      "original_length_ms": 8880,
+      "revised_length_ms": 8742
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "next": "小",
+      "following_word_at": 0.614,
+      "original_length_ms": 9264,
+      "revised_length_ms": 9146
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "next": "小",
+      "following_word_at": 0.594,
+      "original_length_ms": 8952,
+      "revised_length_ms": 8854
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "next": "小",
+      "following_word_at": 0.654,
+      "original_length_ms": 8544,
+      "revised_length_ms": 8386
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "next": "小",
+      "following_word_at": 0.674,
+      "original_length_ms": 8856,
+      "revised_length_ms": 8678
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "next": "小",
+      "following_word_at": 0.454,
+      "original_length_ms": 8472,
+      "revised_length_ms": 8514
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "next": "小",
+      "following_word_at": 0.494,
+      "original_length_ms": 9528,
+      "revised_length_ms": 9530
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "next": "小",
+      "following_word_at": 0.614,
+      "original_length_ms": 9168,
+      "revised_length_ms": 9050
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "next": "小",
+      "following_word_at": 0.614,
+      "original_length_ms": 9168,
+      "revised_length_ms": 9050
+    },
+    {
+      "key": "丁一一小冒险家，你现在在月亮湖畔。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "next": "小",
+      "following_word_at": 0.534,
+      "original_length_ms": 7248,
+      "revised_length_ms": 7210
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：和泡泡交个朋友。在广场找到粉粉的小云朵，轻轻点它。",
+      "next": "小",
+      "following_word_at": 0.494,
+      "original_length_ms": 8736,
+      "revised_length_ms": 8738
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：唤醒星光树。点击广场中央发着光的彩虹星树。",
+      "next": "小",
+      "following_word_at": 0.614,
+      "original_length_ms": 8208,
+      "revised_length_ms": 8090
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：种下第一朵花。去花语庭院，点一块花圃，种一颗种子。",
+      "next": "小",
+      "following_word_at": 0.514,
+      "original_length_ms": 8736,
+      "revised_length_ms": 8718
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：发现第一份乐趣。点下方「玩游戏」，任选一个小游戏完成。",
+      "next": "小",
+      "following_word_at": 0.654,
+      "original_length_ms": 9216,
+      "revised_length_ms": 9058
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：前往糖果森林。点击「地图」，找到糖果森林，开始探险。",
+      "next": "小",
+      "following_word_at": 0.454,
+      "original_length_ms": 9096,
+      "revised_length_ms": 9138
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：找到栗栗。在森林中寻找可爱的小狐狸，与它说说话。",
+      "next": "小",
+      "following_word_at": 0.514,
+      "original_length_ms": 8616,
+      "revised_length_ms": 8598
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：收集三颗橡果。糖果森林里有3颗闪亮的橡果，找到它们。",
+      "next": "小",
+      "following_word_at": 0.594,
+      "original_length_ms": 8808,
+      "revised_length_ms": 8710
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：拜访月亮湖。坐着彩虹云朵去月亮湖，看一看湖水。",
+      "next": "小",
+      "following_word_at": 0.514,
+      "original_length_ms": 8472,
+      "revised_length_ms": 8454
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：制作一份魔法点心。去「玩游戏」里的魔法烘焙屋，做个小蛋糕。",
+      "next": "小",
+      "following_word_at": 0.554,
+      "original_length_ms": 9600,
+      "revised_length_ms": 9542
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：学会星光旋律。去「玩游戏」的月芽音乐会，完成一段旋律。",
+      "next": "小",
+      "following_word_at": 0.554,
+      "original_length_ms": 9048,
+      "revised_length_ms": 8990
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。接下来的小任务是：点亮彩虹星树。回星绒广场，再次点击彩虹星树，举办庆典！",
+      "next": "小",
+      "following_word_at": 0.614,
+      "original_length_ms": 9240,
+      "revised_length_ms": 9122
+    },
+    {
+      "key": "丁一一小冒险家，你现在在云端学院。你可以随意探索，照顾精灵，或者挑一个喜欢的小游戏。",
+      "next": "小",
+      "following_word_at": 0.654,
+      "original_length_ms": 7176,
+      "revised_length_ms": 7018
+    },
+    {
+      "key": "丁一一的星绒岛重新绽放光芒！",
+      "next": "的",
+      "following_word_at": 0.534,
+      "original_length_ms": 2256,
+      "revised_length_ms": 2218
+    },
+    {
+      "key": "cn:ui:home",
+      "next": "我",
+      "following_word_at": 0.934,
+      "original_length_ms": 8328,
+      "revised_length_ms": 7890
+    },
+    {
+      "key": "cn:line:丁一一真棒",
+      "next": "真",
+      "following_word_at": 0.474,
+      "original_length_ms": 912,
+      "revised_length_ms": 934
+    }
+  ],
+  "skipped_examples": [],
+  "note": "Only three individually verified name syllables used; uncertain alignments skipped"
+}
