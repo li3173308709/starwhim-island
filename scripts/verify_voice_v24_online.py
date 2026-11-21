@@ -48,7 +48,7 @@ with sync_playwright() as pw:
     assert en[-1]['text'] in ['cat','dog','bird','fish','lion'],(device,en)
     # It must not play a recorded Chinese F5 voice when the English button is used.
     after_english=page.evaluate("window.__voiceAudit.recorded.length")
-    assert after_english==0,(device,'English erroneously routed through recorded girl's audio',after_english)
+    assert after_english==0,(device,"English erroneously routed through recorded girl voice",after_english)
     # The meaning should be a girl narration at 0.8x.
     page.locator("#miniBody .eng-meaning .v23-audio-control").first.click()
     page.wait_for_timeout(180)
