@@ -1,0 +1,2806 @@
+{
+  "version": 22,
+  "count": 400,
+  "lines": [
+    {
+      "id": "hz001",
+      "role": "bubble",
+      "text": "日光。日光的日。",
+      "key": "hanzi:日",
+      "context": "Mandarin example-word pronunciation rì"
+    },
+    {
+      "id": "hz002",
+      "role": "bubble",
+      "text": "月亮。月亮的月。",
+      "key": "hanzi:月",
+      "context": "Mandarin example-word pronunciation yuè"
+    },
+    {
+      "id": "hz003",
+      "role": "bubble",
+      "text": "喝水。喝水的水。",
+      "key": "hanzi:水",
+      "context": "Mandarin example-word pronunciation shuǐ"
+    },
+    {
+      "id": "hz004",
+      "role": "bubble",
+      "text": "火苗。火苗的火。",
+      "key": "hanzi:火",
+      "context": "Mandarin example-word pronunciation huǒ"
+    },
+    {
+      "id": "hz005",
+      "role": "bubble",
+      "text": "高山。高山的山。",
+      "key": "hanzi:山",
+      "context": "Mandarin example-word pronunciation shān"
+    },
+    {
+      "id": "hz006",
+      "role": "bubble",
+      "text": "田野。田野的田。",
+      "key": "hanzi:田",
+      "context": "Mandarin example-word pronunciation tián"
+    },
+    {
+      "id": "hz007",
+      "role": "bubble",
+      "text": "泥土。泥土的土。",
+      "key": "hanzi:土",
+      "context": "Mandarin example-word pronunciation tǔ"
+    },
+    {
+      "id": "hz008",
+      "role": "bubble",
+      "text": "石头。石头的石。",
+      "key": "hanzi:石",
+      "context": "Mandarin example-word pronunciation shí"
+    },
+    {
+      "id": "hz009",
+      "role": "bubble",
+      "text": "大风。大风的风。",
+      "key": "hanzi:风",
+      "context": "Mandarin example-word pronunciation fēng"
+    },
+    {
+      "id": "hz010",
+      "role": "bubble",
+      "text": "下雨。下雨的雨。",
+      "key": "hanzi:雨",
+      "context": "Mandarin example-word pronunciation yǔ"
+    },
+    {
+      "id": "hz011",
+      "role": "bubble",
+      "text": "白云。白云的云。",
+      "key": "hanzi:云",
+      "context": "Mandarin example-word pronunciation yún"
+    },
+    {
+      "id": "hz012",
+      "role": "bubble",
+      "text": "雪花。雪花的雪。",
+      "key": "hanzi:雪",
+      "context": "Mandarin example-word pronunciation xuě"
+    },
+    {
+      "id": "hz013",
+      "role": "bubble",
+      "text": "打雷。打雷的雷。",
+      "key": "hanzi:雷",
+      "context": "Mandarin example-word pronunciation léi"
+    },
+    {
+      "id": "hz014",
+      "role": "bubble",
+      "text": "闪电。闪电的电。",
+      "key": "hanzi:电",
+      "context": "Mandarin example-word pronunciation diàn"
+    },
+    {
+      "id": "hz015",
+      "role": "bubble",
+      "text": "冰块。冰块的冰。",
+      "key": "hanzi:冰",
+      "context": "Mandarin example-word pronunciation bīng"
+    },
+    {
+      "id": "hz016",
+      "role": "bubble",
+      "text": "阳光。阳光的光。",
+      "key": "hanzi:光",
+      "context": "Mandarin example-word pronunciation guāng"
+    },
+    {
+      "id": "hz017",
+      "role": "bubble",
+      "text": "星星。星星的星。",
+      "key": "hanzi:星",
+      "context": "Mandarin example-word pronunciation xīng"
+    },
+    {
+      "id": "hz018",
+      "role": "bubble",
+      "text": "天空。天空的空。",
+      "key": "hanzi:空",
+      "context": "Mandarin example-word pronunciation kōng"
+    },
+    {
+      "id": "hz019",
+      "role": "bubble",
+      "text": "蓝天。蓝天的天。",
+      "key": "hanzi:天",
+      "context": "Mandarin example-word pronunciation tiān"
+    },
+    {
+      "id": "hz020",
+      "role": "bubble",
+      "text": "大海。大海的海。",
+      "key": "hanzi:海",
+      "context": "Mandarin example-word pronunciation hǎi"
+    },
+    {
+      "id": "hz021",
+      "role": "bubble",
+      "text": "小猫。小猫的猫。",
+      "key": "hanzi:猫",
+      "context": "Mandarin example-word pronunciation māo"
+    },
+    {
+      "id": "hz022",
+      "role": "bubble",
+      "text": "小狗。小狗的狗。",
+      "key": "hanzi:狗",
+      "context": "Mandarin example-word pronunciation gǒu"
+    },
+    {
+      "id": "hz023",
+      "role": "bubble",
+      "text": "小鸟。小鸟的鸟。",
+      "key": "hanzi:鸟",
+      "context": "Mandarin example-word pronunciation niǎo"
+    },
+    {
+      "id": "hz024",
+      "role": "bubble",
+      "text": "小鱼。小鱼的鱼。",
+      "key": "hanzi:鱼",
+      "context": "Mandarin example-word pronunciation yú"
+    },
+    {
+      "id": "hz025",
+      "role": "bubble",
+      "text": "小马。小马的马。",
+      "key": "hanzi:马",
+      "context": "Mandarin example-word pronunciation mǎ"
+    },
+    {
+      "id": "hz026",
+      "role": "bubble",
+      "text": "水牛。水牛的牛。",
+      "key": "hanzi:牛",
+      "context": "Mandarin example-word pronunciation niú"
+    },
+    {
+      "id": "hz027",
+      "role": "bubble",
+      "text": "山羊。山羊的羊。",
+      "key": "hanzi:羊",
+      "context": "Mandarin example-word pronunciation yáng"
+    },
+    {
+      "id": "hz028",
+      "role": "bubble",
+      "text": "小鸡。小鸡的鸡。",
+      "key": "hanzi:鸡",
+      "context": "Mandarin example-word pronunciation jī"
+    },
+    {
+      "id": "hz029",
+      "role": "bubble",
+      "text": "鸭子。鸭子的鸭。",
+      "key": "hanzi:鸭",
+      "context": "Mandarin example-word pronunciation yā"
+    },
+    {
+      "id": "hz030",
+      "role": "bubble",
+      "text": "白鹅。白鹅的鹅。",
+      "key": "hanzi:鹅",
+      "context": "Mandarin example-word pronunciation é"
+    },
+    {
+      "id": "hz031",
+      "role": "bubble",
+      "text": "兔子。兔子的兔。",
+      "key": "hanzi:兔",
+      "context": "Mandarin example-word pronunciation tù"
+    },
+    {
+      "id": "hz032",
+      "role": "bubble",
+      "text": "老虎。老虎的虎。",
+      "key": "hanzi:虎",
+      "context": "Mandarin example-word pronunciation hǔ"
+    },
+    {
+      "id": "hz033",
+      "role": "bubble",
+      "text": "飞龙。飞龙的龙。",
+      "key": "hanzi:龙",
+      "context": "Mandarin example-word pronunciation lóng"
+    },
+    {
+      "id": "hz034",
+      "role": "bubble",
+      "text": "小蛇。小蛇的蛇。",
+      "key": "hanzi:蛇",
+      "context": "Mandarin example-word pronunciation shé"
+    },
+    {
+      "id": "hz035",
+      "role": "bubble",
+      "text": "虫子。虫子的虫。",
+      "key": "hanzi:虫",
+      "context": "Mandarin example-word pronunciation chóng"
+    },
+    {
+      "id": "hz036",
+      "role": "bubble",
+      "text": "青蛙。青蛙的蛙。",
+      "key": "hanzi:蛙",
+      "context": "Mandarin example-word pronunciation wā"
+    },
+    {
+      "id": "hz037",
+      "role": "bubble",
+      "text": "蜜蜂。蜜蜂的蜂。",
+      "key": "hanzi:蜂",
+      "context": "Mandarin example-word pronunciation fēng"
+    },
+    {
+      "id": "hz038",
+      "role": "bubble",
+      "text": "蝴蝶。蝴蝶的蝶。",
+      "key": "hanzi:蝶",
+      "context": "Mandarin example-word pronunciation dié"
+    },
+    {
+      "id": "hz039",
+      "role": "bubble",
+      "text": "小熊。小熊的熊。",
+      "key": "hanzi:熊",
+      "context": "Mandarin example-word pronunciation xióng"
+    },
+    {
+      "id": "hz040",
+      "role": "bubble",
+      "text": "大象。大象的象。",
+      "key": "hanzi:象",
+      "context": "Mandarin example-word pronunciation xiàng"
+    },
+    {
+      "id": "hz041",
+      "role": "bubble",
+      "text": "爸爸。爸爸的爸。",
+      "key": "hanzi:爸",
+      "context": "Mandarin example-word pronunciation bà"
+    },
+    {
+      "id": "hz042",
+      "role": "bubble",
+      "text": "妈妈。妈妈的妈。",
+      "key": "hanzi:妈",
+      "context": "Mandarin example-word pronunciation mā"
+    },
+    {
+      "id": "hz043",
+      "role": "bubble",
+      "text": "爷爷。爷爷的爷。",
+      "key": "hanzi:爷",
+      "context": "Mandarin example-word pronunciation yé"
+    },
+    {
+      "id": "hz044",
+      "role": "bubble",
+      "text": "奶奶。奶奶的奶。",
+      "key": "hanzi:奶",
+      "context": "Mandarin example-word pronunciation nǎi"
+    },
+    {
+      "id": "hz045",
+      "role": "bubble",
+      "text": "哥哥。哥哥的哥。",
+      "key": "hanzi:哥",
+      "context": "Mandarin example-word pronunciation gē"
+    },
+    {
+      "id": "hz046",
+      "role": "bubble",
+      "text": "姐姐。姐姐的姐。",
+      "key": "hanzi:姐",
+      "context": "Mandarin example-word pronunciation jiě"
+    },
+    {
+      "id": "hz047",
+      "role": "bubble",
+      "text": "弟弟。弟弟的弟。",
+      "key": "hanzi:弟",
+      "context": "Mandarin example-word pronunciation dì"
+    },
+    {
+      "id": "hz048",
+      "role": "bubble",
+      "text": "妹妹。妹妹的妹。",
+      "key": "hanzi:妹",
+      "context": "Mandarin example-word pronunciation mèi"
+    },
+    {
+      "id": "hz049",
+      "role": "bubble",
+      "text": "儿子。儿子的儿。",
+      "key": "hanzi:儿",
+      "context": "Mandarin example-word pronunciation ér"
+    },
+    {
+      "id": "hz050",
+      "role": "bubble",
+      "text": "孩子。孩子的子。",
+      "key": "hanzi:子",
+      "context": "Mandarin example-word pronunciation zǐ"
+    },
+    {
+      "id": "hz051",
+      "role": "bubble",
+      "text": "女孩。女孩的女。",
+      "key": "hanzi:女",
+      "context": "Mandarin example-word pronunciation nǚ"
+    },
+    {
+      "id": "hz052",
+      "role": "bubble",
+      "text": "朋友。朋友的友。",
+      "key": "hanzi:友",
+      "context": "Mandarin example-word pronunciation yǒu"
+    },
+    {
+      "id": "hz053",
+      "role": "bubble",
+      "text": "朋友。朋友的朋。",
+      "key": "hanzi:朋",
+      "context": "Mandarin example-word pronunciation péng"
+    },
+    {
+      "id": "hz054",
+      "role": "bubble",
+      "text": "人们。人们的人。",
+      "key": "hanzi:人",
+      "context": "Mandarin example-word pronunciation rén"
+    },
+    {
+      "id": "hz055",
+      "role": "bubble",
+      "text": "我们。我们的我。",
+      "key": "hanzi:我",
+      "context": "Mandarin example-word pronunciation wǒ"
+    },
+    {
+      "id": "hz056",
+      "role": "bubble",
+      "text": "你好。你好的你。",
+      "key": "hanzi:你",
+      "context": "Mandarin example-word pronunciation nǐ"
+    },
+    {
+      "id": "hz057",
+      "role": "bubble",
+      "text": "他们。他们的他。",
+      "key": "hanzi:他",
+      "context": "Mandarin example-word pronunciation tā"
+    },
+    {
+      "id": "hz058",
+      "role": "bubble",
+      "text": "她们。她们的她。",
+      "key": "hanzi:她",
+      "context": "Mandarin example-word pronunciation tā"
+    },
+    {
+      "id": "hz059",
+      "role": "bubble",
+      "text": "我们。我们的们。",
+      "key": "hanzi:们",
+      "context": "Mandarin example-word pronunciation men"
+    },
+    {
+      "id": "hz060",
+      "role": "bubble",
+      "text": "亲人。亲人的亲。",
+      "key": "hanzi:亲",
+      "context": "Mandarin example-word pronunciation qīn"
+    },
+    {
+      "id": "hz061",
+      "role": "bubble",
+      "text": "头发。头发的头。",
+      "key": "hanzi:头",
+      "context": "Mandarin example-word pronunciation tóu"
+    },
+    {
+      "id": "hz062",
+      "role": "bubble",
+      "text": "小手。小手的手。",
+      "key": "hanzi:手",
+      "context": "Mandarin example-word pronunciation shǒu"
+    },
+    {
+      "id": "hz063",
+      "role": "bubble",
+      "text": "脚步。脚步的脚。",
+      "key": "hanzi:脚",
+      "context": "Mandarin example-word pronunciation jiǎo"
+    },
+    {
+      "id": "hz064",
+      "role": "bubble",
+      "text": "眼睛。眼睛的眼。",
+      "key": "hanzi:眼",
+      "context": "Mandarin example-word pronunciation yǎn"
+    },
+    {
+      "id": "hz065",
+      "role": "bubble",
+      "text": "耳朵。耳朵的耳。",
+      "key": "hanzi:耳",
+      "context": "Mandarin example-word pronunciation ěr"
+    },
+    {
+      "id": "hz066",
+      "role": "bubble",
+      "text": "鼻子。鼻子的鼻。",
+      "key": "hanzi:鼻",
+      "context": "Mandarin example-word pronunciation bí"
+    },
+    {
+      "id": "hz067",
+      "role": "bubble",
+      "text": "口水。口水的口。",
+      "key": "hanzi:口",
+      "context": "Mandarin example-word pronunciation kǒu"
+    },
+    {
+      "id": "hz068",
+      "role": "bubble",
+      "text": "牙齿。牙齿的牙。",
+      "key": "hanzi:牙",
+      "context": "Mandarin example-word pronunciation yá"
+    },
+    {
+      "id": "hz069",
+      "role": "bubble",
+      "text": "笑脸。笑脸的脸。",
+      "key": "hanzi:脸",
+      "context": "Mandarin example-word pronunciation liǎn"
+    },
+    {
+      "id": "hz070",
+      "role": "bubble",
+      "text": "爱心。爱心的心。",
+      "key": "hanzi:心",
+      "context": "Mandarin example-word pronunciation xīn"
+    },
+    {
+      "id": "hz071",
+      "role": "bubble",
+      "text": "肚子。肚子的肚。",
+      "key": "hanzi:肚",
+      "context": "Mandarin example-word pronunciation dù"
+    },
+    {
+      "id": "hz072",
+      "role": "bubble",
+      "text": "背包。背包的背。",
+      "key": "hanzi:背",
+      "context": "Mandarin example-word pronunciation bèi"
+    },
+    {
+      "id": "hz073",
+      "role": "bubble",
+      "text": "大腿。大腿的腿。",
+      "key": "hanzi:腿",
+      "context": "Mandarin example-word pronunciation tuǐ"
+    },
+    {
+      "id": "hz074",
+      "role": "bubble",
+      "text": "头发。头发的发。",
+      "key": "hanzi:发",
+      "context": "Mandarin example-word pronunciation fà"
+    },
+    {
+      "id": "hz075",
+      "role": "bubble",
+      "text": "毛发。毛发的毛。",
+      "key": "hanzi:毛",
+      "context": "Mandarin example-word pronunciation máo"
+    },
+    {
+      "id": "hz076",
+      "role": "bubble",
+      "text": "身体。身体的身。",
+      "key": "hanzi:身",
+      "context": "Mandarin example-word pronunciation shēn"
+    },
+    {
+      "id": "hz077",
+      "role": "bubble",
+      "text": "血液。血液的血。",
+      "key": "hanzi:血",
+      "context": "Mandarin example-word pronunciation xuè"
+    },
+    {
+      "id": "hz078",
+      "role": "bubble",
+      "text": "骨头。骨头的骨。",
+      "key": "hanzi:骨",
+      "context": "Mandarin example-word pronunciation gǔ"
+    },
+    {
+      "id": "hz079",
+      "role": "bubble",
+      "text": "皮肤。皮肤的皮。",
+      "key": "hanzi:皮",
+      "context": "Mandarin example-word pronunciation pí"
+    },
+    {
+      "id": "hz080",
+      "role": "bubble",
+      "text": "手指。手指的指。",
+      "key": "hanzi:指",
+      "context": "Mandarin example-word pronunciation zhǐ"
+    },
+    {
+      "id": "hz081",
+      "role": "bubble",
+      "text": "大米。大米的米。",
+      "key": "hanzi:米",
+      "context": "Mandarin example-word pronunciation mǐ"
+    },
+    {
+      "id": "hz082",
+      "role": "bubble",
+      "text": "米饭。米饭的饭。",
+      "key": "hanzi:饭",
+      "context": "Mandarin example-word pronunciation fàn"
+    },
+    {
+      "id": "hz083",
+      "role": "bubble",
+      "text": "面条。面条的面。",
+      "key": "hanzi:面",
+      "context": "Mandarin example-word pronunciation miàn"
+    },
+    {
+      "id": "hz084",
+      "role": "bubble",
+      "text": "面包。面包的包。",
+      "key": "hanzi:包",
+      "context": "Mandarin example-word pronunciation bāo"
+    },
+    {
+      "id": "hz085",
+      "role": "bubble",
+      "text": "水果。水果的果。",
+      "key": "hanzi:果",
+      "context": "Mandarin example-word pronunciation guǒ"
+    },
+    {
+      "id": "hz086",
+      "role": "bubble",
+      "text": "蔬菜。蔬菜的菜。",
+      "key": "hanzi:菜",
+      "context": "Mandarin example-word pronunciation cài"
+    },
+    {
+      "id": "hz087",
+      "role": "bubble",
+      "text": "茶水。茶水的茶。",
+      "key": "hanzi:茶",
+      "context": "Mandarin example-word pronunciation chá"
+    },
+    {
+      "id": "hz088",
+      "role": "bubble",
+      "text": "乳汁。乳汁的乳。",
+      "key": "hanzi:乳",
+      "context": "Mandarin example-word pronunciation rǔ"
+    },
+    {
+      "id": "hz089",
+      "role": "bubble",
+      "text": "肉片。肉片的肉。",
+      "key": "hanzi:肉",
+      "context": "Mandarin example-word pronunciation ròu"
+    },
+    {
+      "id": "hz090",
+      "role": "bubble",
+      "text": "鸡蛋。鸡蛋的蛋。",
+      "key": "hanzi:蛋",
+      "context": "Mandarin example-word pronunciation dàn"
+    },
+    {
+      "id": "hz091",
+      "role": "bubble",
+      "text": "糖果。糖果的糖。",
+      "key": "hanzi:糖",
+      "context": "Mandarin example-word pronunciation táng"
+    },
+    {
+      "id": "hz092",
+      "role": "bubble",
+      "text": "食盐。食盐的盐。",
+      "key": "hanzi:盐",
+      "context": "Mandarin example-word pronunciation yán"
+    },
+    {
+      "id": "hz093",
+      "role": "bubble",
+      "text": "酸味。酸味的酸。",
+      "key": "hanzi:酸",
+      "context": "Mandarin example-word pronunciation suān"
+    },
+    {
+      "id": "hz094",
+      "role": "bubble",
+      "text": "甜点。甜点的甜。",
+      "key": "hanzi:甜",
+      "context": "Mandarin example-word pronunciation tián"
+    },
+    {
+      "id": "hz095",
+      "role": "bubble",
+      "text": "香味。香味的香。",
+      "key": "hanzi:香",
+      "context": "Mandarin example-word pronunciation xiāng"
+    },
+    {
+      "id": "hz096",
+      "role": "bubble",
+      "text": "饼干。饼干的饼。",
+      "key": "hanzi:饼",
+      "context": "Mandarin example-word pronunciation bǐng"
+    },
+    {
+      "id": "hz097",
+      "role": "bubble",
+      "text": "西瓜。西瓜的瓜。",
+      "key": "hanzi:瓜",
+      "context": "Mandarin example-word pronunciation guā"
+    },
+    {
+      "id": "hz098",
+      "role": "bubble",
+      "text": "桃子。桃子的桃。",
+      "key": "hanzi:桃",
+      "context": "Mandarin example-word pronunciation táo"
+    },
+    {
+      "id": "hz099",
+      "role": "bubble",
+      "text": "雪梨。雪梨的梨。",
+      "key": "hanzi:梨",
+      "context": "Mandarin example-word pronunciation lí"
+    },
+    {
+      "id": "hz100",
+      "role": "bubble",
+      "text": "豆子。豆子的豆。",
+      "key": "hanzi:豆",
+      "context": "Mandarin example-word pronunciation dòu"
+    },
+    {
+      "id": "hz101",
+      "role": "bubble",
+      "text": "一个。一个的一。",
+      "key": "hanzi:一",
+      "context": "Mandarin example-word pronunciation yī"
+    },
+    {
+      "id": "hz102",
+      "role": "bubble",
+      "text": "两个。两个的二。",
+      "key": "hanzi:二",
+      "context": "Mandarin example-word pronunciation èr"
+    },
+    {
+      "id": "hz103",
+      "role": "bubble",
+      "text": "三个。三个的三。",
+      "key": "hanzi:三",
+      "context": "Mandarin example-word pronunciation sān"
+    },
+    {
+      "id": "hz104",
+      "role": "bubble",
+      "text": "四个。四个的四。",
+      "key": "hanzi:四",
+      "context": "Mandarin example-word pronunciation sì"
+    },
+    {
+      "id": "hz105",
+      "role": "bubble",
+      "text": "五个。五个的五。",
+      "key": "hanzi:五",
+      "context": "Mandarin example-word pronunciation wǔ"
+    },
+    {
+      "id": "hz106",
+      "role": "bubble",
+      "text": "六个。六个的六。",
+      "key": "hanzi:六",
+      "context": "Mandarin example-word pronunciation liù"
+    },
+    {
+      "id": "hz107",
+      "role": "bubble",
+      "text": "七个。七个的七。",
+      "key": "hanzi:七",
+      "context": "Mandarin example-word pronunciation qī"
+    },
+    {
+      "id": "hz108",
+      "role": "bubble",
+      "text": "八个。八个的八。",
+      "key": "hanzi:八",
+      "context": "Mandarin example-word pronunciation bā"
+    },
+    {
+      "id": "hz109",
+      "role": "bubble",
+      "text": "九个。九个的九。",
+      "key": "hanzi:九",
+      "context": "Mandarin example-word pronunciation jiǔ"
+    },
+    {
+      "id": "hz110",
+      "role": "bubble",
+      "text": "十个。十个的十。",
+      "key": "hanzi:十",
+      "context": "Mandarin example-word pronunciation shí"
+    },
+    {
+      "id": "hz111",
+      "role": "bubble",
+      "text": "一百。一百的百。",
+      "key": "hanzi:百",
+      "context": "Mandarin example-word pronunciation bǎi"
+    },
+    {
+      "id": "hz112",
+      "role": "bubble",
+      "text": "一千。一千的千。",
+      "key": "hanzi:千",
+      "context": "Mandarin example-word pronunciation qiān"
+    },
+    {
+      "id": "hz113",
+      "role": "bubble",
+      "text": "早上。早上的早。",
+      "key": "hanzi:早",
+      "context": "Mandarin example-word pronunciation zǎo"
+    },
+    {
+      "id": "hz114",
+      "role": "bubble",
+      "text": "晚上。晚上的晚。",
+      "key": "hanzi:晚",
+      "context": "Mandarin example-word pronunciation wǎn"
+    },
+    {
+      "id": "hz115",
+      "role": "bubble",
+      "text": "昨天。昨天的昨。",
+      "key": "hanzi:昨",
+      "context": "Mandarin example-word pronunciation zuó"
+    },
+    {
+      "id": "hz116",
+      "role": "bubble",
+      "text": "今天。今天的今。",
+      "key": "hanzi:今",
+      "context": "Mandarin example-word pronunciation jīn"
+    },
+    {
+      "id": "hz117",
+      "role": "bubble",
+      "text": "明天。明天的明。",
+      "key": "hanzi:明",
+      "context": "Mandarin example-word pronunciation míng"
+    },
+    {
+      "id": "hz118",
+      "role": "bubble",
+      "text": "新年。新年的年。",
+      "key": "hanzi:年",
+      "context": "Mandarin example-word pronunciation nián"
+    },
+    {
+      "id": "hz119",
+      "role": "bubble",
+      "text": "时间。时间的时。",
+      "key": "hanzi:时",
+      "context": "Mandarin example-word pronunciation shí"
+    },
+    {
+      "id": "hz120",
+      "role": "bubble",
+      "text": "分钟。分钟的分。",
+      "key": "hanzi:分",
+      "context": "Mandarin example-word pronunciation fēn"
+    },
+    {
+      "id": "hz121",
+      "role": "bubble",
+      "text": "上面。上面的上。",
+      "key": "hanzi:上",
+      "context": "Mandarin example-word pronunciation shàng"
+    },
+    {
+      "id": "hz122",
+      "role": "bubble",
+      "text": "下面。下面的下。",
+      "key": "hanzi:下",
+      "context": "Mandarin example-word pronunciation xià"
+    },
+    {
+      "id": "hz123",
+      "role": "bubble",
+      "text": "左边。左边的左。",
+      "key": "hanzi:左",
+      "context": "Mandarin example-word pronunciation zuǒ"
+    },
+    {
+      "id": "hz124",
+      "role": "bubble",
+      "text": "右边。右边的右。",
+      "key": "hanzi:右",
+      "context": "Mandarin example-word pronunciation yòu"
+    },
+    {
+      "id": "hz125",
+      "role": "bubble",
+      "text": "前面。前面的前。",
+      "key": "hanzi:前",
+      "context": "Mandarin example-word pronunciation qián"
+    },
+    {
+      "id": "hz126",
+      "role": "bubble",
+      "text": "后面。后面的后。",
+      "key": "hanzi:后",
+      "context": "Mandarin example-word pronunciation hòu"
+    },
+    {
+      "id": "hz127",
+      "role": "bubble",
+      "text": "里面。里面的里。",
+      "key": "hanzi:里",
+      "context": "Mandarin example-word pronunciation lǐ"
+    },
+    {
+      "id": "hz128",
+      "role": "bubble",
+      "text": "外面。外面的外。",
+      "key": "hanzi:外",
+      "context": "Mandarin example-word pronunciation wài"
+    },
+    {
+      "id": "hz129",
+      "role": "bubble",
+      "text": "东方。东方的东。",
+      "key": "hanzi:东",
+      "context": "Mandarin example-word pronunciation dōng"
+    },
+    {
+      "id": "hz130",
+      "role": "bubble",
+      "text": "西方。西方的西。",
+      "key": "hanzi:西",
+      "context": "Mandarin example-word pronunciation xī"
+    },
+    {
+      "id": "hz131",
+      "role": "bubble",
+      "text": "南方。南方的南。",
+      "key": "hanzi:南",
+      "context": "Mandarin example-word pronunciation nán"
+    },
+    {
+      "id": "hz132",
+      "role": "bubble",
+      "text": "北方。北方的北。",
+      "key": "hanzi:北",
+      "context": "Mandarin example-word pronunciation běi"
+    },
+    {
+      "id": "hz133",
+      "role": "bubble",
+      "text": "过来。过来的来。",
+      "key": "hanzi:来",
+      "context": "Mandarin example-word pronunciation lái"
+    },
+    {
+      "id": "hz134",
+      "role": "bubble",
+      "text": "过去。过去的去。",
+      "key": "hanzi:去",
+      "context": "Mandarin example-word pronunciation qù"
+    },
+    {
+      "id": "hz135",
+      "role": "bubble",
+      "text": "走路。走路的走。",
+      "key": "hanzi:走",
+      "context": "Mandarin example-word pronunciation zǒu"
+    },
+    {
+      "id": "hz136",
+      "role": "bubble",
+      "text": "跑步。跑步的跑。",
+      "key": "hanzi:跑",
+      "context": "Mandarin example-word pronunciation pǎo"
+    },
+    {
+      "id": "hz137",
+      "role": "bubble",
+      "text": "跳高。跳高的跳。",
+      "key": "hanzi:跳",
+      "context": "Mandarin example-word pronunciation tiào"
+    },
+    {
+      "id": "hz138",
+      "role": "bubble",
+      "text": "坐下。坐下的坐。",
+      "key": "hanzi:坐",
+      "context": "Mandarin example-word pronunciation zuò"
+    },
+    {
+      "id": "hz139",
+      "role": "bubble",
+      "text": "站立。站立的站。",
+      "key": "hanzi:站",
+      "context": "Mandarin example-word pronunciation zhàn"
+    },
+    {
+      "id": "hz140",
+      "role": "bubble",
+      "text": "飞翔。飞翔的飞。",
+      "key": "hanzi:飞",
+      "context": "Mandarin example-word pronunciation fēi"
+    },
+    {
+      "id": "hz141",
+      "role": "bubble",
+      "text": "学习。学习的学。",
+      "key": "hanzi:学",
+      "context": "Mandarin example-word pronunciation xué"
+    },
+    {
+      "id": "hz142",
+      "role": "bubble",
+      "text": "学校。学校的校。",
+      "key": "hanzi:校",
+      "context": "Mandarin example-word pronunciation xiào"
+    },
+    {
+      "id": "hz143",
+      "role": "bubble",
+      "text": "书本。书本的书。",
+      "key": "hanzi:书",
+      "context": "Mandarin example-word pronunciation shū"
+    },
+    {
+      "id": "hz144",
+      "role": "bubble",
+      "text": "课本。课本的本。",
+      "key": "hanzi:本",
+      "context": "Mandarin example-word pronunciation běn"
+    },
+    {
+      "id": "hz145",
+      "role": "bubble",
+      "text": "铅笔。铅笔的笔。",
+      "key": "hanzi:笔",
+      "context": "Mandarin example-word pronunciation bǐ"
+    },
+    {
+      "id": "hz146",
+      "role": "bubble",
+      "text": "白纸。白纸的纸。",
+      "key": "hanzi:纸",
+      "context": "Mandarin example-word pronunciation zhǐ"
+    },
+    {
+      "id": "hz147",
+      "role": "bubble",
+      "text": "汉字。汉字的字。",
+      "key": "hanzi:字",
+      "context": "Mandarin example-word pronunciation zì"
+    },
+    {
+      "id": "hz148",
+      "role": "bubble",
+      "text": "画画。画画的画。",
+      "key": "hanzi:画",
+      "context": "Mandarin example-word pronunciation huà"
+    },
+    {
+      "id": "hz149",
+      "role": "bubble",
+      "text": "桌子。桌子的桌。",
+      "key": "hanzi:桌",
+      "context": "Mandarin example-word pronunciation zhuō"
+    },
+    {
+      "id": "hz150",
+      "role": "bubble",
+      "text": "椅子。椅子的椅。",
+      "key": "hanzi:椅",
+      "context": "Mandarin example-word pronunciation yǐ"
+    },
+    {
+      "id": "hz151",
+      "role": "bubble",
+      "text": "大门。大门的门。",
+      "key": "hanzi:门",
+      "context": "Mandarin example-word pronunciation mén"
+    },
+    {
+      "id": "hz152",
+      "role": "bubble",
+      "text": "窗户。窗户的窗。",
+      "key": "hanzi:窗",
+      "context": "Mandarin example-word pronunciation chuāng"
+    },
+    {
+      "id": "hz153",
+      "role": "bubble",
+      "text": "电灯。电灯的灯。",
+      "key": "hanzi:灯",
+      "context": "Mandarin example-word pronunciation dēng"
+    },
+    {
+      "id": "hz154",
+      "role": "bubble",
+      "text": "时钟。时钟的钟。",
+      "key": "hanzi:钟",
+      "context": "Mandarin example-word pronunciation zhōng"
+    },
+    {
+      "id": "hz155",
+      "role": "bubble",
+      "text": "汽车。汽车的车。",
+      "key": "hanzi:车",
+      "context": "Mandarin example-word pronunciation chē"
+    },
+    {
+      "id": "hz156",
+      "role": "bubble",
+      "text": "小船。小船的船。",
+      "key": "hanzi:船",
+      "context": "Mandarin example-word pronunciation chuán"
+    },
+    {
+      "id": "hz157",
+      "role": "bubble",
+      "text": "马路。马路的路。",
+      "key": "hanzi:路",
+      "context": "Mandarin example-word pronunciation lù"
+    },
+    {
+      "id": "hz158",
+      "role": "bubble",
+      "text": "大桥。大桥的桥。",
+      "key": "hanzi:桥",
+      "context": "Mandarin example-word pronunciation qiáo"
+    },
+    {
+      "id": "hz159",
+      "role": "bubble",
+      "text": "皮球。皮球的球。",
+      "key": "hanzi:球",
+      "context": "Mandarin example-word pronunciation qiú"
+    },
+    {
+      "id": "hz160",
+      "role": "bubble",
+      "text": "雨伞。雨伞的伞。",
+      "key": "hanzi:伞",
+      "context": "Mandarin example-word pronunciation sǎn"
+    },
+    {
+      "id": "hz161",
+      "role": "bubble",
+      "text": "红色。红色的红。",
+      "key": "hanzi:红",
+      "context": "Mandarin example-word pronunciation hóng"
+    },
+    {
+      "id": "hz162",
+      "role": "bubble",
+      "text": "黄色。黄色的黄。",
+      "key": "hanzi:黄",
+      "context": "Mandarin example-word pronunciation huáng"
+    },
+    {
+      "id": "hz163",
+      "role": "bubble",
+      "text": "蓝色。蓝色的蓝。",
+      "key": "hanzi:蓝",
+      "context": "Mandarin example-word pronunciation lán"
+    },
+    {
+      "id": "hz164",
+      "role": "bubble",
+      "text": "绿色。绿色的绿。",
+      "key": "hanzi:绿",
+      "context": "Mandarin example-word pronunciation lǜ"
+    },
+    {
+      "id": "hz165",
+      "role": "bubble",
+      "text": "白色。白色的白。",
+      "key": "hanzi:白",
+      "context": "Mandarin example-word pronunciation bái"
+    },
+    {
+      "id": "hz166",
+      "role": "bubble",
+      "text": "黑色。黑色的黑。",
+      "key": "hanzi:黑",
+      "context": "Mandarin example-word pronunciation hēi"
+    },
+    {
+      "id": "hz167",
+      "role": "bubble",
+      "text": "紫色。紫色的紫。",
+      "key": "hanzi:紫",
+      "context": "Mandarin example-word pronunciation zǐ"
+    },
+    {
+      "id": "hz168",
+      "role": "bubble",
+      "text": "粉色。粉色的粉。",
+      "key": "hanzi:粉",
+      "context": "Mandarin example-word pronunciation fěn"
+    },
+    {
+      "id": "hz169",
+      "role": "bubble",
+      "text": "灰色。灰色的灰。",
+      "key": "hanzi:灰",
+      "context": "Mandarin example-word pronunciation huī"
+    },
+    {
+      "id": "hz170",
+      "role": "bubble",
+      "text": "金色。金色的金。",
+      "key": "hanzi:金",
+      "context": "Mandarin example-word pronunciation jīn"
+    },
+    {
+      "id": "hz171",
+      "role": "bubble",
+      "text": "银色。银色的银。",
+      "key": "hanzi:银",
+      "context": "Mandarin example-word pronunciation yín"
+    },
+    {
+      "id": "hz172",
+      "role": "bubble",
+      "text": "圆形。圆形的圆。",
+      "key": "hanzi:圆",
+      "context": "Mandarin example-word pronunciation yuán"
+    },
+    {
+      "id": "hz173",
+      "role": "bubble",
+      "text": "方形。方形的方。",
+      "key": "hanzi:方",
+      "context": "Mandarin example-word pronunciation fāng"
+    },
+    {
+      "id": "hz174",
+      "role": "bubble",
+      "text": "长方形。长方形的长。",
+      "key": "hanzi:长",
+      "context": "Mandarin example-word pronunciation cháng"
+    },
+    {
+      "id": "hz175",
+      "role": "bubble",
+      "text": "短短。短短的短。",
+      "key": "hanzi:短",
+      "context": "Mandarin example-word pronunciation duǎn"
+    },
+    {
+      "id": "hz176",
+      "role": "bubble",
+      "text": "高个子。高个子的高。",
+      "key": "hanzi:高",
+      "context": "Mandarin example-word pronunciation gāo"
+    },
+    {
+      "id": "hz177",
+      "role": "bubble",
+      "text": "低处。低处的低。",
+      "key": "hanzi:低",
+      "context": "Mandarin example-word pronunciation dī"
+    },
+    {
+      "id": "hz178",
+      "role": "bubble",
+      "text": "大大。大大的大。",
+      "key": "hanzi:大",
+      "context": "Mandarin example-word pronunciation dà"
+    },
+    {
+      "id": "hz179",
+      "role": "bubble",
+      "text": "小小。小小的小。",
+      "key": "hanzi:小",
+      "context": "Mandarin example-word pronunciation xiǎo"
+    },
+    {
+      "id": "hz180",
+      "role": "bubble",
+      "text": "宽阔。宽阔的宽。",
+      "key": "hanzi:宽",
+      "context": "Mandarin example-word pronunciation kuān"
+    },
+    {
+      "id": "hz181",
+      "role": "bubble",
+      "text": "微笑。微笑的笑。",
+      "key": "hanzi:笑",
+      "context": "Mandarin example-word pronunciation xiào"
+    },
+    {
+      "id": "hz182",
+      "role": "bubble",
+      "text": "哭泣。哭泣的哭。",
+      "key": "hanzi:哭",
+      "context": "Mandarin example-word pronunciation kū"
+    },
+    {
+      "id": "hz183",
+      "role": "bubble",
+      "text": "快乐。快乐的乐。",
+      "key": "hanzi:乐",
+      "context": "Mandarin example-word pronunciation lè"
+    },
+    {
+      "id": "hz184",
+      "role": "bubble",
+      "text": "爱心。爱心的爱。",
+      "key": "hanzi:爱",
+      "context": "Mandarin example-word pronunciation ài"
+    },
+    {
+      "id": "hz185",
+      "role": "bubble",
+      "text": "喜欢。喜欢的喜。",
+      "key": "hanzi:喜",
+      "context": "Mandarin example-word pronunciation xǐ"
+    },
+    {
+      "id": "hz186",
+      "role": "bubble",
+      "text": "欢乐。欢乐的欢。",
+      "key": "hanzi:欢",
+      "context": "Mandarin example-word pronunciation huān"
+    },
+    {
+      "id": "hz187",
+      "role": "bubble",
+      "text": "美好。美好的好。",
+      "key": "hanzi:好",
+      "context": "Mandarin example-word pronunciation hǎo"
+    },
+    {
+      "id": "hz188",
+      "role": "bubble",
+      "text": "坏了。坏了的坏。",
+      "key": "hanzi:坏",
+      "context": "Mandarin example-word pronunciation huài"
+    },
+    {
+      "id": "hz189",
+      "role": "bubble",
+      "text": "快乐。快乐的快。",
+      "key": "hanzi:快",
+      "context": "Mandarin example-word pronunciation kuài"
+    },
+    {
+      "id": "hz190",
+      "role": "bubble",
+      "text": "慢慢。慢慢的慢。",
+      "key": "hanzi:慢",
+      "context": "Mandarin example-word pronunciation màn"
+    },
+    {
+      "id": "hz191",
+      "role": "bubble",
+      "text": "美丽。美丽的美。",
+      "key": "hanzi:美",
+      "context": "Mandarin example-word pronunciation měi"
+    },
+    {
+      "id": "hz192",
+      "role": "bubble",
+      "text": "丑小鸭。丑小鸭的丑。",
+      "key": "hanzi:丑",
+      "context": "Mandarin example-word pronunciation chǒu"
+    },
+    {
+      "id": "hz193",
+      "role": "bubble",
+      "text": "真实。真实的真。",
+      "key": "hanzi:真",
+      "context": "Mandarin example-word pronunciation zhēn"
+    },
+    {
+      "id": "hz194",
+      "role": "bubble",
+      "text": "善良。善良的善。",
+      "key": "hanzi:善",
+      "context": "Mandarin example-word pronunciation shàn"
+    },
+    {
+      "id": "hz195",
+      "role": "bubble",
+      "text": "勇敢。勇敢的勇。",
+      "key": "hanzi:勇",
+      "context": "Mandarin example-word pronunciation yǒng"
+    },
+    {
+      "id": "hz196",
+      "role": "bubble",
+      "text": "勇敢。勇敢的敢。",
+      "key": "hanzi:敢",
+      "context": "Mandarin example-word pronunciation gǎn"
+    },
+    {
+      "id": "hz197",
+      "role": "bubble",
+      "text": "安静。安静的静。",
+      "key": "hanzi:静",
+      "context": "Mandarin example-word pronunciation jìng"
+    },
+    {
+      "id": "hz198",
+      "role": "bubble",
+      "text": "轻轻。轻轻的轻。",
+      "key": "hanzi:轻",
+      "context": "Mandarin example-word pronunciation qīng"
+    },
+    {
+      "id": "hz199",
+      "role": "bubble",
+      "text": "重量。重量的重。",
+      "key": "hanzi:重",
+      "context": "Mandarin example-word pronunciation zhòng"
+    },
+    {
+      "id": "hz200",
+      "role": "bubble",
+      "text": "温暖。温暖的暖。",
+      "key": "hanzi:暖",
+      "context": "Mandarin example-word pronunciation nuǎn"
+    },
+    {
+      "id": "en001",
+      "role": "bubble",
+      "text": "cat",
+      "key": "english:cat",
+      "context": "English word pronunciation 动物🐾"
+    },
+    {
+      "id": "en002",
+      "role": "bubble",
+      "text": "dog",
+      "key": "english:dog",
+      "context": "English word pronunciation 动物🐾"
+    },
+    {
+      "id": "en003",
+      "role": "bubble",
+      "text": "bird",
+      "key": "english:bird",
+      "context": "English word pronunciation 动物🐾"
+    },
+    {
+      "id": "en004",
+      "role": "bubble",
+      "text": "fish",
+      "key": "english:fish",
+      "context": "English word pronunciation 动物🐾"
+    },
+    {
+      "id": "en005",
+      "role": "bubble",
+      "text": "lion",
+      "key": "english:lion",
+      "context": "English word pronunciation 动物🐾"
+    },
+    {
+      "id": "en006",
+      "role": "bubble",
+      "text": "tiger",
+      "key": "english:tiger",
+      "context": "English word pronunciation 动物🐾"
+    },
+    {
+      "id": "en007",
+      "role": "bubble",
+      "text": "duck",
+      "key": "english:duck",
+      "context": "English word pronunciation 动物🐾"
+    },
+    {
+      "id": "en008",
+      "role": "bubble",
+      "text": "bear",
+      "key": "english:bear",
+      "context": "English word pronunciation 动物🐾"
+    },
+    {
+      "id": "en009",
+      "role": "bubble",
+      "text": "frog",
+      "key": "english:frog",
+      "context": "English word pronunciation 动物🐾"
+    },
+    {
+      "id": "en010",
+      "role": "bubble",
+      "text": "rabbit",
+      "key": "english:rabbit",
+      "context": "English word pronunciation 动物🐾"
+    },
+    {
+      "id": "en011",
+      "role": "bubble",
+      "text": "apple",
+      "key": "english:apple",
+      "context": "English word pronunciation 食物🍎"
+    },
+    {
+      "id": "en012",
+      "role": "bubble",
+      "text": "banana",
+      "key": "english:banana",
+      "context": "English word pronunciation 食物🍎"
+    },
+    {
+      "id": "en013",
+      "role": "bubble",
+      "text": "milk",
+      "key": "english:milk",
+      "context": "English word pronunciation 食物🍎"
+    },
+    {
+      "id": "en014",
+      "role": "bubble",
+      "text": "bread",
+      "key": "english:bread",
+      "context": "English word pronunciation 食物🍎"
+    },
+    {
+      "id": "en015",
+      "role": "bubble",
+      "text": "cake",
+      "key": "english:cake",
+      "context": "English word pronunciation 食物🍎"
+    },
+    {
+      "id": "en016",
+      "role": "bubble",
+      "text": "egg",
+      "key": "english:egg",
+      "context": "English word pronunciation 食物🍎"
+    },
+    {
+      "id": "en017",
+      "role": "bubble",
+      "text": "rice",
+      "key": "english:rice",
+      "context": "English word pronunciation 食物🍎"
+    },
+    {
+      "id": "en018",
+      "role": "bubble",
+      "text": "grape",
+      "key": "english:grape",
+      "context": "English word pronunciation 食物🍎"
+    },
+    {
+      "id": "en019",
+      "role": "bubble",
+      "text": "pear",
+      "key": "english:pear",
+      "context": "English word pronunciation 食物🍎"
+    },
+    {
+      "id": "en020",
+      "role": "bubble",
+      "text": "cookie",
+      "key": "english:cookie",
+      "context": "English word pronunciation 食物🍎"
+    },
+    {
+      "id": "en021",
+      "role": "bubble",
+      "text": "red",
+      "key": "english:red",
+      "context": "English word pronunciation 颜色🎨"
+    },
+    {
+      "id": "en022",
+      "role": "bubble",
+      "text": "blue",
+      "key": "english:blue",
+      "context": "English word pronunciation 颜色🎨"
+    },
+    {
+      "id": "en023",
+      "role": "bubble",
+      "text": "green",
+      "key": "english:green",
+      "context": "English word pronunciation 颜色🎨"
+    },
+    {
+      "id": "en024",
+      "role": "bubble",
+      "text": "yellow",
+      "key": "english:yellow",
+      "context": "English word pronunciation 颜色🎨"
+    },
+    {
+      "id": "en025",
+      "role": "bubble",
+      "text": "pink",
+      "key": "english:pink",
+      "context": "English word pronunciation 颜色🎨"
+    },
+    {
+      "id": "en026",
+      "role": "bubble",
+      "text": "purple",
+      "key": "english:purple",
+      "context": "English word pronunciation 颜色🎨"
+    },
+    {
+      "id": "en027",
+      "role": "bubble",
+      "text": "black",
+      "key": "english:black",
+      "context": "English word pronunciation 颜色🎨"
+    },
+    {
+      "id": "en028",
+      "role": "bubble",
+      "text": "white",
+      "key": "english:white",
+      "context": "English word pronunciation 颜色🎨"
+    },
+    {
+      "id": "en029",
+      "role": "bubble",
+      "text": "orange",
+      "key": "english:orange",
+      "context": "English word pronunciation 颜色🎨"
+    },
+    {
+      "id": "en030",
+      "role": "bubble",
+      "text": "brown",
+      "key": "english:brown",
+      "context": "English word pronunciation 颜色🎨"
+    },
+    {
+      "id": "en031",
+      "role": "bubble",
+      "text": "mom",
+      "key": "english:mom",
+      "context": "English word pronunciation 家庭🏠"
+    },
+    {
+      "id": "en032",
+      "role": "bubble",
+      "text": "dad",
+      "key": "english:dad",
+      "context": "English word pronunciation 家庭🏠"
+    },
+    {
+      "id": "en033",
+      "role": "bubble",
+      "text": "baby",
+      "key": "english:baby",
+      "context": "English word pronunciation 家庭🏠"
+    },
+    {
+      "id": "en034",
+      "role": "bubble",
+      "text": "sister",
+      "key": "english:sister",
+      "context": "English word pronunciation 家庭🏠"
+    },
+    {
+      "id": "en035",
+      "role": "bubble",
+      "text": "brother",
+      "key": "english:brother",
+      "context": "English word pronunciation 家庭🏠"
+    },
+    {
+      "id": "en036",
+      "role": "bubble",
+      "text": "family",
+      "key": "english:family",
+      "context": "English word pronunciation 家庭🏠"
+    },
+    {
+      "id": "en037",
+      "role": "bubble",
+      "text": "friend",
+      "key": "english:friend",
+      "context": "English word pronunciation 家庭🏠"
+    },
+    {
+      "id": "en038",
+      "role": "bubble",
+      "text": "home",
+      "key": "english:home",
+      "context": "English word pronunciation 家庭🏠"
+    },
+    {
+      "id": "en039",
+      "role": "bubble",
+      "text": "grandma",
+      "key": "english:grandma",
+      "context": "English word pronunciation 家庭🏠"
+    },
+    {
+      "id": "en040",
+      "role": "bubble",
+      "text": "grandpa",
+      "key": "english:grandpa",
+      "context": "English word pronunciation 家庭🏠"
+    },
+    {
+      "id": "en041",
+      "role": "bubble",
+      "text": "sun",
+      "key": "english:sun",
+      "context": "English word pronunciation 大自然🌳"
+    },
+    {
+      "id": "en042",
+      "role": "bubble",
+      "text": "moon",
+      "key": "english:moon",
+      "context": "English word pronunciation 大自然🌳"
+    },
+    {
+      "id": "en043",
+      "role": "bubble",
+      "text": "star",
+      "key": "english:star",
+      "context": "English word pronunciation 大自然🌳"
+    },
+    {
+      "id": "en044",
+      "role": "bubble",
+      "text": "cloud",
+      "key": "english:cloud",
+      "context": "English word pronunciation 大自然🌳"
+    },
+    {
+      "id": "en045",
+      "role": "bubble",
+      "text": "rain",
+      "key": "english:rain",
+      "context": "English word pronunciation 大自然🌳"
+    },
+    {
+      "id": "en046",
+      "role": "bubble",
+      "text": "snow",
+      "key": "english:snow",
+      "context": "English word pronunciation 大自然🌳"
+    },
+    {
+      "id": "en047",
+      "role": "bubble",
+      "text": "tree",
+      "key": "english:tree",
+      "context": "English word pronunciation 大自然🌳"
+    },
+    {
+      "id": "en048",
+      "role": "bubble",
+      "text": "flower",
+      "key": "english:flower",
+      "context": "English word pronunciation 大自然🌳"
+    },
+    {
+      "id": "en049",
+      "role": "bubble",
+      "text": "river",
+      "key": "english:river",
+      "context": "English word pronunciation 大自然🌳"
+    },
+    {
+      "id": "en050",
+      "role": "bubble",
+      "text": "rainbow",
+      "key": "english:rainbow",
+      "context": "English word pronunciation 大自然🌳"
+    },
+    {
+      "id": "en051",
+      "role": "bubble",
+      "text": "book",
+      "key": "english:book",
+      "context": "English word pronunciation 学校✏️"
+    },
+    {
+      "id": "en052",
+      "role": "bubble",
+      "text": "pen",
+      "key": "english:pen",
+      "context": "English word pronunciation 学校✏️"
+    },
+    {
+      "id": "en053",
+      "role": "bubble",
+      "text": "pencil",
+      "key": "english:pencil",
+      "context": "English word pronunciation 学校✏️"
+    },
+    {
+      "id": "en054",
+      "role": "bubble",
+      "text": "bag",
+      "key": "english:bag",
+      "context": "English word pronunciation 学校✏️"
+    },
+    {
+      "id": "en055",
+      "role": "bubble",
+      "text": "desk",
+      "key": "english:desk",
+      "context": "English word pronunciation 学校✏️"
+    },
+    {
+      "id": "en056",
+      "role": "bubble",
+      "text": "chair",
+      "key": "english:chair",
+      "context": "English word pronunciation 学校✏️"
+    },
+    {
+      "id": "en057",
+      "role": "bubble",
+      "text": "school",
+      "key": "english:school",
+      "context": "English word pronunciation 学校✏️"
+    },
+    {
+      "id": "en058",
+      "role": "bubble",
+      "text": "paper",
+      "key": "english:paper",
+      "context": "English word pronunciation 学校✏️"
+    },
+    {
+      "id": "en059",
+      "role": "bubble",
+      "text": "clock",
+      "key": "english:clock",
+      "context": "English word pronunciation 学校✏️"
+    },
+    {
+      "id": "en060",
+      "role": "bubble",
+      "text": "ball",
+      "key": "english:ball",
+      "context": "English word pronunciation 学校✏️"
+    },
+    {
+      "id": "en061",
+      "role": "bubble",
+      "text": "run",
+      "key": "english:run",
+      "context": "English word pronunciation 动作🏃"
+    },
+    {
+      "id": "en062",
+      "role": "bubble",
+      "text": "jump",
+      "key": "english:jump",
+      "context": "English word pronunciation 动作🏃"
+    },
+    {
+      "id": "en063",
+      "role": "bubble",
+      "text": "walk",
+      "key": "english:walk",
+      "context": "English word pronunciation 动作🏃"
+    },
+    {
+      "id": "en064",
+      "role": "bubble",
+      "text": "dance",
+      "key": "english:dance",
+      "context": "English word pronunciation 动作🏃"
+    },
+    {
+      "id": "en065",
+      "role": "bubble",
+      "text": "sing",
+      "key": "english:sing",
+      "context": "English word pronunciation 动作🏃"
+    },
+    {
+      "id": "en066",
+      "role": "bubble",
+      "text": "read",
+      "key": "english:read",
+      "context": "English word pronunciation 动作🏃"
+    },
+    {
+      "id": "en067",
+      "role": "bubble",
+      "text": "write",
+      "key": "english:write",
+      "context": "English word pronunciation 动作🏃"
+    },
+    {
+      "id": "en068",
+      "role": "bubble",
+      "text": "swim",
+      "key": "english:swim",
+      "context": "English word pronunciation 动作🏃"
+    },
+    {
+      "id": "en069",
+      "role": "bubble",
+      "text": "sleep",
+      "key": "english:sleep",
+      "context": "English word pronunciation 动作🏃"
+    },
+    {
+      "id": "en070",
+      "role": "bubble",
+      "text": "smile",
+      "key": "english:smile",
+      "context": "English word pronunciation 动作🏃"
+    },
+    {
+      "id": "en071",
+      "role": "bubble",
+      "text": "car",
+      "key": "english:car",
+      "context": "English word pronunciation 交通旅行🚗"
+    },
+    {
+      "id": "en072",
+      "role": "bubble",
+      "text": "bus",
+      "key": "english:bus",
+      "context": "English word pronunciation 交通旅行🚗"
+    },
+    {
+      "id": "en073",
+      "role": "bubble",
+      "text": "train",
+      "key": "english:train",
+      "context": "English word pronunciation 交通旅行🚗"
+    },
+    {
+      "id": "en074",
+      "role": "bubble",
+      "text": "bike",
+      "key": "english:bike",
+      "context": "English word pronunciation 交通旅行🚗"
+    },
+    {
+      "id": "en075",
+      "role": "bubble",
+      "text": "boat",
+      "key": "english:boat",
+      "context": "English word pronunciation 交通旅行🚗"
+    },
+    {
+      "id": "en076",
+      "role": "bubble",
+      "text": "plane",
+      "key": "english:plane",
+      "context": "English word pronunciation 交通旅行🚗"
+    },
+    {
+      "id": "en077",
+      "role": "bubble",
+      "text": "road",
+      "key": "english:road",
+      "context": "English word pronunciation 交通旅行🚗"
+    },
+    {
+      "id": "en078",
+      "role": "bubble",
+      "text": "park",
+      "key": "english:park",
+      "context": "English word pronunciation 交通旅行🚗"
+    },
+    {
+      "id": "en079",
+      "role": "bubble",
+      "text": "house",
+      "key": "english:house",
+      "context": "English word pronunciation 交通旅行🚗"
+    },
+    {
+      "id": "en080",
+      "role": "bubble",
+      "text": "bridge",
+      "key": "english:bridge",
+      "context": "English word pronunciation 交通旅行🚗"
+    },
+    {
+      "id": "en081",
+      "role": "bubble",
+      "text": "happy",
+      "key": "english:happy",
+      "context": "English word pronunciation 情绪表情😊"
+    },
+    {
+      "id": "en082",
+      "role": "bubble",
+      "text": "sad",
+      "key": "english:sad",
+      "context": "English word pronunciation 情绪表情😊"
+    },
+    {
+      "id": "en083",
+      "role": "bubble",
+      "text": "angry",
+      "key": "english:angry",
+      "context": "English word pronunciation 情绪表情😊"
+    },
+    {
+      "id": "en084",
+      "role": "bubble",
+      "text": "tired",
+      "key": "english:tired",
+      "context": "English word pronunciation 情绪表情😊"
+    },
+    {
+      "id": "en085",
+      "role": "bubble",
+      "text": "laugh",
+      "key": "english:laugh",
+      "context": "English word pronunciation 情绪表情😊"
+    },
+    {
+      "id": "en086",
+      "role": "bubble",
+      "text": "hello",
+      "key": "english:hello",
+      "context": "English word pronunciation 日常用语🗣️"
+    },
+    {
+      "id": "en087",
+      "role": "bubble",
+      "text": "goodbye",
+      "key": "english:goodbye",
+      "context": "English word pronunciation 日常用语🗣️"
+    },
+    {
+      "id": "en088",
+      "role": "bubble",
+      "text": "please",
+      "key": "english:please",
+      "context": "English word pronunciation 日常用语🗣️"
+    },
+    {
+      "id": "en089",
+      "role": "bubble",
+      "text": "thank you",
+      "key": "english:thank you",
+      "context": "English word pronunciation 日常用语🗣️"
+    },
+    {
+      "id": "en090",
+      "role": "bubble",
+      "text": "sorry",
+      "key": "english:sorry",
+      "context": "English word pronunciation 日常用语🗣️"
+    },
+    {
+      "id": "en091",
+      "role": "bubble",
+      "text": "head",
+      "key": "english:head",
+      "context": "English word pronunciation 身体部位👂"
+    },
+    {
+      "id": "en092",
+      "role": "bubble",
+      "text": "eye",
+      "key": "english:eye",
+      "context": "English word pronunciation 身体部位👂"
+    },
+    {
+      "id": "en093",
+      "role": "bubble",
+      "text": "ear",
+      "key": "english:ear",
+      "context": "English word pronunciation 身体部位👂"
+    },
+    {
+      "id": "en094",
+      "role": "bubble",
+      "text": "nose",
+      "key": "english:nose",
+      "context": "English word pronunciation 身体部位👂"
+    },
+    {
+      "id": "en095",
+      "role": "bubble",
+      "text": "mouth",
+      "key": "english:mouth",
+      "context": "English word pronunciation 身体部位👂"
+    },
+    {
+      "id": "en096",
+      "role": "bubble",
+      "text": "hand",
+      "key": "english:hand",
+      "context": "English word pronunciation 身体部位👂"
+    },
+    {
+      "id": "en097",
+      "role": "bubble",
+      "text": "foot",
+      "key": "english:foot",
+      "context": "English word pronunciation 身体部位👂"
+    },
+    {
+      "id": "en098",
+      "role": "bubble",
+      "text": "spring",
+      "key": "english:spring",
+      "context": "English word pronunciation 四季时间🕒"
+    },
+    {
+      "id": "en099",
+      "role": "bubble",
+      "text": "summer",
+      "key": "english:summer",
+      "context": "English word pronunciation 四季时间🕒"
+    },
+    {
+      "id": "en100",
+      "role": "bubble",
+      "text": "winter",
+      "key": "english:winter",
+      "context": "English word pronunciation 四季时间🕒"
+    },
+    {
+      "id": "en101",
+      "role": "bubble",
+      "text": "one",
+      "key": "english:one",
+      "context": "English word pronunciation 数字🔢"
+    },
+    {
+      "id": "en102",
+      "role": "bubble",
+      "text": "two",
+      "key": "english:two",
+      "context": "English word pronunciation 数字🔢"
+    },
+    {
+      "id": "en103",
+      "role": "bubble",
+      "text": "three",
+      "key": "english:three",
+      "context": "English word pronunciation 数字🔢"
+    },
+    {
+      "id": "en104",
+      "role": "bubble",
+      "text": "four",
+      "key": "english:four",
+      "context": "English word pronunciation 数字🔢"
+    },
+    {
+      "id": "en105",
+      "role": "bubble",
+      "text": "five",
+      "key": "english:five",
+      "context": "English word pronunciation 数字🔢"
+    },
+    {
+      "id": "en106",
+      "role": "bubble",
+      "text": "six",
+      "key": "english:six",
+      "context": "English word pronunciation 数字🔢"
+    },
+    {
+      "id": "en107",
+      "role": "bubble",
+      "text": "seven",
+      "key": "english:seven",
+      "context": "English word pronunciation 数字🔢"
+    },
+    {
+      "id": "en108",
+      "role": "bubble",
+      "text": "eight",
+      "key": "english:eight",
+      "context": "English word pronunciation 数字🔢"
+    },
+    {
+      "id": "en109",
+      "role": "bubble",
+      "text": "nine",
+      "key": "english:nine",
+      "context": "English word pronunciation 数字🔢"
+    },
+    {
+      "id": "en110",
+      "role": "bubble",
+      "text": "ten",
+      "key": "english:ten",
+      "context": "English word pronunciation 数字🔢"
+    },
+    {
+      "id": "en111",
+      "role": "bubble",
+      "text": "circle",
+      "key": "english:circle",
+      "context": "English word pronunciation 形状🔷"
+    },
+    {
+      "id": "en112",
+      "role": "bubble",
+      "text": "square",
+      "key": "english:square",
+      "context": "English word pronunciation 形状🔷"
+    },
+    {
+      "id": "en113",
+      "role": "bubble",
+      "text": "triangle",
+      "key": "english:triangle",
+      "context": "English word pronunciation 形状🔷"
+    },
+    {
+      "id": "en114",
+      "role": "bubble",
+      "text": "heart",
+      "key": "english:heart",
+      "context": "English word pronunciation 形状🔷"
+    },
+    {
+      "id": "en115",
+      "role": "bubble",
+      "text": "rectangle",
+      "key": "english:rectangle",
+      "context": "English word pronunciation 形状🔷"
+    },
+    {
+      "id": "en116",
+      "role": "bubble",
+      "text": "oval",
+      "key": "english:oval",
+      "context": "English word pronunciation 形状🔷"
+    },
+    {
+      "id": "en117",
+      "role": "bubble",
+      "text": "line",
+      "key": "english:line",
+      "context": "English word pronunciation 形状🔷"
+    },
+    {
+      "id": "en118",
+      "role": "bubble",
+      "text": "dot",
+      "key": "english:dot",
+      "context": "English word pronunciation 形状🔷"
+    },
+    {
+      "id": "en119",
+      "role": "bubble",
+      "text": "diamond",
+      "key": "english:diamond",
+      "context": "English word pronunciation 形状🔷"
+    },
+    {
+      "id": "en120",
+      "role": "bubble",
+      "text": "cube",
+      "key": "english:cube",
+      "context": "English word pronunciation 形状🔷"
+    },
+    {
+      "id": "en121",
+      "role": "bubble",
+      "text": "shirt",
+      "key": "english:shirt",
+      "context": "English word pronunciation 衣服👗"
+    },
+    {
+      "id": "en122",
+      "role": "bubble",
+      "text": "dress",
+      "key": "english:dress",
+      "context": "English word pronunciation 衣服👗"
+    },
+    {
+      "id": "en123",
+      "role": "bubble",
+      "text": "coat",
+      "key": "english:coat",
+      "context": "English word pronunciation 衣服👗"
+    },
+    {
+      "id": "en124",
+      "role": "bubble",
+      "text": "hat",
+      "key": "english:hat",
+      "context": "English word pronunciation 衣服👗"
+    },
+    {
+      "id": "en125",
+      "role": "bubble",
+      "text": "shoes",
+      "key": "english:shoes",
+      "context": "English word pronunciation 衣服👗"
+    },
+    {
+      "id": "en126",
+      "role": "bubble",
+      "text": "socks",
+      "key": "english:socks",
+      "context": "English word pronunciation 衣服👗"
+    },
+    {
+      "id": "en127",
+      "role": "bubble",
+      "text": "pants",
+      "key": "english:pants",
+      "context": "English word pronunciation 衣服👗"
+    },
+    {
+      "id": "en128",
+      "role": "bubble",
+      "text": "skirt",
+      "key": "english:skirt",
+      "context": "English word pronunciation 衣服👗"
+    },
+    {
+      "id": "en129",
+      "role": "bubble",
+      "text": "scarf",
+      "key": "english:scarf",
+      "context": "English word pronunciation 衣服👗"
+    },
+    {
+      "id": "en130",
+      "role": "bubble",
+      "text": "gloves",
+      "key": "english:gloves",
+      "context": "English word pronunciation 衣服👗"
+    },
+    {
+      "id": "en131",
+      "role": "bubble",
+      "text": "toy",
+      "key": "english:toy",
+      "context": "English word pronunciation 玩具🧸"
+    },
+    {
+      "id": "en132",
+      "role": "bubble",
+      "text": "doll",
+      "key": "english:doll",
+      "context": "English word pronunciation 玩具🧸"
+    },
+    {
+      "id": "en133",
+      "role": "bubble",
+      "text": "teddy",
+      "key": "english:teddy",
+      "context": "English word pronunciation 玩具🧸"
+    },
+    {
+      "id": "en134",
+      "role": "bubble",
+      "text": "kite",
+      "key": "english:kite",
+      "context": "English word pronunciation 玩具🧸"
+    },
+    {
+      "id": "en135",
+      "role": "bubble",
+      "text": "puzzle",
+      "key": "english:puzzle",
+      "context": "English word pronunciation 玩具🧸"
+    },
+    {
+      "id": "en136",
+      "role": "bubble",
+      "text": "robot",
+      "key": "english:robot",
+      "context": "English word pronunciation 玩具🧸"
+    },
+    {
+      "id": "en137",
+      "role": "bubble",
+      "text": "blocks",
+      "key": "english:blocks",
+      "context": "English word pronunciation 玩具🧸"
+    },
+    {
+      "id": "en138",
+      "role": "bubble",
+      "text": "balloon",
+      "key": "english:balloon",
+      "context": "English word pronunciation 玩具🧸"
+    },
+    {
+      "id": "en139",
+      "role": "bubble",
+      "text": "drum",
+      "key": "english:drum",
+      "context": "English word pronunciation 玩具🧸"
+    },
+    {
+      "id": "en140",
+      "role": "bubble",
+      "text": "yo-yo",
+      "key": "english:yo-yo",
+      "context": "English word pronunciation 玩具🧸"
+    },
+    {
+      "id": "en141",
+      "role": "bubble",
+      "text": "watermelon",
+      "key": "english:watermelon",
+      "context": "English word pronunciation 水果蔬菜🥕"
+    },
+    {
+      "id": "en142",
+      "role": "bubble",
+      "text": "strawberry",
+      "key": "english:strawberry",
+      "context": "English word pronunciation 水果蔬菜🥕"
+    },
+    {
+      "id": "en143",
+      "role": "bubble",
+      "text": "cherry",
+      "key": "english:cherry",
+      "context": "English word pronunciation 水果蔬菜🥕"
+    },
+    {
+      "id": "en144",
+      "role": "bubble",
+      "text": "peach",
+      "key": "english:peach",
+      "context": "English word pronunciation 水果蔬菜🥕"
+    },
+    {
+      "id": "en145",
+      "role": "bubble",
+      "text": "lemon",
+      "key": "english:lemon",
+      "context": "English word pronunciation 水果蔬菜🥕"
+    },
+    {
+      "id": "en146",
+      "role": "bubble",
+      "text": "pineapple",
+      "key": "english:pineapple",
+      "context": "English word pronunciation 水果蔬菜🥕"
+    },
+    {
+      "id": "en147",
+      "role": "bubble",
+      "text": "carrot",
+      "key": "english:carrot",
+      "context": "English word pronunciation 水果蔬菜🥕"
+    },
+    {
+      "id": "en148",
+      "role": "bubble",
+      "text": "corn",
+      "key": "english:corn",
+      "context": "English word pronunciation 水果蔬菜🥕"
+    },
+    {
+      "id": "en149",
+      "role": "bubble",
+      "text": "potato",
+      "key": "english:potato",
+      "context": "English word pronunciation 水果蔬菜🥕"
+    },
+    {
+      "id": "en150",
+      "role": "bubble",
+      "text": "tomato",
+      "key": "english:tomato",
+      "context": "English word pronunciation 水果蔬菜🥕"
+    },
+    {
+      "id": "en151",
+      "role": "bubble",
+      "text": "sunny",
+      "key": "english:sunny",
+      "context": "English word pronunciation 天气⛅"
+    },
+    {
+      "id": "en152",
+      "role": "bubble",
+      "text": "rainy",
+      "key": "english:rainy",
+      "context": "English word pronunciation 天气⛅"
+    },
+    {
+      "id": "en153",
+      "role": "bubble",
+      "text": "windy",
+      "key": "english:windy",
+      "context": "English word pronunciation 天气⛅"
+    },
+    {
+      "id": "en154",
+      "role": "bubble",
+      "text": "cloudy",
+      "key": "english:cloudy",
+      "context": "English word pronunciation 天气⛅"
+    },
+    {
+      "id": "en155",
+      "role": "bubble",
+      "text": "foggy",
+      "key": "english:foggy",
+      "context": "English word pronunciation 天气⛅"
+    },
+    {
+      "id": "en156",
+      "role": "bubble",
+      "text": "storm",
+      "key": "english:storm",
+      "context": "English word pronunciation 天气⛅"
+    },
+    {
+      "id": "en157",
+      "role": "bubble",
+      "text": "warm",
+      "key": "english:warm",
+      "context": "English word pronunciation 天气⛅"
+    },
+    {
+      "id": "en158",
+      "role": "bubble",
+      "text": "cold",
+      "key": "english:cold",
+      "context": "English word pronunciation 天气⛅"
+    },
+    {
+      "id": "en159",
+      "role": "bubble",
+      "text": "hot",
+      "key": "english:hot",
+      "context": "English word pronunciation 天气⛅"
+    },
+    {
+      "id": "en160",
+      "role": "bubble",
+      "text": "weather",
+      "key": "english:weather",
+      "context": "English word pronunciation 天气⛅"
+    },
+    {
+      "id": "en161",
+      "role": "bubble",
+      "text": "hospital",
+      "key": "english:hospital",
+      "context": "English word pronunciation 城市地点🏙️"
+    },
+    {
+      "id": "en162",
+      "role": "bubble",
+      "text": "shop",
+      "key": "english:shop",
+      "context": "English word pronunciation 城市地点🏙️"
+    },
+    {
+      "id": "en163",
+      "role": "bubble",
+      "text": "library",
+      "key": "english:library",
+      "context": "English word pronunciation 城市地点🏙️"
+    },
+    {
+      "id": "en164",
+      "role": "bubble",
+      "text": "zoo",
+      "key": "english:zoo",
+      "context": "English word pronunciation 城市地点🏙️"
+    },
+    {
+      "id": "en165",
+      "role": "bubble",
+      "text": "farm",
+      "key": "english:farm",
+      "context": "English word pronunciation 城市地点🏙️"
+    },
+    {
+      "id": "en166",
+      "role": "bubble",
+      "text": "beach",
+      "key": "english:beach",
+      "context": "English word pronunciation 城市地点🏙️"
+    },
+    {
+      "id": "en167",
+      "role": "bubble",
+      "text": "mountain",
+      "key": "english:mountain",
+      "context": "English word pronunciation 城市地点🏙️"
+    },
+    {
+      "id": "en168",
+      "role": "bubble",
+      "text": "garden",
+      "key": "english:garden",
+      "context": "English word pronunciation 城市地点🏙️"
+    },
+    {
+      "id": "en169",
+      "role": "bubble",
+      "text": "station",
+      "key": "english:station",
+      "context": "English word pronunciation 城市地点🏙️"
+    },
+    {
+      "id": "en170",
+      "role": "bubble",
+      "text": "museum",
+      "key": "english:museum",
+      "context": "English word pronunciation 城市地点🏙️"
+    },
+    {
+      "id": "en171",
+      "role": "bubble",
+      "text": "eat",
+      "key": "english:eat",
+      "context": "English word pronunciation 日常动作🎯"
+    },
+    {
+      "id": "en172",
+      "role": "bubble",
+      "text": "drink",
+      "key": "english:drink",
+      "context": "English word pronunciation 日常动作🎯"
+    },
+    {
+      "id": "en173",
+      "role": "bubble",
+      "text": "play",
+      "key": "english:play",
+      "context": "English word pronunciation 日常动作🎯"
+    },
+    {
+      "id": "en174",
+      "role": "bubble",
+      "text": "draw",
+      "key": "english:draw",
+      "context": "English word pronunciation 日常动作🎯"
+    },
+    {
+      "id": "en175",
+      "role": "bubble",
+      "text": "open",
+      "key": "english:open",
+      "context": "English word pronunciation 日常动作🎯"
+    },
+    {
+      "id": "en176",
+      "role": "bubble",
+      "text": "close",
+      "key": "english:close",
+      "context": "English word pronunciation 日常动作🎯"
+    },
+    {
+      "id": "en177",
+      "role": "bubble",
+      "text": "listen",
+      "key": "english:listen",
+      "context": "English word pronunciation 日常动作🎯"
+    },
+    {
+      "id": "en178",
+      "role": "bubble",
+      "text": "look",
+      "key": "english:look",
+      "context": "English word pronunciation 日常动作🎯"
+    },
+    {
+      "id": "en179",
+      "role": "bubble",
+      "text": "clap",
+      "key": "english:clap",
+      "context": "English word pronunciation 日常动作🎯"
+    },
+    {
+      "id": "en180",
+      "role": "bubble",
+      "text": "hug",
+      "key": "english:hug",
+      "context": "English word pronunciation 日常动作🎯"
+    },
+    {
+      "id": "en181",
+      "role": "bubble",
+      "text": "butterfly",
+      "key": "english:butterfly",
+      "context": "English word pronunciation 更多动物🦋"
+    },
+    {
+      "id": "en182",
+      "role": "bubble",
+      "text": "bee",
+      "key": "english:bee",
+      "context": "English word pronunciation 更多动物🦋"
+    },
+    {
+      "id": "en183",
+      "role": "bubble",
+      "text": "ant",
+      "key": "english:ant",
+      "context": "English word pronunciation 更多动物🦋"
+    },
+    {
+      "id": "en184",
+      "role": "bubble",
+      "text": "elephant",
+      "key": "english:elephant",
+      "context": "English word pronunciation 更多动物🦋"
+    },
+    {
+      "id": "en185",
+      "role": "bubble",
+      "text": "monkey",
+      "key": "english:monkey",
+      "context": "English word pronunciation 更多动物🦋"
+    },
+    {
+      "id": "en186",
+      "role": "bubble",
+      "text": "panda",
+      "key": "english:panda",
+      "context": "English word pronunciation 更多动物🦋"
+    },
+    {
+      "id": "en187",
+      "role": "bubble",
+      "text": "penguin",
+      "key": "english:penguin",
+      "context": "English word pronunciation 更多动物🦋"
+    },
+    {
+      "id": "en188",
+      "role": "bubble",
+      "text": "dolphin",
+      "key": "english:dolphin",
+      "context": "English word pronunciation 更多动物🦋"
+    },
+    {
+      "id": "en189",
+      "role": "bubble",
+      "text": "whale",
+      "key": "english:whale",
+      "context": "English word pronunciation 更多动物🦋"
+    },
+    {
+      "id": "en190",
+      "role": "bubble",
+      "text": "turtle",
+      "key": "english:turtle",
+      "context": "English word pronunciation 更多动物🦋"
+    },
+    {
+      "id": "en191",
+      "role": "bubble",
+      "text": "excited",
+      "key": "english:excited",
+      "context": "English word pronunciation 心情性格💖"
+    },
+    {
+      "id": "en192",
+      "role": "bubble",
+      "text": "calm",
+      "key": "english:calm",
+      "context": "English word pronunciation 心情性格💖"
+    },
+    {
+      "id": "en193",
+      "role": "bubble",
+      "text": "brave",
+      "key": "english:brave",
+      "context": "English word pronunciation 心情性格💖"
+    },
+    {
+      "id": "en194",
+      "role": "bubble",
+      "text": "kind",
+      "key": "english:kind",
+      "context": "English word pronunciation 心情性格💖"
+    },
+    {
+      "id": "en195",
+      "role": "bubble",
+      "text": "shy",
+      "key": "english:shy",
+      "context": "English word pronunciation 心情性格💖"
+    },
+    {
+      "id": "en196",
+      "role": "bubble",
+      "text": "proud",
+      "key": "english:proud",
+      "context": "English word pronunciation 心情性格💖"
+    },
+    {
+      "id": "en197",
+      "role": "bubble",
+      "text": "scared",
+      "key": "english:scared",
+      "context": "English word pronunciation 心情性格💖"
+    },
+    {
+      "id": "en198",
+      "role": "bubble",
+      "text": "surprised",
+      "key": "english:surprised",
+      "context": "English word pronunciation 心情性格💖"
+    },
+    {
+      "id": "en199",
+      "role": "bubble",
+      "text": "curious",
+      "key": "english:curious",
+      "context": "English word pronunciation 心情性格💖"
+    },
+    {
+      "id": "en200",
+      "role": "bubble",
+      "text": "friendly",
+      "key": "english:friendly",
+      "context": "English word pronunciation 心情性格💖"
+    }
+  ]
+}
