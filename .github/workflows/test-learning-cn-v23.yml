@@ -1,0 +1,44 @@
+name: Preflight Chinese lesson narration UI
+on:
+  push:
+    paths:
+      - '.github/workflows/test-learning-cn-v23.yml'
+      - 'scripts/learning_ui_voices_v23.js'
+      - 'scripts/prepare_learning_ui_voices.py'
+      - 'scripts/install_learning_ui_v23.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build and check complete Chinese narration inventory
+        run: |
+          python scripts/prepare_learning_ui_voices.py
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          script=Path('scripts/learning_v22.js').read_text()
+          words=json.loads(re.search(r'\bconst WORDS=(\[.*?\]);',script,re.S).group(1))
+          hanzi=json.loads(re.search(r'\bconst HANZI=(\[.*?\]);',script,re.S).group(1))
+          manifest=json.loads(Path('voice-learning-ui-v23-plan.json').read_text())['lines']
+          assert len(words)==200 and len(hanzi)==200
+          assert len({r['key'] for r in manifest})==len(manifest)
+          for word in words: assert any(r['key']=='cn:meaning:'+word['en'] for r in manifest)
+          data={'words':[{'en':x['en'],'zh':x['zh']} for x in words],
+                'hanzi':[{'char':x['char'],'word':x['word']} for x in hanzi],
+                'topics':list({x['cat'] for x in words})}
+          module=Path('scripts/learning_ui_voices_v23.js').read_text()
+          assert 'speechSynthesis' not in module
+          module=module.replace('__READING_DATA__',json.dumps(data,ensure_ascii=False))
+          assert '__READING_DATA__' not in module
+          Path('/tmp/chinese-narrator.js').write_text(module)
+          print('PASS:',len(manifest),'Chinese recording requests, all 200 meanings, no system TTS')
+          PY
+          node --check /tmp/chinese-narrator.js
