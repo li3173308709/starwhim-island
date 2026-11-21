@@ -1,0 +1,25 @@
+name: Final production acceptance mobile English and moon voice
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-mobile-v26-production.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  production:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    env:
+      STARWHIM_URL: https://starwhim-island.vercel.app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Playwright browser test runner
+        run: |
+          python -m pip install playwright==1.56.0
+          google-chrome --version
+      - name: Verify English recorded speech on real production website and no Moon-Hanzi voice overlap
+        run: python -u scripts/verify_mobile_english_moon_v26.py
