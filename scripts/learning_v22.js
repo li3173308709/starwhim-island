@@ -60,14 +60,45 @@ function load(){try{state=JSON.parse(localStorage.getItem(STORE)||'{}')}catch{st
  if(!state.englishStats||typeof state.englishStats!=='object')state.englishStats={};}
 function save(){try{localStorage.setItem(STORE,JSON.stringify(state))}catch(e){console.warn('Learning progress not saved',e)}}
 // Recorded-girl voice only. Never silently replace the girl's recordings with device TTS.
+// English words intentionally use the original clear English-language reader.
+// Chinese lessons / narrations continue to use recorded girl-voice MP3 clips.
 let lastVoice=null;
+let lastEnglishUtterance=null;
 function speak(word){
-  const clips=window.StarwhimVoicePack?.audio||{};
-  const src=clips['english:'+word]||clips[word];
-  if(!src){ const hint=$('engStatus'); if(hint) hint.textContent='这张图卡的女孩发音正在录制；文字和练习仍可继续。'; return false; }
-  try{if(lastVoice)lastVoice.pause(); const a=new Audio(src);a.volume=.9;lastVoice=a;a.play().catch(()=>{const hint=$('engStatus');if(hint)hint.textContent='请先点击页面开启声音后再试。';});return true;}
-  catch(e){console.warn('audio unavailable',e);return false;}
+  if(!word)return false;
+  const synth=window.speechSynthesis;
+  if(!synth||typeof window.SpeechSynthesisUtterance!=='function'){
+    const hint=$('engStatus');if(hint)hint.textContent='当前浏览器没有英文朗读功能，请使用 Chrome、Edge 或 Safari。';
+    return false;
+  }
+  try{
+    if(lastVoice){lastVoice.pause();lastVoice=null;}
+    if(synth.speaking||synth.pending)synth.cancel();
+    const utterance=new SpeechSynthesisUtterance(String(word));
+    utterance.lang='en-US';
+    utterance.rate=.90;utterance.pitch=1;utterance.volume=1;
+    const available=synth.getVoices()||[];
+    const en=available.filter(v=>/^en([-_]|$)/i.test(v.lang||''));
+    const preferred=['en-US','en-GB'];
+    const best=en.sort((a,b)=>{
+      const score=v=>(preferred.findIndex(p=>(v.lang||'').toLowerCase()===p.toLowerCase())===0?100:0)
+        +(/jenny|aria|samantha|zira|sara|female|emma/i.test(v.name||'')?10:0)
+        +(v.localService?2:0);
+      return score(b)-score(a);
+    })[0];
+    if(best)utterance.voice=best;
+    utterance.onerror=()=>{const hint=$('engStatus');if(hint)hint.textContent='英文语音播放失败，请再点击一次。';};
+    lastEnglishUtterance=utterance;
+    synth.speak(utterance);
+    try{synth.resume?.()}catch(e){}
+    return true;
+  }catch(e){
+    console.warn('English reader unavailable',e);
+    const hint=$('engStatus');if(hint)hint.textContent='英文朗读暂不可用，请换一个浏览器试试。';
+    return false;
+  }
 }
+
 const categories=[...new Set(WORDS.map(w=>w.cat))];
 const MIN=5;
 const taught=w=>!!state.englishLearned[keyFor(w)];
