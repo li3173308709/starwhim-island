@@ -44,7 +44,7 @@ with sync_playwright() as pw:
     page.locator("#miniBody [data-eng=learn]").click()
     page.locator("#miniBody [data-eng=hear]").click()
     en=page.evaluate("window.__voiceAudit.english")
-    assert en and en[-1]['lang']=='en-US' and en[-1]['rate']==0.9,(device,en)
+    assert en and en[-1]['lang']=='en-US' and abs(en[-1]['rate']-.9)<.005,(device,en)
     assert en[-1]['text'] in ['cat','dog','bird','fish','lion'],(device,en)
     # It must not play a recorded Chinese F5 voice when the English button is used.
     after_english=page.evaluate("window.__voiceAudit.recorded.length")
