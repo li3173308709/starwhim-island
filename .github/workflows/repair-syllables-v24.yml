@@ -1,0 +1,78 @@
+name: Repair invented first syllables in Chinese girl recordings
+on:
+  push:
+    paths:
+      - '.github/workflows/repair-syllables-v24.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: starwhim-name-v24-syllables
+  cancel-in-progress: false
+jobs:
+  analyze:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3,4]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install word-level Mandarin ASR, pinyin and ffmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install 'faster-whisper==1.2.1' 'pypinyin>=0.55,<1' numpy
+      - name: Locate extra initial phonemes without cutting genuine words
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: python -u scripts/remove_spurious_prefix_v24.py --shard "$SHARD" --shards 5
+      - uses: actions/upload-artifact@v4
+        with:
+          name: syllable-fixes-${{ matrix.shard }}
+          path: generated/syllable-fixes/*
+          retention-days: 14
+          if-no-files-found: error
+  package:
+    needs: analyze
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: syllable-fixes-*
+          path: generated/syllable-fixes
+          merge-multiple: true
+      - name: Merge only conservative ASR-confirmed audio corrections
+        run: python scripts/install_syllable_fixes_v24.py
+      - name: Audit game voice count, grammar, and playback
+        run: |
+          python scripts/audit_full_voice.py
+          node --check scripts/learning_v22.js
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path('voice-syllable-cleanup-report.json').read_text())
+          assert report['scanned']==714 and report['patched']>0
+          print('PASS:',report['patched'],'extra initial syllables precisely removed')
+          PY
+      - name: Commit corrected spoken name and Chinese clips
+        run: |
+          git config user.name starwhim-voice-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html voice-syllable-cleanup-report.json
+          git commit -m 'fix: remove ASR-confirmed stray syllables before Chinese dialogue and Ding Yiyi'
+          git pull --rebase origin main
+          git push origin HEAD:main
