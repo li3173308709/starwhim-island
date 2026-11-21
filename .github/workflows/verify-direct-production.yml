@@ -1,0 +1,27 @@
+name: Validate direct-hosted production voice game
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-direct-production.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      STARWHIM_URL: https://starwhim-island.vercel.app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Browser test dependencies
+        run: |
+          python -m pip install playwright==1.56.0
+          google-chrome --version
+      - name: 914 MP3 and lesson flow on live production
+        run: python scripts/verify_learning_v23_online.py
+      - name: English reading and Chinese girl-voice speed on live production
+        run: python scripts/verify_voice_v24_online.py
