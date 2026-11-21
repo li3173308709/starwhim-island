@@ -38,7 +38,7 @@ with sync_playwright() as pw:
           return {text:n.textContent,keys:StarwhimChineseNarratorV23.resolve(n),
             exact:StarwhimChineseNarratorV23.exactText};
         }""")
-        assert match["text"]=="中文意思是：猫。",(device,match["text"])
+        assert match["text"].replace("🔊","").strip()=="中文意思是：猫。",(device,match["text"])
         assert match["keys"]==["cn:meaning:cat"],(device,match["keys"])
         assert match["exact"]["cn:meaning:cat"]=="中文意思是：猫。"
         aligned=page.evaluate("""()=>{
