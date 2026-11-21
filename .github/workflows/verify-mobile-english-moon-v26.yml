@@ -1,5 +1,8 @@
 name: Accept mobile English sound and moon puzzle voice fix
 on:
+  push:
+    paths:
+      - '.github/workflows/verify-mobile-english-moon-v26.yml'
   workflow_run:
     workflows:
       - Fix mobile English voice and moon puzzle narration
