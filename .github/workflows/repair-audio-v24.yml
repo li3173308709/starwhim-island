@@ -1,0 +1,56 @@
+name: Repair voice playback, speed and MP3 starts
+on:
+  push:
+    paths:
+      - '.github/workflows/repair-audio-v24.yml'
+      - 'scripts/repair_audio_v24.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: starwhim-audio-v24-repair
+  cancel-in-progress: false
+jobs:
+  repair:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Ensure FFmpeg and Node.js are available
+        run: |
+          ffmpeg -version | head -1
+          node --version
+      - name: Trim opening noise on Chinese MP3s and fix speaking routes
+        run: python -u scripts/repair_audio_v24.py
+      - name: Verify all 914 recordings, name labels, speaking rates, and JS
+        run: |
+          python scripts/audit_full_voice.py
+          node --check scripts/learning_v22.js
+          python - <<'PY'
+          import json,re,base64
+          from pathlib import Path
+          s=Path('index.html').read_text()
+          j=json.loads(re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S).group(1))
+          audio=j['audio']
+          assert len(audio)==914
+          assert all(x in audio for x in ['english:cat','hanzi:日','cn:meaning:cat','cn:ui:home'])
+          assert s.count('playbackRate=0.8')==3
+          assert "utterance.lang='en-US'" in s
+          assert '一丁一一' not in ''.join(audio.keys())
+          assert '每次学习 5 张图卡' in s
+          assert s.count('</html>')==1
+          print('PASS: 914 valid MP3; 3 Chinese girl voice routes at 0.8x, separate en-US reader, correct text name')
+          PY
+      - name: Commit repaired game and reproducible English reader
+        run: |
+          git config user.name starwhim-voice-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html scripts/learning_v22.js
+          git commit -m "fix: girl voice 0.8x, English original voice, clean MP3 onset and playback"
+          git pull --rebase origin main
+          git push origin HEAD:main
