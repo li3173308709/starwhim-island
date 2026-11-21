@@ -1,0 +1,43 @@
+name: Stop Chinese narration overlapping English word playback
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-english-overlap-v24.yml'
+      - 'scripts/fix_english_overlap_v24.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Repair overlap in English speech route and saved game HTML
+        run: python scripts/fix_english_overlap_v24.py
+      - name: Validate JS and complete voice pack
+        run: |
+          python scripts/audit_full_voice.py
+          node --check scripts/learning_v22.js
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text()
+          assert "S.audio?.stopSpeech?.();" in s
+          assert "window.StarwhimChineseNarratorV23?.stop?.();" in s
+          assert "utterance.lang='en-US'" in s
+          assert s.count('playbackRate=0.8')==3
+          print('PASS: independent English TTS without Chinese girl narrator overlap')
+          PY
+      - name: Commit tested audio overlap fix
+        run: |
+          git config user.name starwhim-voice-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html scripts/learning_v22.js
+          git commit -m 'fix: stop Chinese voice before English word reader starts'
+          git pull --rebase origin main
+          git push origin HEAD:main
