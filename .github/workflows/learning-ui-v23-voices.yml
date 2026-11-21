@@ -1,0 +1,110 @@
+name: Narrate Chinese learning pages in the same girl voice
+on:
+  workflow_run:
+    workflows:
+      - Generate 400 learning pronunciations in girl's reference voice
+    types:
+      - completed
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: starwhim-chinese-v23
+  cancel-in-progress: false
+jobs:
+  prepare:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/prepare_learning_ui_voices.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chinese-ui-manifest
+          path: voice-learning-ui-v23-plan.json
+          if-no-files-found: error
+  synthesize:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          name: chinese-ui-manifest
+      - name: Install reference voice model
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          printf 'numpy==1.26.4\npyarrow==25.0.1\ndatasets==5.0.1\ntorch==2.5.1+cpu\ntorchaudio==2.5.1+cpu\n' > /tmp/starwhim-constraints.txt
+          python -m pip install -c /tmp/starwhim-constraints.txt 'f5-tts==1.1.5' 'transformers<5'
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface/hub
+            ~/.cache/torch/hub
+          key: starwhim-f5tts-model-v1-20261118
+      - name: Record all Chinese meanings and prompts
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: python scripts/clone_on_github.py --manifest voice-learning-ui-v23-plan.json --shard "$SHARD" --shards 20
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chinese-ui-clips-${{ matrix.shard }}
+          path: generated/*.mp3
+          if-no-files-found: error
+  package:
+    needs: synthesize
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          name: chinese-ui-manifest
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chinese-ui-clips-*
+          path: generated
+          merge-multiple: true
+      - run: python scripts/pack_additional_voice.py --manifest voice-learning-ui-v23-plan.json
+      - run: python scripts/install_learning_ui_v23.py
+      - run: python scripts/audit_full_voice.py
+      - name: Verify recorded narration coverage
+        run: |
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          html=Path('index.html').read_text()
+          m=re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',html,re.S)
+          assert m
+          clips=json.loads(m.group(1))['audio']
+          rows=json.loads(Path('voice-learning-ui-v23-plan.json').read_text())['lines']
+          assert len(rows)>250 and all(x['key'] in clips for x in rows)
+          assert 'window.StarwhimChineseNarratorV23=' in html
+          print('PASS: all',len(rows),'Chinese teaching clips installed; total:',len(clips))
+          PY
+      - name: Commit narrated version
+        run: |
+          git config user.name starwhim-voice-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html voice-learning-ui-v23-plan.json
+          git commit -m 'feat: girl-voice Chinese narration throughout both learning modules'
+          git pull --rebase origin main
+          git push origin HEAD:main
