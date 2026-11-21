@@ -1,0 +1,14 @@
+{
+  "version": 26,
+  "english_recordings": 200,
+  "girl_recordings": 914,
+  "total_recordings": 1114,
+  "unchanged_chinese_girl_speed": 0.8,
+  "english_chinese_lesson_speed": 0.72,
+  "english_en_us_recording_speed": 0.9,
+  "english_neural_voice": "en-US-JennyNeural",
+  "mp3_bytes": 2137560,
+  "standalone_html_bytes": 24854769,
+  "standalone_html_sha256": "0dd7de9125f1818cbc39efd61b7f4370cb5c84fea426330b1e283c1ba431a5b6",
+  "moonworkshop_hanzi_narrator_scoped": true
+}

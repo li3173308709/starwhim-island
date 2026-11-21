@@ -41,7 +41,9 @@ function meaning(text){
  return data.words.filter(function(w){return text.includes(w.zh);})
  .sort(function(a,b){return b.zh.length-a.zh.length})[0];
 }
+function educationalGameActive(){return ['hanzi200','englishquest'].includes(window.Starwhim?.minigames?.current);}
 function keysFor(node){
+ if(!educationalGameActive())return [];
  var t=textOf(node),k=[],cl=''+(node.className||'');
  if(!CN.test(t))return k;
  var spoken=t.replace(/[^\u3400-\u9fff]/g,'');
@@ -91,6 +93,7 @@ function keysFor(node){
  return k.filter(function(x){return !!clips()[x]});
 }
 function blocks(){
+ if(!educationalGameActive())return [];
  var pane=root.querySelector('.learnfirst,.v19');if(!pane)return [];
  return [...pane.querySelectorAll(
    '.eng-lead,.eng-question,.eng-meaning,.eng-hint,.eng-top,.eng-topic,.eng-card h3,'+
@@ -141,6 +144,7 @@ function syncEnglishCaptions(){
 }
 function decorate(){
  queued=false;
+ if(!educationalGameActive())return;
  syncEnglishCaptions();
  var pane=root.querySelector('.learnfirst,.v19');if(!pane)return;
  if(!pane.querySelector('[data-v23-read-all]')){
@@ -173,6 +177,7 @@ new MutationObserver(function(m){
 }).observe(root,{childList:true,subtree:true});
 
 root.addEventListener('click',function(event){
+ if(!educationalGameActive())return;
  var button=event.target.closest('button');
  if(!button||button.classList.contains('v23-audio-control')||
     button.classList.contains('v23-all')||

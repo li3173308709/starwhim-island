@@ -62,43 +62,98 @@ function save(){try{localStorage.setItem(STORE,JSON.stringify(state))}catch(e){c
 // Recorded-girl voice only. Never silently replace the girl's recordings with device TTS.
 // English words intentionally use the original clear English-language reader.
 // Chinese lessons / narrations continue to use recorded girl-voice MP3 clips.
+
+// English lesson pronunciation is a separate English-language speaker.
+// Mobile uses independently generated en-US English MP3. Desktop retains
+// its original en-US system reader; a recorded fallback covers silent TTS.
 let lastVoice=null;
 let lastEnglishUtterance=null;
+let englishPlaybackToken=0;
+let englishRecordedAudio=null;
+let englishSilentTimer=null;
+function englishNotice(message){
+ const statusEl=$('engStatus');
+ if(statusEl)statusEl.textContent=message;
+}
+function playRecordedEnglish(word,token){
+ if(token!==englishPlaybackToken)return false;
+ const source=window.StarwhimEnglishPronunciationPack?.audio?.[word.toLowerCase()];
+ if(!source){
+   englishNotice('这个英文单词的录音暂时不可用，请重试或换一个浏览器。');
+   return false;
+ }
+ try{
+   if(englishRecordedAudio){englishRecordedAudio.pause();englishRecordedAudio=null;}
+   const audio=new Audio(source);
+   audio.preload='auto';
+   audio.playsInline=true;
+   audio.playbackRate=0.90;
+   audio.preservesPitch=true;
+   audio.volume=1;
+   englishRecordedAudio=audio;
+   const p=audio.play(); // MUST be initiated by the original tap on mobile.
+   if(p && typeof p.catch==='function')p.catch(err=>{
+      if(token===englishPlaybackToken)
+        englishNotice('声音暂未开启，请轻点一次英文朗读按钮。');
+      console.warn('Recorded English word playback:',err);
+   });
+   return true;
+ }catch(err){
+   console.warn('English MP3 failed to start',err);
+   englishNotice('英文录音播放失败，请再点击一次。');
+   return false;
+ }
+}
 function speak(word){
-  if(!word)return false;
-  const synth=window.speechSynthesis;
-  if(!synth||typeof window.SpeechSynthesisUtterance!=='function'){
-    const hint=$('engStatus');if(hint)hint.textContent='当前浏览器没有英文朗读功能，请使用 Chrome、Edge 或 Safari。';
-    return false;
-  }
-  try{
-    window.StarwhimChineseNarratorV23?.stop?.();
-    S.audio?.stopSpeech?.();
-    if(lastVoice){lastVoice.pause();lastVoice=null;}
-    if(synth.speaking||synth.pending)synth.cancel();
-    const utterance=new SpeechSynthesisUtterance(String(word));
-    utterance.lang='en-US';
-    utterance.rate=.90;utterance.pitch=1;utterance.volume=1;
-    const available=synth.getVoices()||[];
-    const en=available.filter(v=>/^en([-_]|$)/i.test(v.lang||''));
-    const preferred=['en-US','en-GB'];
-    const best=en.sort((a,b)=>{
-      const score=v=>(preferred.findIndex(p=>(v.lang||'').toLowerCase()===p.toLowerCase())===0?100:0)
-        +(/jenny|aria|samantha|zira|sara|female|emma/i.test(v.name||'')?10:0)
-        +(v.localService?2:0);
-      return score(b)-score(a);
-    })[0];
-    if(best)utterance.voice=best;
-    utterance.onerror=()=>{const hint=$('engStatus');if(hint)hint.textContent='英文语音播放失败，请再点击一次。';};
-    lastEnglishUtterance=utterance;
-    synth.speak(utterance);
-    try{synth.resume?.()}catch(e){}
-    return true;
-  }catch(e){
-    console.warn('English reader unavailable',e);
-    const hint=$('engStatus');if(hint)hint.textContent='英文朗读暂不可用，请换一个浏览器试试。';
-    return false;
-  }
+ if(!word)return false;
+ const text=String(word).trim();
+ const token=++englishPlaybackToken;
+ window.StarwhimChineseNarratorV23?.stop?.();
+ S.audio?.stopSpeech?.();
+ if(englishSilentTimer){clearTimeout(englishSilentTimer);englishSilentTimer=null;}
+ if(englishRecordedAudio){try{englishRecordedAudio.pause()}catch(e){}englishRecordedAudio=null;}
+ // Touchscreen and mobile WebView speechSynthesis can silently accept requests
+ // while having no installed English voice. Always play a real English MP3
+ // synchronously inside the user's tap instead.
+ const mobileDevice=/(Android|iPhone|iPad|iPod|Mobile)/i.test(navigator.userAgent)||
+      (navigator.maxTouchPoints>0&&matchMedia('(pointer:coarse)').matches);
+ if(mobileDevice && window.StarwhimEnglishPronunciationPack?.audio?.[text.toLowerCase()])
+   return playRecordedEnglish(text,token);
+ const synth=window.speechSynthesis;
+ if(!synth||typeof window.SpeechSynthesisUtterance!=='function')
+   return playRecordedEnglish(text,token);
+ try{
+   if(synth.speaking||synth.pending)synth.cancel();
+   const u=new SpeechSynthesisUtterance(text);
+   u.lang='en-US';
+   u.rate=.90;
+   u.pitch=1;
+   u.volume=1;
+   const voices=synth.getVoices()||[];
+   const en=voices.filter(v=>/^en([-_]|$)/i.test(v.lang||''));
+   const preferred=en.find(v=>/jenny|aria|samantha|zira|sara|emma/i.test(v.name||''))||
+     en.find(v=>(v.lang||'').toLowerCase()==='en-us')||en[0];
+   if(preferred)u.voice=preferred;
+   let started=false;
+   u.onstart=()=>{if(token===englishPlaybackToken){started=true;
+       if(englishSilentTimer){clearTimeout(englishSilentTimer);englishSilentTimer=null;}}};
+   u.onerror=()=>{if(token===englishPlaybackToken&&!started)
+       playRecordedEnglish(text,token);};
+   lastEnglishUtterance=u;
+   synth.speak(u);
+   // Many desktop/mobile Chromium builds report success but never fire start.
+   // Fallback to recorded English after a short pause.
+   englishSilentTimer=setTimeout(()=>{
+       if(token===englishPlaybackToken&&!started){
+         try{synth.cancel()}catch(e){}
+         playRecordedEnglish(text,token);
+       }
+   },1600);
+   return true;
+ }catch(err){
+   console.warn('English speech synthesis failed',err);
+   return playRecordedEnglish(text,token);
+ }
 }
 
 const categories=[...new Set(WORDS.map(w=>w.cat))];
