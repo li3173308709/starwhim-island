@@ -30,15 +30,34 @@ def pinyin(ch):
     return lazy_pinyin(ch,errors='ignore')[0] if ch else ''
 def decode(uri):
     return AudioSegment.from_file(io.BytesIO(base64.b64decode(uri.partition(',')[2])),format='mp3')
-names=[(key,uri) for key,uri in clips.items()
-       if key.startswith('丁一一小朋友') and uri.startswith('data:audio/mpeg;base64,')]
-if not names:raise RuntimeError('Cannot locate the originally supplied clean spoken-name reference')
-# The original reference is the FIRST MP3 in the game, not a synthesized example.
-original_key=next(iter(clips))
-assert original_key.startswith('丁一一小朋友'),original_key[:40]
-canonical=decode(clips[original_key])[:400].fade_out(32)
-assert len(canonical)>350
+# Never assume that the first 400 ms contains all three name syllables.
+# Select a recording where ASR explicitly finds 丁 + 一 + 一, then take its
+# word-aligned segment; abort instead of silently losing a syllable.
 model=WhisperModel('small',device='cpu',compute_type='int8',cpu_threads=4)
+def tokens_for(uri):
+    segments,_=model.transcribe(io.BytesIO(base64.b64decode(uri.partition(',')[2])),
+        language='zh',beam_size=4,word_timestamps=True,
+        condition_on_previous_text=False,vad_filter=False)
+    return [w for seg in segments for w in (seg.words or [])]
+def canonical_name():
+    for key,uri in clips.items():
+        if '丁一一' not in key or not uri.startswith('data:audio/mpeg;base64,'):
+            continue
+        words=tokens_for(uri)
+        for i in range(len(words)-2):
+            three=[strip(w.word) for w in words[i:i+3]]
+            if len(three)!=3 or any(len(t)!=1 for t in three):continue
+            if [pinyin(t) for t in three]!=['ding','yi','yi']:continue
+            start=words[i].start; end=words[i+2].end
+            if not (0<=start<end<=3 and .30<=end-start<=.85):continue
+            source=decode(uri)
+            snippet=source[max(0,round(start*1000)-8):round(end*1000)+8]
+            if len(snippet)<300:continue
+            print('CANONICAL verified three syllables from',key[:60],
+                  'range',round(start,3),round(end,3),flush=True)
+            return snippet.fade_in(12).fade_out(18),key
+    raise RuntimeError('No ASR-confirmed 丁 一 一 reference; refusing unsafe splice')
+canonical,reference_key=canonical_name()
 manifests=['voice-plan.json','voice-extra-plan.json','voice-panel-plan.json',
            'voice-advanced-plan.json','voice-arcade-plan.json','voice-v19-plan.json',
            'voice-learning-v22-plan.json','voice-learning-ui-v23-plan.json']
@@ -52,7 +71,7 @@ report=[]
 skipped=[]
 for key,uri in list(clips.items()):
     text=texts.get(key,key)
-    if not text.startswith('丁一一') or key==original_key:continue
+    if not text.startswith('丁一一'):continue
     rest=strip(text[3:])
     if not rest:continue
     next_char=rest[0]
@@ -61,11 +80,7 @@ for key,uri in list(clips.items()):
         pass
     try:
         old=decode(uri)
-        segment_iter,_=model.transcribe(io.BytesIO(base64.b64decode(uri.partition(',')[2])),
-            language='zh',beam_size=4,word_timestamps=True,
-            condition_on_previous_text=False,vad_filter=False)
-        segments=list(segment_iter)
-        tokens=[w for seg in segments for w in (seg.words or [])]
+        tokens=tokens_for(uri)
         candidates=[w for w in tokens[:12]
             if re.search('[\u3400-\u9fff]',w.word)
             and w.start>=.35 and w.start<2.4
@@ -99,10 +114,11 @@ new=html[:m.start(2)]+json.dumps(pack,ensure_ascii=False,separators=(',',':'))+h
 assert new.count('</html>')==1 and len(clips)==914
 index.write_text(new,encoding='utf-8')
 (ROOT/'voice-name-repair-report.json').write_text(json.dumps({
-    'method':'original user-provided voice snippet for name + word-aligned original sentence',
+    'method':'ASR-confirmed three-syllable name from existing reference-voice recording + word-aligned sentence',
+    'reference_key':reference_key[:100],
     'repaired':len(report),'skipped':len(skipped),
     'entries':report,'skipped_examples':skipped[:20],
-    'note':'Original reference first word was used; no artificial name syllable is prepended'
+    'note':'Only three individually verified name syllables used; uncertain alignments skipped'
 },ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('NAME REPAIR PASS: repaired',len(report),'name introductions; skipped',len(skipped),
       '; preserved 914 voice clips')
