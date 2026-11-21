@@ -1,0 +1,148 @@
+name: Record 200 Hanzi and 200 English words in girl's voice
+on:
+  push:
+    paths:
+      - '.github/workflows/learning-v22-voices.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: starwhim-learning-voice-2026
+  cancel-in-progress: false
+env:
+  HF_HUB_DISABLE_TELEMETRY: '1'
+  HF_HUB_DOWNLOAD_TIMEOUT: '180'
+  OMP_NUM_THREADS: '4'
+  PYTHONUNBUFFERED: '1'
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify 200 + 200 learning content
+        run: |
+          node --check scripts/learning_v22.js
+          python scripts/prepare_learning_voices.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: learning-v22-manifest
+          path: voice-learning-v22-plan.json
+          if-no-files-found: error
+  synthesize:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          name: learning-v22-manifest
+      - name: Install F5-TTS voice cloning dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          printf 'numpy==1.26.4\npyarrow==25.0.1\ndatasets==5.0.1\ntorch==2.5.1+cpu\ntorchaudio==2.5.1+cpu\n' > /tmp/starwhim-constraints.txt
+          python -m pip install -c /tmp/starwhim-constraints.txt 'f5-tts==1.1.5' 'transformers<5'
+          python -m pip check
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface/hub
+            ~/.cache/torch/hub
+          key: starwhim-f5tts-model-v1-20261118
+      - name: Generate 20 spoken clips on this shard
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: python scripts/clone_on_github.py --manifest voice-learning-v22-plan.json --shard "$SHARD" --shards 20
+      - name: Verify 20 MP3 recordings
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json,os
+          rows=json.loads(Path('voice-learning-v22-plan.json').read_text())['lines']
+          shard=int(os.environ['SHARD'])
+          own=[r for i,r in enumerate(rows) if i%20==shard]
+          assert len(own)==20
+          for r in own:
+              p=Path('generated')/(r['id']+'.mp3')
+              assert p.exists() and p.stat().st_size>1000,p
+          print('PASS 20 actual MP3s')
+          PY
+        env:
+          SHARD: ${{ matrix.shard }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: learning-girl-clips-${{ matrix.shard }}
+          path: generated/*.mp3
+          retention-days: 14
+          if-no-files-found: error
+  package:
+    needs: synthesis
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install MP3 validator
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          name: learning-v22-manifest
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: learning-girl-clips-*
+          path: generated
+          merge-multiple: true
+      - name: Package all 400 recorded clips into original game
+        run: |
+          python scripts/pack_additional_voice.py --manifest voice-learning-v22-plan.json
+          python scripts/install_learning_v22.py
+          python scripts/audit_full_voice.py
+      - name: Verify teaching and audio data
+        run: |
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          s=Path('index.html').read_text()
+          m=re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S)
+          assert m
+          v=json.loads(m.group(1))['audio']
+          manifest=json.loads(Path('voice-learning-v22-plan.json').read_text())['lines']
+          assert len(v)>=605,len(v)
+          assert len(manifest)==400
+          assert all(row['key'] in v and v[row['key']].startswith('data:audio/mpeg;base64,') for row in manifest)
+          assert 'window.StarwhimEnglishLearnFirst=' in s
+          assert 'window.StarwhimReadingV22=' in s
+          print('PASS 605+ MP3, 200 Mandarin and 200 English lessons')
+          PY
+      - name: Save verified fully voiced single-file game
+        run: |
+          git config user.name "starwhim-voice-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html voice-learning-v22-plan.json
+          git commit -m "feat: record 400 girl-voice pronunciation clips for five-card lessons"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        with:
+          name: starwhim-200-hanzi-200-english-complete
+          path: index.html
+          retention-days: 14
+          if-no-files-found: error
