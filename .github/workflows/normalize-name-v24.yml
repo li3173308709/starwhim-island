@@ -1,5 +1,9 @@
 name: Correct Ding Yiyi using original girl's name pronunciation
 on:
+  push:
+    paths:
+      - '.github/workflows/normalize-name-v24.yml'
+      - 'scripts/normalize_child_name_v24.py'
   workflow_run:
     workflows:
       - Repair invented first syllables in Chinese girl recordings
@@ -13,7 +17,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   replace:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-24.04
     timeout-minutes: 35
     steps:
