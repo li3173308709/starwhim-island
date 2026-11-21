@@ -1,35 +1,45 @@
-name: Export completed standalone game
+name: Export complete 914-MP3 English-voice-fix HTML game
 on:
   push:
     paths:
       - '.github/workflows/export-game.yml'
-      - 'index.html'
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
   export:
     runs-on: ubuntu-24.04
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Validate 205 girls voice MP3 and 19 game modules
+      - name: Audit complete narrated game and English-only correction
         run: |
           python scripts/audit_full_voice.py
           python - <<'PY'
           from pathlib import Path
-          import re,json
-          s=Path('index.html').read_text()
+          import re,json,hashlib
+          s=Path('index.html').read_text(encoding='utf-8')
           m=re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S)
-          assert m and len(json.loads(m.group(1))['audio'])>=205
-          assert 'StarwhimAdvancedGames' in s and 'window.StarwhimExpansion19=' in s
-          print('PASS complete advanced single-file game')
+          assert m
+          a=json.loads(m.group(1))['audio']
+          assert len(a)==914,len(a)
+          assert "current.playbackRate=root.querySelector('.learnfirst')?0.72:0.8" in s
+          assert 'window.StarwhimExpansion19=' in s
+          assert 'window.StarwhimEnglishLearnFirst=' in s
+          assert "utterance.lang='en-US'" in s
+          assert "lastHanziVoice.playbackRate=0.8" in s
+          print('PASS full 914-voice HTML, 200+200 lessons and localized English Chinese narration')
+          print('HTML SHA256',hashlib.sha256(s.encode('utf-8')).hexdigest(), 'bytes',len(s.encode('utf-8')))
           PY
+      - name: Package standalone HTML
+        run: |
+          cp index.html starwhim-island-914-voices-english-voice-fixed.html
       - uses: actions/upload-artifact@v4
         with:
-          name: starwhim-island-205-voice-19-game-complete
-          path: index.html
+          name: starwhim-island-914-voices-english-voice-fixed
+          path: starwhim-island-914-voices-english-voice-fixed.html
           if-no-files-found: error
           retention-days: 30
