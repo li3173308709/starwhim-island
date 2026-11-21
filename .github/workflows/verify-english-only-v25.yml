@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
-      STARWHIM_URL: https://starwhim-island-ali344s7m-li3173308709-4921.vercel.app
+      STARWHIM_URL: https://starwhim-island-ba4x0k31x-li3173308709-4921.vercel.app
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
