@@ -1,0 +1,50 @@
+name: Correct Ding Yiyi using original girl's name pronunciation
+on:
+  workflow_run:
+    workflows:
+      - Repair invented first syllables in Chinese girl recordings
+    types:
+      - completed
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: starwhim-dingyiyi-v24-canonical
+  cancel-in-progress: false
+jobs:
+  replace:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Mandarin ASR, original MP3 splicing dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install 'faster-whisper==1.2.1' 'pypinyin>=0.55,<1' pydub
+      - name: Replace misread child name with correctly spoken original girl recording
+        run: python -u scripts/normalize_child_name_v24.py
+      - name: Audit voice pack and name report
+        run: |
+          python scripts/audit_full_voice.py
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          report=json.loads(Path('voice-name-repair-report.json').read_text())
+          assert report['repaired']>=10,report
+          print('PASS:',report['repaired'],'recorded name introductions repaired with original supplied voice')
+          PY
+      - name: Commit final name-pronunciation corrections
+        run: |
+          git config user.name starwhim-voice-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html voice-name-repair-report.json
+          git commit -m 'fix: pronounce 丁一一 from original user voice rather than extra AI syllables'
+          git pull --rebase origin main
+          git push origin HEAD:main
