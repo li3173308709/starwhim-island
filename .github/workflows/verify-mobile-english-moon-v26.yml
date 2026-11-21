@@ -1,0 +1,28 @@
+name: Accept mobile English sound and moon puzzle voice fix
+on:
+  workflow_run:
+    workflows:
+      - Fix mobile English voice and moon puzzle narration
+    types:
+      - completed
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Playwright and check Chrome
+        run: |
+          python -m pip install playwright==1.56.0
+          google-chrome --version
+      - name: Test real MP3 playback on phones with broken OS speech, moon narrator isolation
+        run: python -u scripts/verify_mobile_english_moon_v26.py
