@@ -1,0 +1,25 @@
+name: Final production acceptance 914-voice learning game
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-learning-v23-production.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      STARWHIM_URL: https://starwhim-island.vercel.app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Setup Chrome testing
+        run: |
+          python -m pip install playwright==1.56.0
+          google-chrome --version
+      - name: Validate real production 914 MP3 and lessons on 3 screen sizes
+        run: python scripts/verify_learning_v23_online.py
