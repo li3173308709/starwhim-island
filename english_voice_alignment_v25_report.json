@@ -1,0 +1,14 @@
+{
+  "scope": "English learning Chinese narration only; Hanzi learning unchanged",
+  "original_english_reader": "en-US, unchanged",
+  "english_learning_chinese_voice_speed": 0.72,
+  "rest_of_game_girl_voice_speed_unchanged": 0.8,
+  "hanzi_code_and_narrator_branch_untouched": true,
+  "word_count": 200,
+  "hanzi_count": 200,
+  "audio_clip_count": 914,
+  "exact_chinese_meaning_bindings": 200,
+  "changed_region": "embedded scripts/learning_ui_voices_v23.js only",
+  "unchanged_prefix_sha256": "2105f14020b915f43203b94241d5a892fca06ccdecf4f8585b45df1e02241f38",
+  "unchanged_suffix_sha256": "39cb377f56d87fbfdd3a9c0c230aad391db9c08e4d7dc276439040aa4e44d74f"
+}
