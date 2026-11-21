@@ -1363,6 +1363,8 @@ function speak(word){
     return false;
   }
   try{
+    window.StarwhimChineseNarratorV23?.stop?.();
+    S.audio?.stopSpeech?.();
     if(lastVoice){lastVoice.pause();lastVoice=null;}
     if(synth.speaking||synth.pending)synth.cancel();
     const utterance=new SpeechSynthesisUtterance(String(word));
