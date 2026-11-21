@@ -34,8 +34,8 @@ for row in rows:
         info=MP3(str(filename)).info
         if info.length<=0 or info.bitrate<=0:
             raise RuntimeError(f'Invalid MP3: {filename}')
-    if row['text'] not in pack['audio']:
-        pack['audio'][row['text']]='data:audio/mpeg;base64,'+base64.b64encode(filename.read_bytes()).decode()
+    if row.get('key',row['text']) not in pack['audio']:
+        pack['audio'][row.get('key',row['text'])]='data:audio/mpeg;base64,'+base64.b64encode(filename.read_bytes()).decode()
         added+=1
 if missing:
     raise RuntimeError(f'Missing {len(missing)} of {len(rows)} supplemental clips: {missing[:10]}')
