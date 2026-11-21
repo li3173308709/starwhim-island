@@ -1,0 +1,2787 @@
+{
+  "version": 23,
+  "count": 309,
+  "lines": [
+    {
+      "id": "cn5b9f0e3daf8c084ec5",
+      "role": "narrator",
+      "key": "cn:meaning:cat",
+      "text": "中文意思是：猫。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cndf79d6e63d885907bd",
+      "role": "narrator",
+      "key": "cn:meaning:dog",
+      "text": "中文意思是：狗。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn2a2e88f0ae3f06525a",
+      "role": "narrator",
+      "key": "cn:meaning:bird",
+      "text": "中文意思是：鸟。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn09547d0e38369a7b80",
+      "role": "narrator",
+      "key": "cn:meaning:fish",
+      "text": "中文意思是：鱼。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnaad54475ae177eac30",
+      "role": "narrator",
+      "key": "cn:meaning:lion",
+      "text": "中文意思是：狮子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cna378a8ea77653a5ea7",
+      "role": "narrator",
+      "key": "cn:meaning:tiger",
+      "text": "中文意思是：老虎。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn2d9fdc7c4c550cf6af",
+      "role": "narrator",
+      "key": "cn:meaning:duck",
+      "text": "中文意思是：鸭子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5dff4dc8438be58948",
+      "role": "narrator",
+      "key": "cn:meaning:bear",
+      "text": "中文意思是：熊。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnecf236698acfe504ca",
+      "role": "narrator",
+      "key": "cn:meaning:frog",
+      "text": "中文意思是：青蛙。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnabc160ca4d532ca06b",
+      "role": "narrator",
+      "key": "cn:meaning:rabbit",
+      "text": "中文意思是：兔子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn821fa437f10051c704",
+      "role": "narrator",
+      "key": "cn:meaning:apple",
+      "text": "中文意思是：苹果。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnccf504d870f51117b9",
+      "role": "narrator",
+      "key": "cn:meaning:banana",
+      "text": "中文意思是：香蕉。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cna8024bb097e92d3b1c",
+      "role": "narrator",
+      "key": "cn:meaning:milk",
+      "text": "中文意思是：牛奶。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn4fc01cdd5a0e359835",
+      "role": "narrator",
+      "key": "cn:meaning:bread",
+      "text": "中文意思是：面包。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb1c04da8779eba9923",
+      "role": "narrator",
+      "key": "cn:meaning:cake",
+      "text": "中文意思是：蛋糕。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn67b69c18bd9ce5a8a2",
+      "role": "narrator",
+      "key": "cn:meaning:egg",
+      "text": "中文意思是：鸡蛋。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn58d6bf68c63285c336",
+      "role": "narrator",
+      "key": "cn:meaning:rice",
+      "text": "中文意思是：米饭。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn8f61a320d9f46b6b23",
+      "role": "narrator",
+      "key": "cn:meaning:grape",
+      "text": "中文意思是：葡萄。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn852720584bdabd64c1",
+      "role": "narrator",
+      "key": "cn:meaning:pear",
+      "text": "中文意思是：梨。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn04f64d328044a13882",
+      "role": "narrator",
+      "key": "cn:meaning:cookie",
+      "text": "中文意思是：饼干。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn519ff84626f7facefd",
+      "role": "narrator",
+      "key": "cn:meaning:red",
+      "text": "中文意思是：红色。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn50edc8db7a912c98b0",
+      "role": "narrator",
+      "key": "cn:meaning:blue",
+      "text": "中文意思是：蓝色。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn817f46715de1bbfdf0",
+      "role": "narrator",
+      "key": "cn:meaning:green",
+      "text": "中文意思是：绿色。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9f1e1cb9059e811c77",
+      "role": "narrator",
+      "key": "cn:meaning:yellow",
+      "text": "中文意思是：黄色。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5d5fe35f33f35afda7",
+      "role": "narrator",
+      "key": "cn:meaning:pink",
+      "text": "中文意思是：粉色。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnea62add683ec417817",
+      "role": "narrator",
+      "key": "cn:meaning:purple",
+      "text": "中文意思是：紫色。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn885fd0995db163b31b",
+      "role": "narrator",
+      "key": "cn:meaning:black",
+      "text": "中文意思是：黑色。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cne5c945fd9929ee4218",
+      "role": "narrator",
+      "key": "cn:meaning:white",
+      "text": "中文意思是：白色。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6c3c398a9f8a6ab083",
+      "role": "narrator",
+      "key": "cn:meaning:orange",
+      "text": "中文意思是：橙色。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn05af6ef5c16a391fd4",
+      "role": "narrator",
+      "key": "cn:meaning:brown",
+      "text": "中文意思是：棕色。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn83cfaa711476da6d94",
+      "role": "narrator",
+      "key": "cn:meaning:mom",
+      "text": "中文意思是：妈妈。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn05cf16d453b46c4c0d",
+      "role": "narrator",
+      "key": "cn:meaning:dad",
+      "text": "中文意思是：爸爸。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn628cb79646be126713",
+      "role": "narrator",
+      "key": "cn:meaning:baby",
+      "text": "中文意思是：宝宝。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn3ef73caffe20d9dddd",
+      "role": "narrator",
+      "key": "cn:meaning:sister",
+      "text": "中文意思是：姐姐。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cncfe1a5a304053ceaf0",
+      "role": "narrator",
+      "key": "cn:meaning:brother",
+      "text": "中文意思是：哥哥。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1aab62bff6179a30fc",
+      "role": "narrator",
+      "key": "cn:meaning:family",
+      "text": "中文意思是：家庭。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1eb6e3aa144818a145",
+      "role": "narrator",
+      "key": "cn:meaning:friend",
+      "text": "中文意思是：朋友。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7a438f7c3f5e660fe6",
+      "role": "narrator",
+      "key": "cn:meaning:home",
+      "text": "中文意思是：家。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6a2ea08d8e506dcc1f",
+      "role": "narrator",
+      "key": "cn:meaning:grandma",
+      "text": "中文意思是：奶奶。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7470204c5eeb6b7632",
+      "role": "narrator",
+      "key": "cn:meaning:grandpa",
+      "text": "中文意思是：爷爷。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn745ff134cdf90fb242",
+      "role": "narrator",
+      "key": "cn:meaning:sun",
+      "text": "中文意思是：太阳。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn357c3c7b027d9c5e74",
+      "role": "narrator",
+      "key": "cn:meaning:moon",
+      "text": "中文意思是：月亮。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn61839fe8f653eda9c5",
+      "role": "narrator",
+      "key": "cn:meaning:star",
+      "text": "中文意思是：星星。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn8bc4eb5fb4725951e9",
+      "role": "narrator",
+      "key": "cn:meaning:cloud",
+      "text": "中文意思是：云。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn63384aef7d2931c298",
+      "role": "narrator",
+      "key": "cn:meaning:rain",
+      "text": "中文意思是：雨。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn3b7b3530fb13381a38",
+      "role": "narrator",
+      "key": "cn:meaning:snow",
+      "text": "中文意思是：雪。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7621ae37f36f3558ac",
+      "role": "narrator",
+      "key": "cn:meaning:tree",
+      "text": "中文意思是：树。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cndf1db1a6b178aa70c8",
+      "role": "narrator",
+      "key": "cn:meaning:flower",
+      "text": "中文意思是：花。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn972311e880a90f8cd1",
+      "role": "narrator",
+      "key": "cn:meaning:river",
+      "text": "中文意思是：河流。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5f952226f555a5809d",
+      "role": "narrator",
+      "key": "cn:meaning:rainbow",
+      "text": "中文意思是：彩虹。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn64027769ac5caca8b0",
+      "role": "narrator",
+      "key": "cn:meaning:book",
+      "text": "中文意思是：书。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn49bd1d6d7ad4e5d57b",
+      "role": "narrator",
+      "key": "cn:meaning:pen",
+      "text": "中文意思是：笔。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn2436afdd6743c9d99a",
+      "role": "narrator",
+      "key": "cn:meaning:pencil",
+      "text": "中文意思是：铅笔。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn875425f66c88218231",
+      "role": "narrator",
+      "key": "cn:meaning:bag",
+      "text": "中文意思是：书包。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn01849bc71023a11b40",
+      "role": "narrator",
+      "key": "cn:meaning:desk",
+      "text": "中文意思是：课桌。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5efcb4afd23dc7d4fc",
+      "role": "narrator",
+      "key": "cn:meaning:chair",
+      "text": "中文意思是：椅子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb951522577ffb0752f",
+      "role": "narrator",
+      "key": "cn:meaning:school",
+      "text": "中文意思是：学校。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnf185fc7af6304346f0",
+      "role": "narrator",
+      "key": "cn:meaning:paper",
+      "text": "中文意思是：纸。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1f2446b671813386f7",
+      "role": "narrator",
+      "key": "cn:meaning:clock",
+      "text": "中文意思是：时钟。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cne792754ae4bc06dea3",
+      "role": "narrator",
+      "key": "cn:meaning:ball",
+      "text": "中文意思是：球。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd3cac00d4a9a0a3818",
+      "role": "narrator",
+      "key": "cn:meaning:run",
+      "text": "中文意思是：跑。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnfd272da473e61c5b53",
+      "role": "narrator",
+      "key": "cn:meaning:jump",
+      "text": "中文意思是：跳。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9b3c0dcbb689fc61d0",
+      "role": "narrator",
+      "key": "cn:meaning:walk",
+      "text": "中文意思是：走路。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn539dac954c5ffe4f97",
+      "role": "narrator",
+      "key": "cn:meaning:dance",
+      "text": "中文意思是：跳舞。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1d8735a7b1c0a33c62",
+      "role": "narrator",
+      "key": "cn:meaning:sing",
+      "text": "中文意思是：唱歌。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn24962b44b1d901aaff",
+      "role": "narrator",
+      "key": "cn:meaning:read",
+      "text": "中文意思是：阅读。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn3822f4be2df28ba514",
+      "role": "narrator",
+      "key": "cn:meaning:write",
+      "text": "中文意思是：写字。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb68fb3b6b7d05b81bf",
+      "role": "narrator",
+      "key": "cn:meaning:swim",
+      "text": "中文意思是：游泳。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cneb2cf4c56c88c0148b",
+      "role": "narrator",
+      "key": "cn:meaning:sleep",
+      "text": "中文意思是：睡觉。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn02e8a87da9fb9a81f1",
+      "role": "narrator",
+      "key": "cn:meaning:smile",
+      "text": "中文意思是：微笑。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn3e1818eeb7302e9f5d",
+      "role": "narrator",
+      "key": "cn:meaning:car",
+      "text": "中文意思是：汽车。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn02015d8ae19c237264",
+      "role": "narrator",
+      "key": "cn:meaning:bus",
+      "text": "中文意思是：公交车。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9f2f5bd4ac404803ff",
+      "role": "narrator",
+      "key": "cn:meaning:train",
+      "text": "中文意思是：火车。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9f08186433882423ee",
+      "role": "narrator",
+      "key": "cn:meaning:bike",
+      "text": "中文意思是：自行车。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn27c2c0b6cc37c26c42",
+      "role": "narrator",
+      "key": "cn:meaning:boat",
+      "text": "中文意思是：船。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9a693a622893d277c8",
+      "role": "narrator",
+      "key": "cn:meaning:plane",
+      "text": "中文意思是：飞机。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn526bd8abde385bfa02",
+      "role": "narrator",
+      "key": "cn:meaning:road",
+      "text": "中文意思是：道路。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn573a4208f7d5c4f995",
+      "role": "narrator",
+      "key": "cn:meaning:park",
+      "text": "中文意思是：公园。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cne800395507a0e0bda9",
+      "role": "narrator",
+      "key": "cn:meaning:house",
+      "text": "中文意思是：房子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn497077082c9cb66831",
+      "role": "narrator",
+      "key": "cn:meaning:bridge",
+      "text": "中文意思是：桥。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn8dc5d81e347076b079",
+      "role": "narrator",
+      "key": "cn:meaning:happy",
+      "text": "中文意思是：开心。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9ac4be60824a5974b7",
+      "role": "narrator",
+      "key": "cn:meaning:sad",
+      "text": "中文意思是：难过。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn4028c0fe249350d920",
+      "role": "narrator",
+      "key": "cn:meaning:angry",
+      "text": "中文意思是：生气。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn453950551e223a250c",
+      "role": "narrator",
+      "key": "cn:meaning:tired",
+      "text": "中文意思是：疲倦。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn0ff95d2822298301c1",
+      "role": "narrator",
+      "key": "cn:meaning:laugh",
+      "text": "中文意思是：大笑。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn31603cfa650242c4fb",
+      "role": "narrator",
+      "key": "cn:meaning:hello",
+      "text": "中文意思是：你好。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb1dd33c9cca99afc5b",
+      "role": "narrator",
+      "key": "cn:meaning:goodbye",
+      "text": "中文意思是：再见。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cneefa8d3030762f11c3",
+      "role": "narrator",
+      "key": "cn:meaning:please",
+      "text": "中文意思是：请。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn922ab8885d3cb7a4e5",
+      "role": "narrator",
+      "key": "cn:meaning:thank you",
+      "text": "中文意思是：谢谢。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnbb27039e7e1335146e",
+      "role": "narrator",
+      "key": "cn:meaning:sorry",
+      "text": "中文意思是：对不起。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn892039be4454525939",
+      "role": "narrator",
+      "key": "cn:meaning:head",
+      "text": "中文意思是：头。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5187eff97e9627b74b",
+      "role": "narrator",
+      "key": "cn:meaning:eye",
+      "text": "中文意思是：眼睛。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn22eddff2034d80d9b9",
+      "role": "narrator",
+      "key": "cn:meaning:ear",
+      "text": "中文意思是：耳朵。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cncadc0aa6d73745cba6",
+      "role": "narrator",
+      "key": "cn:meaning:nose",
+      "text": "中文意思是：鼻子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9826a367cedd59d889",
+      "role": "narrator",
+      "key": "cn:meaning:mouth",
+      "text": "中文意思是：嘴巴。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn35237147b8ac86fe5f",
+      "role": "narrator",
+      "key": "cn:meaning:hand",
+      "text": "中文意思是：手。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cna078057cfc71fd9df1",
+      "role": "narrator",
+      "key": "cn:meaning:foot",
+      "text": "中文意思是：脚。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn63287b4de18c6f0da4",
+      "role": "narrator",
+      "key": "cn:meaning:spring",
+      "text": "中文意思是：春天。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn93070df4b7328872ac",
+      "role": "narrator",
+      "key": "cn:meaning:summer",
+      "text": "中文意思是：夏天。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cna7d94984a0edd0e13d",
+      "role": "narrator",
+      "key": "cn:meaning:winter",
+      "text": "中文意思是：冬天。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn35007fdea2aa938386",
+      "role": "narrator",
+      "key": "cn:meaning:one",
+      "text": "中文意思是：一。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn3700dd254f7627ebaf",
+      "role": "narrator",
+      "key": "cn:meaning:two",
+      "text": "中文意思是：二。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn548431a5db9a27fc1d",
+      "role": "narrator",
+      "key": "cn:meaning:three",
+      "text": "中文意思是：三。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn13ad32031a92f69c56",
+      "role": "narrator",
+      "key": "cn:meaning:four",
+      "text": "中文意思是：四。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnc3986c0cad274e93f9",
+      "role": "narrator",
+      "key": "cn:meaning:five",
+      "text": "中文意思是：五。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cncdfc5c6f1ad62741e2",
+      "role": "narrator",
+      "key": "cn:meaning:six",
+      "text": "中文意思是：六。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5127f4a0c5be882402",
+      "role": "narrator",
+      "key": "cn:meaning:seven",
+      "text": "中文意思是：七。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn41e280bb77ba8dc312",
+      "role": "narrator",
+      "key": "cn:meaning:eight",
+      "text": "中文意思是：八。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd9e143ae4c6dc2e833",
+      "role": "narrator",
+      "key": "cn:meaning:nine",
+      "text": "中文意思是：九。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd67d867af233bde067",
+      "role": "narrator",
+      "key": "cn:meaning:ten",
+      "text": "中文意思是：十。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn13163ef03a355f1d77",
+      "role": "narrator",
+      "key": "cn:meaning:circle",
+      "text": "中文意思是：圆形。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn4b04955e55eb675265",
+      "role": "narrator",
+      "key": "cn:meaning:square",
+      "text": "中文意思是：正方形。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn2997a227dc064d273a",
+      "role": "narrator",
+      "key": "cn:meaning:triangle",
+      "text": "中文意思是：三角形。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5024a251582db245d0",
+      "role": "narrator",
+      "key": "cn:meaning:heart",
+      "text": "中文意思是：心形。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6fdcc147a795ec48e7",
+      "role": "narrator",
+      "key": "cn:meaning:rectangle",
+      "text": "中文意思是：长方形。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn98339e2a9a0ecc854b",
+      "role": "narrator",
+      "key": "cn:meaning:oval",
+      "text": "中文意思是：椭圆形。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cneb59314cb360e4ec0d",
+      "role": "narrator",
+      "key": "cn:meaning:line",
+      "text": "中文意思是：线。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd45376541b41354789",
+      "role": "narrator",
+      "key": "cn:meaning:dot",
+      "text": "中文意思是：点。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn70b5613da4cf5a931b",
+      "role": "narrator",
+      "key": "cn:meaning:diamond",
+      "text": "中文意思是：菱形。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn96f05fdc221004336d",
+      "role": "narrator",
+      "key": "cn:meaning:cube",
+      "text": "中文意思是：立方体。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6879d72f7a6fdddb80",
+      "role": "narrator",
+      "key": "cn:meaning:shirt",
+      "text": "中文意思是：衬衫。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1d6a0e3c1d480b4fc0",
+      "role": "narrator",
+      "key": "cn:meaning:dress",
+      "text": "中文意思是：裙子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cna0fb91f3ae5257616e",
+      "role": "narrator",
+      "key": "cn:meaning:coat",
+      "text": "中文意思是：外套。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7ae687e3f52f9d47e3",
+      "role": "narrator",
+      "key": "cn:meaning:hat",
+      "text": "中文意思是：帽子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7d2c476a50e27ed139",
+      "role": "narrator",
+      "key": "cn:meaning:shoes",
+      "text": "中文意思是：鞋子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnf7aca8811e0d065480",
+      "role": "narrator",
+      "key": "cn:meaning:socks",
+      "text": "中文意思是：袜子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6e87f058a9b468c254",
+      "role": "narrator",
+      "key": "cn:meaning:pants",
+      "text": "中文意思是：裤子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cne9f6f4aded6758b9ee",
+      "role": "narrator",
+      "key": "cn:meaning:skirt",
+      "text": "中文意思是：半身裙。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnf840e3b12d7df54877",
+      "role": "narrator",
+      "key": "cn:meaning:scarf",
+      "text": "中文意思是：围巾。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnaccb398e6e05931e7d",
+      "role": "narrator",
+      "key": "cn:meaning:gloves",
+      "text": "中文意思是：手套。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnf1b2cd1b91388e8f27",
+      "role": "narrator",
+      "key": "cn:meaning:toy",
+      "text": "中文意思是：玩具。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnab444691be6ce7fde5",
+      "role": "narrator",
+      "key": "cn:meaning:doll",
+      "text": "中文意思是：娃娃。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cna146c46e25f624d324",
+      "role": "narrator",
+      "key": "cn:meaning:teddy",
+      "text": "中文意思是：泰迪熊。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb71d563989e673e462",
+      "role": "narrator",
+      "key": "cn:meaning:kite",
+      "text": "中文意思是：风筝。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn46dbda57f2a9c28b82",
+      "role": "narrator",
+      "key": "cn:meaning:puzzle",
+      "text": "中文意思是：拼图。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn364f429a0a4a13e388",
+      "role": "narrator",
+      "key": "cn:meaning:robot",
+      "text": "中文意思是：机器人。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnc807925eac3aca0b4a",
+      "role": "narrator",
+      "key": "cn:meaning:blocks",
+      "text": "中文意思是：积木。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cne4bd3176f4dc2bbcee",
+      "role": "narrator",
+      "key": "cn:meaning:balloon",
+      "text": "中文意思是：气球。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn728929e89ffa1a081e",
+      "role": "narrator",
+      "key": "cn:meaning:drum",
+      "text": "中文意思是：鼓。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn926b6052d898dac12f",
+      "role": "narrator",
+      "key": "cn:meaning:yo-yo",
+      "text": "中文意思是：悠悠球。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnf098f5cc9f69dad471",
+      "role": "narrator",
+      "key": "cn:meaning:watermelon",
+      "text": "中文意思是：西瓜。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cndc29caf60817bf7f7a",
+      "role": "narrator",
+      "key": "cn:meaning:strawberry",
+      "text": "中文意思是：草莓。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn2e7ee3e61c5ebe8bdb",
+      "role": "narrator",
+      "key": "cn:meaning:cherry",
+      "text": "中文意思是：樱桃。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnc472cdb28b7ce52eba",
+      "role": "narrator",
+      "key": "cn:meaning:peach",
+      "text": "中文意思是：桃子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb24e4e97076cc2ae3f",
+      "role": "narrator",
+      "key": "cn:meaning:lemon",
+      "text": "中文意思是：柠檬。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn55d17c2027c442693d",
+      "role": "narrator",
+      "key": "cn:meaning:pineapple",
+      "text": "中文意思是：菠萝。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnfdfe3d87657afc1c1e",
+      "role": "narrator",
+      "key": "cn:meaning:carrot",
+      "text": "中文意思是：胡萝卜。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1c096bc0e42f34c9f3",
+      "role": "narrator",
+      "key": "cn:meaning:corn",
+      "text": "中文意思是：玉米。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn92be5a890e69de5435",
+      "role": "narrator",
+      "key": "cn:meaning:potato",
+      "text": "中文意思是：土豆。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnc80496e5b2b638fa43",
+      "role": "narrator",
+      "key": "cn:meaning:tomato",
+      "text": "中文意思是：西红柿。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cndd7375314d1af9821f",
+      "role": "narrator",
+      "key": "cn:meaning:sunny",
+      "text": "中文意思是：晴天的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn22bd70746178c95fc4",
+      "role": "narrator",
+      "key": "cn:meaning:rainy",
+      "text": "中文意思是：下雨的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn23c01cbeed367fbbc1",
+      "role": "narrator",
+      "key": "cn:meaning:windy",
+      "text": "中文意思是：有风的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnc0e39a885d0160436e",
+      "role": "narrator",
+      "key": "cn:meaning:cloudy",
+      "text": "中文意思是：多云的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnbc17c3c1ac29884595",
+      "role": "narrator",
+      "key": "cn:meaning:foggy",
+      "text": "中文意思是：有雾的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnefba7d497db6676be3",
+      "role": "narrator",
+      "key": "cn:meaning:storm",
+      "text": "中文意思是：暴风雨。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn0cb82e6204c0904d46",
+      "role": "narrator",
+      "key": "cn:meaning:warm",
+      "text": "中文意思是：温暖的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn19301f4c3f528d09f8",
+      "role": "narrator",
+      "key": "cn:meaning:cold",
+      "text": "中文意思是：寒冷的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6f1cfeb13a1592793f",
+      "role": "narrator",
+      "key": "cn:meaning:hot",
+      "text": "中文意思是：炎热的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn4ea0310faa2768b65d",
+      "role": "narrator",
+      "key": "cn:meaning:weather",
+      "text": "中文意思是：天气。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn25eccfdefe74955b07",
+      "role": "narrator",
+      "key": "cn:meaning:hospital",
+      "text": "中文意思是：医院。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn4d576568fa79a2748a",
+      "role": "narrator",
+      "key": "cn:meaning:shop",
+      "text": "中文意思是：商店。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn996a18e646895cceb5",
+      "role": "narrator",
+      "key": "cn:meaning:library",
+      "text": "中文意思是：图书馆。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnaabb20a4d557eca3c9",
+      "role": "narrator",
+      "key": "cn:meaning:zoo",
+      "text": "中文意思是：动物园。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn752ce50dfe2cd2cbdc",
+      "role": "narrator",
+      "key": "cn:meaning:farm",
+      "text": "中文意思是：农场。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnced90e89b5629464ea",
+      "role": "narrator",
+      "key": "cn:meaning:beach",
+      "text": "中文意思是：海滩。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn3a361303052503d1dc",
+      "role": "narrator",
+      "key": "cn:meaning:mountain",
+      "text": "中文意思是：山。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnc4985b8d898c795560",
+      "role": "narrator",
+      "key": "cn:meaning:garden",
+      "text": "中文意思是：花园。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6d649d0e184a077f4f",
+      "role": "narrator",
+      "key": "cn:meaning:station",
+      "text": "中文意思是：车站。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnca7e0d308f644b0f72",
+      "role": "narrator",
+      "key": "cn:meaning:museum",
+      "text": "中文意思是：博物馆。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn843cdb5edc0d0ec501",
+      "role": "narrator",
+      "key": "cn:meaning:eat",
+      "text": "中文意思是：吃。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn40aa8584b8ce1b319b",
+      "role": "narrator",
+      "key": "cn:meaning:drink",
+      "text": "中文意思是：喝。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn45a1b3f2b2cb4bf9cf",
+      "role": "narrator",
+      "key": "cn:meaning:play",
+      "text": "中文意思是：玩。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn078354ea21c72eee9c",
+      "role": "narrator",
+      "key": "cn:meaning:draw",
+      "text": "中文意思是：画。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn618caa4331fe4effd6",
+      "role": "narrator",
+      "key": "cn:meaning:open",
+      "text": "中文意思是：打开。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1fc9ca141024c4e782",
+      "role": "narrator",
+      "key": "cn:meaning:close",
+      "text": "中文意思是：关闭。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn24a3a5838dd73f1dd5",
+      "role": "narrator",
+      "key": "cn:meaning:listen",
+      "text": "中文意思是：听。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn21008a4c97636e6543",
+      "role": "narrator",
+      "key": "cn:meaning:look",
+      "text": "中文意思是：看。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn38c46bd436500698c8",
+      "role": "narrator",
+      "key": "cn:meaning:clap",
+      "text": "中文意思是：拍手。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9c775d55aad5ba956e",
+      "role": "narrator",
+      "key": "cn:meaning:hug",
+      "text": "中文意思是：拥抱。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn86c18785df87a1ab1a",
+      "role": "narrator",
+      "key": "cn:meaning:butterfly",
+      "text": "中文意思是：蝴蝶。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn101084e2a3531a51ee",
+      "role": "narrator",
+      "key": "cn:meaning:bee",
+      "text": "中文意思是：蜜蜂。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cncf9e9559ea77106500",
+      "role": "narrator",
+      "key": "cn:meaning:ant",
+      "text": "中文意思是：蚂蚁。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn95388401d96b61ab41",
+      "role": "narrator",
+      "key": "cn:meaning:elephant",
+      "text": "中文意思是：大象。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb5773ed6fcc14b9a5d",
+      "role": "narrator",
+      "key": "cn:meaning:monkey",
+      "text": "中文意思是：猴子。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1ab8f6e5b9757f56fc",
+      "role": "narrator",
+      "key": "cn:meaning:panda",
+      "text": "中文意思是：熊猫。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb3723b16c519e81811",
+      "role": "narrator",
+      "key": "cn:meaning:penguin",
+      "text": "中文意思是：企鹅。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnec26effb9cc9f17459",
+      "role": "narrator",
+      "key": "cn:meaning:dolphin",
+      "text": "中文意思是：海豚。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn36e708da9abfd7a8aa",
+      "role": "narrator",
+      "key": "cn:meaning:whale",
+      "text": "中文意思是：鲸鱼。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6de1933f2a85618b1b",
+      "role": "narrator",
+      "key": "cn:meaning:turtle",
+      "text": "中文意思是：乌龟。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb461ecf5fbbe0e6794",
+      "role": "narrator",
+      "key": "cn:meaning:excited",
+      "text": "中文意思是：兴奋的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn525cf90ad7827cbafb",
+      "role": "narrator",
+      "key": "cn:meaning:calm",
+      "text": "中文意思是：平静的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnf2fa8a2af3effb5eda",
+      "role": "narrator",
+      "key": "cn:meaning:brave",
+      "text": "中文意思是：勇敢的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn85fa7929e22f9e3f85",
+      "role": "narrator",
+      "key": "cn:meaning:kind",
+      "text": "中文意思是：友善的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn8b79201c40a401a1e1",
+      "role": "narrator",
+      "key": "cn:meaning:shy",
+      "text": "中文意思是：害羞的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn77cd2b78821985970b",
+      "role": "narrator",
+      "key": "cn:meaning:proud",
+      "text": "中文意思是：自豪的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn624bc48eb1dc5cc8a7",
+      "role": "narrator",
+      "key": "cn:meaning:scared",
+      "text": "中文意思是：害怕的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cna4b10c0bee743813fd",
+      "role": "narrator",
+      "key": "cn:meaning:surprised",
+      "text": "中文意思是：惊讶的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1b511cb77cad74a528",
+      "role": "narrator",
+      "key": "cn:meaning:curious",
+      "text": "中文意思是：好奇的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnebc23d5da62bb495ef",
+      "role": "narrator",
+      "key": "cn:meaning:friendly",
+      "text": "中文意思是：友好的。",
+      "context": "英语图卡中文释义",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn300587bfc83630f56e",
+      "role": "narrator",
+      "key": "cn:topic:交通旅行🚗",
+      "text": "这里是交通旅行主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn317a7e2350d30ba821",
+      "role": "narrator",
+      "key": "cn:topic:动作🏃",
+      "text": "这里是动作主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnfe5ba605792c25e933",
+      "role": "narrator",
+      "key": "cn:topic:动物🐾",
+      "text": "这里是动物主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5ef2b573214764eeeb",
+      "role": "narrator",
+      "key": "cn:topic:四季时间🕒",
+      "text": "这里是四季时间主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb24078ccf4c483d465",
+      "role": "narrator",
+      "key": "cn:topic:城市地点🏙️",
+      "text": "这里是城市地点主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnfe73bc021719570624",
+      "role": "narrator",
+      "key": "cn:topic:大自然🌳",
+      "text": "这里是大自然主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd7d85dc2ddd4026641",
+      "role": "narrator",
+      "key": "cn:topic:天气⛅",
+      "text": "这里是天气主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn4f12cb096ecc0cdcc3",
+      "role": "narrator",
+      "key": "cn:topic:学校✏️",
+      "text": "这里是学校主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9723596132f25365c8",
+      "role": "narrator",
+      "key": "cn:topic:家庭🏠",
+      "text": "这里是家庭主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5d75b9b772245d35c9",
+      "role": "narrator",
+      "key": "cn:topic:形状🔷",
+      "text": "这里是形状主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnbf1c5fd2b3d9bb6591",
+      "role": "narrator",
+      "key": "cn:topic:心情性格💖",
+      "text": "这里是心情性格主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7e7223f51ac5171b6c",
+      "role": "narrator",
+      "key": "cn:topic:情绪表情😊",
+      "text": "这里是情绪表情主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn913311832f96cdfbf0",
+      "role": "narrator",
+      "key": "cn:topic:数字🔢",
+      "text": "这里是数字主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn224f88ba77cdccb719",
+      "role": "narrator",
+      "key": "cn:topic:日常动作🎯",
+      "text": "这里是日常动作主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd43ee779be274b1d11",
+      "role": "narrator",
+      "key": "cn:topic:日常用语🗣️",
+      "text": "这里是日常用语主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn50852c657884fde92e",
+      "role": "narrator",
+      "key": "cn:topic:更多动物🦋",
+      "text": "这里是更多动物主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn45da0bfbb96ff4d39b",
+      "role": "narrator",
+      "key": "cn:topic:水果蔬菜🥕",
+      "text": "这里是水果蔬菜主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb3e5dc0bd42907f566",
+      "role": "narrator",
+      "key": "cn:topic:玩具🧸",
+      "text": "这里是玩具主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6390e3f25c8cca0a5d",
+      "role": "narrator",
+      "key": "cn:topic:衣服👗",
+      "text": "这里是衣服主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6f15aff4c3b78ba445",
+      "role": "narrator",
+      "key": "cn:topic:身体部位👂",
+      "text": "这里是身体部位主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn58b4def32b3ab0bd3e",
+      "role": "narrator",
+      "key": "cn:topic:颜色🎨",
+      "text": "这里是颜色主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cneec4e67a17bd6759a4",
+      "role": "narrator",
+      "key": "cn:topic:食物🍎",
+      "text": "这里是食物主题，一起认识新单词吧！",
+      "context": "英语主题名称",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5623dceb8d315ebb8e",
+      "role": "narrator",
+      "key": "cn:ui:home",
+      "text": "丁一一，我们先认识每个单词的图片、英文和中文。看图理解意思，再听英文发音，然后和小精灵一起闯关。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn80695476f1d32daaf5",
+      "role": "narrator",
+      "key": "cn:ui:five",
+      "text": "每次认识五个新单词，学完以后再玩小游戏。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cndd68bda93bb5a2d87c",
+      "role": "narrator",
+      "key": "cn:ui:choose",
+      "text": "选择你喜欢的童话主题。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7ad605475708fb3bdf",
+      "role": "narrator",
+      "key": "cn:ui:teaching",
+      "text": "今天我们认识一个新的单词朋友。看一看图片，听一听英文，记住中文意思。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cncf8f9e16f2e8c86f06",
+      "role": "narrator",
+      "key": "cn:ui:learn-more",
+      "text": "先学单词，再开启游戏。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb7ac6b46e66cd0f771",
+      "role": "narrator",
+      "key": "cn:ui:unlock",
+      "text": "再认识几个单词，就可以解锁新的挑战啦。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn8ee3586a459b9a6af7",
+      "role": "narrator",
+      "key": "cn:ui:learned",
+      "text": "你已经认识不少单词朋友了，真棒！",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn219807e329e5e8872b",
+      "role": "narrator",
+      "key": "cn:ui:review",
+      "text": "我们一起复习刚刚学过的五个单词。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5f30d32dcb1becd2eb",
+      "role": "narrator",
+      "key": "cn:ui:card-next",
+      "text": "如果记住这个单词，就点击下一张图卡吧。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6e1204bcb769955026",
+      "role": "narrator",
+      "key": "cn:ui:practice",
+      "text": "刚刚认识的单词，现在可以玩一个轻松的小考验啦。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn4c6ec96a93935b62a1",
+      "role": "narrator",
+      "key": "cn:ui:practice-wrong",
+      "text": "再试一次。看一看图片，想想它的中文意思。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9f4bde403a120479aa",
+      "role": "narrator",
+      "key": "cn:ui:practice-right",
+      "text": "答对啦！你真是一个聪明的小探险家！",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnf892c047de37cbd189",
+      "role": "narrator",
+      "key": "cn:ui:quiz-picture",
+      "text": "请仔细看看图片，选出对应的英文单词。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn33178fda41fc5a59f9",
+      "role": "narrator",
+      "key": "cn:ui:quiz-listen",
+      "text": "请听一听英文发音，再找到正确的图片。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6502f701583a0c9568",
+      "role": "narrator",
+      "key": "cn:ui:quiz-spell",
+      "text": "把刚刚学过的单词按顺序拼出来。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn41c4124ae70c0ac3c0",
+      "role": "narrator",
+      "key": "cn:ui:quiz-memory",
+      "text": "找到英文和图片这一对好朋友。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnacbe5fe10b98c5a7be",
+      "role": "narrator",
+      "key": "cn:ui:quiz-next",
+      "text": "太棒了，准备挑战下一关！",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn03300cac778871d04c",
+      "role": "narrator",
+      "key": "cn:ui:quiz-end",
+      "text": "恭喜你完成了五个关卡，继续探索更多单词吧！",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn27400440da90c9fea6",
+      "role": "narrator",
+      "key": "cn:ui:quiz-help",
+      "text": "如果不确定，可以再听一次发音，慢慢思考。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cndb6e808fe4846d7c7c",
+      "role": "narrator",
+      "key": "cn:ui:quiz-stars",
+      "text": "小精灵送来了星星！每一次练习都让你更进步。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn94b0cc7db3e53dbb4a",
+      "role": "narrator",
+      "key": "cn:ui:quiz-locked",
+      "text": "先学会这些单词，才能打开新关卡哦。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnf0a1d1b2bdc750eb77",
+      "role": "narrator",
+      "key": "cn:ui:review-none",
+      "text": "你还没有学过这个主题的单词，我们先从第一张图卡开始吧。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn64d22ed64560b29cec",
+      "role": "narrator",
+      "key": "cn:ui:topic-done",
+      "text": "这个主题的单词都学过啦，可以换一个主题或者继续复习。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cna1331d331c175238da",
+      "role": "narrator",
+      "key": "cn:ui:hanzi-home",
+      "text": "欢迎来到汉字寻宝乐园，这里有两百个汉字，先认识汉字和例词，再完成有趣的挑战。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb07e944cba94ac87cb",
+      "role": "narrator",
+      "key": "cn:ui:hanzi-lesson",
+      "text": "看看这个汉字和图画，注意拼音的声调，点听一听学习正确的普通话读音。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5f0d3e9ddb53ae3ab3",
+      "role": "narrator",
+      "key": "cn:ui:hanzi-picture",
+      "text": "看看图画，选出对应的汉字。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn2ec8be9a466ee4d574",
+      "role": "narrator",
+      "key": "cn:ui:hanzi-pinyin",
+      "text": "观察拼音和声调，找到正确的汉字。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnaa65a484dc750e787a",
+      "role": "narrator",
+      "key": "cn:ui:hanzi-word",
+      "text": "给词语补上缺少的那个汉字。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn3762e1ea43809f3f64",
+      "role": "narrator",
+      "key": "cn:ui:hanzi-review",
+      "text": "复习之前做错的汉字，一点一点记住它们。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn96941b547d4c31f149",
+      "role": "narrator",
+      "key": "cn:ui:hanzi-right",
+      "text": "回答正确，真棒！我们又认识了一个汉字朋友。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn160801b259aea50e1e",
+      "role": "narrator",
+      "key": "cn:ui:hanzi-wrong",
+      "text": "没关系，再观察一下汉字和图画，慢慢来。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7a41bdca682dfffaa0",
+      "role": "narrator",
+      "key": "cn:ui:hanzi-done",
+      "text": "本轮识字挑战结束了，继续认识更多汉字吧。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnc74d1dc58087dca8b8",
+      "role": "narrator",
+      "key": "cn:ui:generic-home",
+      "text": "点击学习，先认识新知识，然后再进入游戏。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn75b552f57c860b3c0e",
+      "role": "narrator",
+      "key": "cn:ui:generic-choose",
+      "text": "请选一个喜欢的选项。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cncfb2e8465487eb6d88",
+      "role": "narrator",
+      "key": "cn:ui:generic-back",
+      "text": "点击返回，回到学习主题。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn3043c45880f767de58",
+      "role": "narrator",
+      "key": "cn:ui:generic-next",
+      "text": "点击下一张，认识新的朋友。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn8bdd64273145fb42b6",
+      "role": "narrator",
+      "key": "cn:ui:generic-listen",
+      "text": "点击喇叭，听活泼女孩给你讲一讲。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cndac1873fb87e46d042",
+      "role": "narrator",
+      "key": "cn:ui:generic-reward",
+      "text": "完成挑战了！今天你又学到了新本领。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6d3376121ceafb28a9",
+      "role": "narrator",
+      "key": "cn:ui:generic-stars",
+      "text": "小星星奖励已经送给你了！",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn18a237c8b366a6ae80",
+      "role": "narrator",
+      "key": "cn:ui:generic-progress",
+      "text": "这是你当前的学习进度。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7c0f132ef270bd2cf7",
+      "role": "narrator",
+      "key": "cn:ui:generic-card",
+      "text": "这是一个学习图卡。先看一看，再点击听一听。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5f3c79529e35a5d909",
+      "role": "narrator",
+      "key": "cn:ui:generic-title",
+      "text": "你可以选择听这个页面上的中文说明。",
+      "context": "学习页面中文说明",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn552bd646fc9395e5c9",
+      "role": "narrator",
+      "key": "cn:button:学习汉字",
+      "text": "学习汉字。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd8d1f98705bd0e42f2",
+      "role": "narrator",
+      "key": "cn:button:图画选字",
+      "text": "图画选字。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn8a555afab9d4c853c5",
+      "role": "narrator",
+      "key": "cn:button:拼音挑战",
+      "text": "拼音挑战。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9cdf60a76bb0a993a6",
+      "role": "narrator",
+      "key": "cn:button:词语补全",
+      "text": "词语补全。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5ec517d9d9c0778acc",
+      "role": "narrator",
+      "key": "cn:button:错题复习",
+      "text": "错题复习。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn45622ed4e94bf8f4e6",
+      "role": "narrator",
+      "key": "cn:button:听一听",
+      "text": "听一听。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7f08ebc81a21ab3f79",
+      "role": "narrator",
+      "key": "cn:button:上一个",
+      "text": "上一个。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn0338bfe2277d914249",
+      "role": "narrator",
+      "key": "cn:button:下一个",
+      "text": "下一个。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnf69499d74d27befee3",
+      "role": "narrator",
+      "key": "cn:button:返回主题",
+      "text": "返回主题。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cne91ad86cce963f1a2a",
+      "role": "narrator",
+      "key": "cn:button:再来一轮",
+      "text": "再来一轮。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn4e51d452bd5d384b89",
+      "role": "narrator",
+      "key": "cn:button:听题目",
+      "text": "听题目。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1f024762ef69fb8e72",
+      "role": "narrator",
+      "key": "cn:button:复习学过的词",
+      "text": "复习学过的词。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn7c1bacbf48eb95be3d",
+      "role": "narrator",
+      "key": "cn:button:开始学习",
+      "text": "开始学习。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9ce97909e6dcc5a5d8",
+      "role": "narrator",
+      "key": "cn:button:返回地图",
+      "text": "返回地图。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd5df0dbd8cdb282560",
+      "role": "narrator",
+      "key": "cn:button:回到主题地图",
+      "text": "回到主题地图。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cna11acfe4c71106f490",
+      "role": "narrator",
+      "key": "cn:button:复习这些词",
+      "text": "复习这些词。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn677d462bcb3d842b96",
+      "role": "narrator",
+      "key": "cn:button:听英文跟着读",
+      "text": "听英文跟着读。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnace4480786ec9b46f8",
+      "role": "narrator",
+      "key": "cn:button:我认识啦下一张",
+      "text": "我认识啦下一张。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnee4b598444dceef458",
+      "role": "narrator",
+      "key": "cn:button:去做趣味复习",
+      "text": "去做趣味复习。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd6eea01fa29224ecf4",
+      "role": "narrator",
+      "key": "cn:button:再认识几个新单词",
+      "text": "再认识几个新单词。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd2d792b44c8941cba3",
+      "role": "narrator",
+      "key": "cn:button:继续认识单词",
+      "text": "继续认识单词。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn037beb70803a27ade1",
+      "role": "narrator",
+      "key": "cn:button:打开游戏乐园",
+      "text": "打开游戏乐园。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn628a73fc98e943b275",
+      "role": "narrator",
+      "key": "cn:button:先听一听",
+      "text": "先听一听。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1de23ad74b341e7456",
+      "role": "narrator",
+      "key": "cn:button:进入下一关",
+      "text": "进入下一关。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnc8ef6502b634930646",
+      "role": "narrator",
+      "key": "cn:button:返回主题地图",
+      "text": "返回主题地图。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnbc04911eac15aaa636",
+      "role": "narrator",
+      "key": "cn:button:复习更多单词",
+      "text": "复习更多单词。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cna4091a087ea88b6179",
+      "role": "narrator",
+      "key": "cn:button:听这个词",
+      "text": "听这个词。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb550405ad373bfc464",
+      "role": "narrator",
+      "key": "cn:button:听单词",
+      "text": "听单词。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn840accf0911b18a43e",
+      "role": "narrator",
+      "key": "cn:button:撤销一步",
+      "text": "撤销一步。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnf271aa6fab91c82be4",
+      "role": "narrator",
+      "key": "cn:button:重新拼",
+      "text": "重新拼。",
+      "context": "中文按钮标签",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn9df18f02ba4b6b1561",
+      "role": "narrator",
+      "key": "cn:line:汉字寻宝乐园",
+      "text": "汉字寻宝乐园。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn51866f4110d32f86f8",
+      "role": "narrator",
+      "key": "cn:line:汉字学习",
+      "text": "汉字学习。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5aa64687f61fb300d0",
+      "role": "narrator",
+      "key": "cn:line:本轮识字挑战结束",
+      "text": "本轮识字挑战结束。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn1fadfd7a18bc390dc6",
+      "role": "narrator",
+      "key": "cn:line:先学会再去闯关",
+      "text": "先学会再去闯关。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn64b42c0183552e9e2a",
+      "role": "narrator",
+      "key": "cn:line:选择喜欢的童话主题",
+      "text": "选择喜欢的童话主题。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn5f21fcb638bb93bac4",
+      "role": "narrator",
+      "key": "cn:line:先学单词再开启游戏",
+      "text": "先学单词再开启游戏。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnd0e789425c0a675947",
+      "role": "narrator",
+      "key": "cn:line:还没有学过的词",
+      "text": "还没有学过的词。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn783f8a9336fa9a73ac",
+      "role": "narrator",
+      "key": "cn:line:这个主题的单词都学过啦",
+      "text": "这个主题的单词都学过啦。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn79d909c84204081cc2",
+      "role": "narrator",
+      "key": "cn:line:温习小伙伴今天认识一位单词朋友",
+      "text": "温习小伙伴今天认识一位单词朋友。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn89a1479e2b354d0fba",
+      "role": "narrator",
+      "key": "cn:line:丁一一真棒",
+      "text": "丁一一真棒。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb291fc57391c0bf65c",
+      "role": "narrator",
+      "key": "cn:line:小精灵送来了颗星星",
+      "text": "小精灵送来了颗星星。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn6968ea0bd568f1e8a1",
+      "role": "narrator",
+      "key": "cn:line:哪个英文朋友表示",
+      "text": "哪个英文朋友表示。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn373e94ff8c4a55a468",
+      "role": "narrator",
+      "key": "cn:line:听听单词找到正确的图片图片里的东西对应哪个单词",
+      "text": "听听单词找到正确的图片图片里的东西对应哪个单词。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cnb79246d45cc0023efd",
+      "role": "narrator",
+      "key": "cn:line:把学过的单词拼出来",
+      "text": "把学过的单词拼出来。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "cn0c71af6c94e7440190",
+      "role": "narrator",
+      "key": "cn:line:找到单词和图片这一对好朋友",
+      "text": "找到单词和图片这一对好朋友。",
+      "context": "静态中文标题",
+      "voice_name": "活泼女孩参考音色",
+      "provider": "F5-TTS"
+    }
+  ]
+}
