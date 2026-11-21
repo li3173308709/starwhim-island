@@ -42,13 +42,14 @@ with sync_playwright() as pw:
     # The original English card reader must request native en-US speech.
     page.evaluate("Starwhim.minigames.open('englishquest')")
     page.locator("#miniBody [data-eng=learn]").click()
+    baseline_recorded=page.evaluate("window.__voiceAudit.recorded.length")
     page.locator("#miniBody [data-eng=hear]").click()
     en=page.evaluate("window.__voiceAudit.english")
     assert en and en[-1]['lang']=='en-US' and abs(en[-1]['rate']-.9)<.005,(device,en)
     assert en[-1]['text'] in ['cat','dog','bird','fish','lion'],(device,en)
     # It must not play a recorded Chinese F5 voice when the English button is used.
     after_english=page.evaluate("window.__voiceAudit.recorded.length")
-    assert after_english==0,(device,"English erroneously routed through recorded girl voice",after_english)
+    assert after_english==baseline_recorded,(device,"English erroneously started recorded Chinese audio",baseline_recorded,after_english)
     # The meaning should be a girl narration at 0.8x.
     page.locator("#miniBody .eng-meaning .v23-audio-control").first.click()
     page.wait_for_timeout(180)
