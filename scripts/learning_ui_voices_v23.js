@@ -1,5 +1,5 @@
 /* Recorded girl voice for Chinese text throughout Hanzi and English lessons.
-   No speechSynthesis, and no substitution with a different narrator. */
+   Uses only recorded MP3 clips; never substitutes the device narrator. */
 (function(){
 'use strict';
 var root=document.getElementById('miniBody');
