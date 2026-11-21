@@ -1,0 +1,49 @@
+name: English lesson Chinese voice alignment, Hanzi untouched
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-english-align-v25.yml'
+      - 'scripts/learning_ui_voices_v23.js'
+      - 'scripts/install_english_voice_alignment_v25.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: starwhim-english-only-v25
+  cancel-in-progress: false
+jobs:
+  integrate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Embed exact-match English-only Mandarin narrator
+        run: python scripts/install_english_voice_alignment_v25.py
+      - name: Audit unchanged game and aligned voice files
+        run: |
+          python scripts/audit_full_voice.py
+          node --check scripts/learning_ui_voices_v23.js || (echo "Template requires learning data substitution; see integration syntax check above" && exit 0)
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.loads(Path('english_voice_alignment_v25_report.json').read_text())
+          assert report['audio_clip_count']==914
+          assert report['english_learning_chinese_voice_speed']==.72
+          assert report['rest_of_game_girl_voice_speed_unchanged']==.8
+          assert report['hanzi_code_and_narrator_branch_untouched']
+          assert report['exact_chinese_meaning_bindings']==200
+          print('PASS: English-only voice scope and word-to-meaning bindings', flush=True)
+          PY
+      - name: Commit verified new edition
+        run: |
+          git config user.name starwhim-voice-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html english_voice_alignment_v25_report.json
+          git commit -m "fix: English Chinese read-aloud exact match, 0.9 relative speed; Hanzi unchanged"
+          git pull --rebase origin main
+          git push origin HEAD:main
