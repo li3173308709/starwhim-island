@@ -1,0 +1,27 @@
+name: Final preview acceptance after voice speed repair
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-final-voice-preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      STARWHIM_URL: https://starwhim-island-8cxedoor5-li3173308709-4921.vercel.app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Set up Chrome test runner
+        run: |
+          python -m pip install playwright==1.56.0
+          google-chrome --version
+      - name: Validate 914 audio and 5-card English learning
+        run: python scripts/verify_learning_v23_online.py
+      - name: Validate original English voice + slower Chinese girl speech
+        run: python scripts/verify_voice_v24_online.py
