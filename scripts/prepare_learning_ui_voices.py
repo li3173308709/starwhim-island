@@ -80,6 +80,18 @@ phrases=[
 ]
 for key,text in phrases:
     add('cn:ui:'+key,text,'学习页面中文说明')
+
+# Include actual static Chinese button labels in the same voice.
+def only_hanzi(t):
+    return re.sub(r'[^\u4e00-\u9fff]','',t)
+for label in re.findall(r"\b(?:b|btn)\(\s*'([^']*)'",src):
+    spoken=only_hanzi(label)
+    if spoken:
+        add('cn:button:'+spoken,spoken+'。','中文按钮标签')
+for label in re.findall(r'<h[234][^>]*>([^<]+)</h[234]>',src):
+    spoken=only_hanzi(label)
+    if len(spoken)>1:
+        add('cn:line:'+spoken,spoken+'。','静态中文标题')
 assert len(rows)>=200+20+35, len(rows)
 p=ROOT/'voice-learning-ui-v23-plan.json'
 p.write_text(json.dumps(dict(version=23,count=len(rows),lines=rows),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
