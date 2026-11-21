@@ -13,7 +13,7 @@ assert len(hanzi)==200 and len({x['char'] for x in hanzi})==200
 assert len(words)==200 and len({x['en'] for x in words})==200
 items=[]
 for x in hanzi:
-    spoken=f"这个字是{x['char']}，{x['word']}的{x['char']}。"
+    spoken=f"{x['word']}。{x['word']}的{x['char']}。"
     items.append(dict(id='hz'+hashlib.sha256(x['char'].encode()).hexdigest()[:14],role='bubble',text=spoken,key='hanzi:'+x['char'],context='普通话识字，拼音仅用于屏幕显示 '+x['py']))
 for x in words:
     w=x['en']
