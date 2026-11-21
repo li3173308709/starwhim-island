@@ -21,8 +21,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Ensure FFmpeg and Node.js are available
+      - name: Install FFmpeg and verify Node.js
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
           ffmpeg -version | head -1
           node --version
       - name: Trim opening noise on Chinese MP3s and fix speaking routes
