@@ -98,14 +98,23 @@ def fix_runtime(html):
         'Chinese educational narrator 0.8x')
     return html
 
-def trim_mp3(raw):
+def trim_mp3(raw,key):
     cp=subprocess.run(['ffmpeg','-nostdin','-hide_banner','-loglevel','error',
         '-i','pipe:0','-af',AUDIO_FILTER,
         '-codec:a','libmp3lame','-ar','24000','-ac','1','-b:a','56k',
         '-f','mp3','pipe:1'],input=raw,stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,check=False)
     if cp.returncode or len(cp.stdout)<500:
-        raise RuntimeError('ffmpeg failed '+cp.stderr.decode(errors='replace')[:300])
+        print(f'WARN: trim failed for {key[:55]} code={cp.returncode}; '
+              f'retrying fade only',flush=True)
+        cp=subprocess.run(['ffmpeg','-nostdin','-hide_banner','-loglevel','error',
+            '-i','pipe:0','-af','afade=t=in:st=0:d=0.055',
+            '-codec:a','libmp3lame','-ar','24000','-ac','1','-b:a','56k',
+            '-f','mp3','pipe:1'],input=raw,stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,check=False)
+        if cp.returncode or len(cp.stdout)<500:
+            print(f'WARN: retaining original unprocessable MP3: {key[:55]}',flush=True)
+            return raw
     return cp.stdout
 
 def main():
@@ -131,7 +140,7 @@ def main():
             if not uri.startswith('data:audio/mpeg;base64,'):continue
             raw=base64.b64decode(uri.partition(',')[2])
             original_sizes+=len(raw)
-            updated=trim_mp3(raw)
+            updated=trim_mp3(raw,key)
             # No output is allowed to be absurdly short.
             if len(updated)<max(900,int(len(raw)*.13)):
                 raise RuntimeError(f'Audio became too short: {key[:48]}')
