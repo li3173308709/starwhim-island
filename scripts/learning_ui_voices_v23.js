@@ -40,6 +40,9 @@ function meaning(text){
 function keysFor(node){
  var t=textOf(node),k=[],cl=''+(node.className||'');
  if(!CN.test(t))return k;
+ var spoken=t.replace(/[^\u3400-\u9fff]/g,'');
+ if(clips()['cn:line:'+spoken])return ['cn:line:'+spoken];
+ if(node.tagName==='BUTTON'&&clips()['cn:button:'+spoken])return ['cn:button:'+spoken];
  var isEnglish=!!node.closest('.learnfirst');
  if(isEnglish){
    var w=meaning(t),card=node.closest('.eng-card');
@@ -118,6 +121,19 @@ new MutationObserver(function(m){
    !n.classList?.contains('v23-voice-status')&&!n.classList?.contains('v23-all');
  });}))schedule();
 }).observe(root,{childList:true,subtree:true});
+
+root.addEventListener('click',function(event){
+ var button=event.target.closest('button');
+ if(!button||button.classList.contains('v23-audio-control')||
+    button.classList.contains('v23-all')||
+    !button.closest('.learnfirst,.v19'))return;
+ var label=textOf(button),name=label.replace(/[^\u3400-\u9fff]/g,'');
+ // The original "listen to English" button must play the English recording.
+ if(!CN.test(name)||label.includes('🔊')||label.includes('听单词')||
+    label.includes('听一听'))return;
+ var key='cn:button:'+name;
+ if(clips()[key])playKeys([key]);
+},true);
 var css=document.createElement('style');
 css.textContent='#miniBody .v23-audio-control{display:inline-flex;align-items:center;justify-content:center;'+
  'margin:2px 5px;min-width:36px;min-height:36px;padding:5px 8px;border-radius:30px;'+
