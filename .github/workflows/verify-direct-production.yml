@@ -25,3 +25,5 @@ jobs:
         run: python scripts/verify_learning_v23_online.py
       - name: English reading and Chinese girl-voice speed on live production
         run: python scripts/verify_voice_v24_online.py
+
+# Revalidate the known-good 914-clip preview behind the production hostname.
