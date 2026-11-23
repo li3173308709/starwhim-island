@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/test-study-v27-browser.yml'
+      - 'scripts/verify_study_corrections_v27.py'
   workflow_run:
     workflows:
       - Correct 200 Hanzi and 200 Chinese meanings in original girl voice
