@@ -33,7 +33,7 @@ def fix(t):
    '<div class="glyph" data-hanzi-char="${a.char}">${a.char}</div>')
  t=strict(t,"b('🔊 听题目','hear','main')","b('🔊 听本字示范','hear','main')")
  t=strict(t,'<p class="note" id="hanziFeedback">认真观察，找到正确的汉字。</p>',
-   '<p class="note" id="hanziFeedback" data-voice-key="${mode===\\'pinyin\\'?\\'cn:ui:hanzi-pinyin\\':mode===\\'word\\'?\\'cn:ui:hanzi-word\\':mode===\\'review\\'?\\'cn:ui:hanzi-review\\':\\'cn:ui:hanzi-picture\\'}">${mode===\\'pinyin\\'?\\'观察拼音和声调，找到正确的汉字。\\':mode===\\'word\\'?\\'给词语补上缺少的那个汉字。\\':mode===\\'review\\'?\\'复习之前做错的汉字，一点一点记住它们。\\':\\'看看图画，选出对应的汉字。\\'}</p>'.replace("\\'","'"))
+   """<p class="note" id="hanziFeedback" data-voice-key="${mode==='pinyin'?'cn:ui:hanzi-pinyin':mode==='word'?'cn:ui:hanzi-word':mode==='review'?'cn:ui:hanzi-review':'cn:ui:hanzi-picture'}">${mode==='pinyin'?'观察拼音和声调，找到正确的汉字。':mode==='word'?'给词语补上缺少的那个汉字。':mode==='review'?'复习之前做错的汉字，一点一点记住它们。':'看看图画，选出对应的汉字。'}</p>""")
  t=strict(t,'class="eng-meaning">意思是：${escapeHTML(w.zh)}</div>',
    'class="eng-meaning">中文是：${escapeHTML(w.zh)}。</div>')
  t=strict(t,'class="eng-meaning">${w.zh}</div>',
