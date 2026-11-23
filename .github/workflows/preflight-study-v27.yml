@@ -1,0 +1,48 @@
+name: Preflight natural Hanzi and Chinese meaning voice integration
+on:
+  push:
+    paths:
+      - '.github/workflows/preflight-study-v27.yml'
+      - 'scripts/install_study_corrections_v27.py'
+      - 'scripts/prepare_study_corrections_v27.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify patch and voice inventory with temporary stand-in audio
+        run: |
+          python -m py_compile scripts/install_study_corrections_v27.py scripts/prepare_study_corrections_v27.py
+          python scripts/prepare_study_corrections_v27.py
+          python - <<'PY'
+          import json,re,base64
+          from pathlib import Path
+          s=Path('index.html').read_text()
+          audio=json.loads(re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S).group(1))['audio']
+          rows=json.loads(Path('voice-study-corrections-v27-plan.json').read_text())['lines']
+          folder=Path('generated');folder.mkdir(exist_ok=True)
+          for row in rows:
+            target=folder/(row['id']+'.mp3')
+            target.write_bytes(base64.b64decode(audio[row['key']].partition(',')[2]))
+          print('PRECHECK only: using old MP3 as stand-ins to test JS integration; NOT releasing these recordings')
+          PY
+          python scripts/install_study_corrections_v27.py
+          python scripts/audit_full_voice.py
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          s=Path('index.html').read_text()
+          assert '已补上全部汉字的可点击朗读功能' not in s
+          assert '正式配音将朗读汉字和例词' not in s
+          assert '大米的米。' in s
+          assert '中文是：猫。' in s
+          assert 'var ch=node.dataset.hanziChar' in s
+          print('PASS preflight: 200 words and per-character voice binding')
+          PY
