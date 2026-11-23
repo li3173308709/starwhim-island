@@ -34,6 +34,10 @@ def fix(t):
  t=strict(t,"b('🔊 听题目','hear','main')","b('🔊 听本字示范','hear','main')")
  t=strict(t,'<p class="note" id="hanziFeedback">认真观察，找到正确的汉字。</p>',
    """<p class="note" id="hanziFeedback" data-voice-key="${mode==='pinyin'?'cn:ui:hanzi-pinyin':mode==='word'?'cn:ui:hanzi-word':mode==='review'?'cn:ui:hanzi-review':'cn:ui:hanzi-picture'}">${mode==='pinyin'?'观察拼音和声调，找到正确的汉字。':mode==='word'?'给词语补上缺少的那个汉字。':mode==='review'?'复习之前做错的汉字，一点一点记住它们。':'看看图画，选出对应的汉字。'}</p>""")
+ t=strict(t, 'fb.textContent='+chr(96)+'✅ 答对了！${a.char} · ${a.py} · ${a.word}'+chr(96)+';',
+    'fb.innerHTML='+chr(96)+'<span class="hanzi-generic" data-voice-key="cn:ui:hanzi-right">回答正确，真棒！我们又认识了一个汉字朋友。</span> <span class="hanzi-example" data-hanzi-char="${a.char}">${a.word}的${a.char}。</span>'+chr(96)+';')
+ t=strict(t, 'fb.textContent='+chr(96)+'再试一次！提示：${a.py}，词语“${a.word}”。'+chr(96)+';',
+    'fb.innerHTML='+chr(96)+'<span class="hanzi-generic" data-voice-key="cn:ui:hanzi-wrong">没关系，再观察一下汉字和图画，慢慢来。</span> <span class="hanzi-example" data-hanzi-char="${a.char}">${a.word}的${a.char}。</span>'+chr(96)+';')
  t=strict(t,'class="eng-meaning">意思是：${escapeHTML(w.zh)}</div>',
    'class="eng-meaning">中文是：${escapeHTML(w.zh)}。</div>')
  t=strict(t,'class="eng-meaning">${w.zh}</div>',
@@ -83,6 +87,7 @@ new=""" }else{
    }
 """
 n=n[:start]+new+n[end:]
+n=strict(n,"'.eng-pill,.note,.lesson .glyph,.lesson h3,.v19>h3,.v19>p,#hanziFeedback'", "'.eng-pill,.note,.lesson .glyph,.lesson h3,.hanzi-generic,.hanzi-example,.v19>h3,.v19>p'")
 n=strict(n,"stripped('中文意思是：'+w.zh+'。')","stripped('中文是：'+w.zh+'。')")
 n=strict(n,"replace(/^意思是[：:]?\\s*/,'')",
          "replace(/^(?:意思是|中文意思是|中文是)[：:]?\\s*/,'')")
