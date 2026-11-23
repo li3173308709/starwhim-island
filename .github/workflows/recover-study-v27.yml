@@ -23,11 +23,27 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           mkdir -p generated
-          gh run download 45096827163 --repo li3173308709/starwhim-island --pattern 'v27-corrected-girl-mp3-*' --dir /tmp/v27-recordings
-          find /tmp/v27-recordings -name '*.mp3' -type f -exec cp -n {} generated/ \;
-          echo "Actual synthesized MP3 count: $(find generated -name '*.mp3' | wc -l)"
-          test "$(find generated -name '*.mp3' | wc -l)" -eq 403
           gh run download 45096827163 --repo li3173308709/starwhim-island --name v27-corrected-study-manifest --dir .
+          gh run download 45096827163 --repo li3173308709/starwhim-island --pattern 'v27-corrected-girl-mp3-*' --dir /tmp/v27-recordings
+          python - <<'PY'
+          from pathlib import Path
+          import json, hashlib
+          lines=json.loads(Path('voice-study-corrections-v27-plan.json').read_text(encoding='utf-8'))['lines']
+          expected=[str(row['id'])+'.mp3' for row in lines]
+          assert len(expected)==403 and len(set(expected))==403, 'manifest has duplicate or unexpected IDs'
+          sources={}
+          for file in Path('/tmp/v27-recordings').rglob('*.mp3'):
+              sources.setdefault(file.name,[]).append(file)
+          missing=sorted(set(expected)-set(sources))
+          assert not missing, f'missing real synthesized recordings: {missing[:20]}'
+          for name in expected:
+              variants=sources[name]
+              hashes={hashlib.sha256(f.read_bytes()).hexdigest() for f in variants}
+              assert len(hashes)==1, f'conflicting MP3 artifacts for {name}'
+              (Path('generated')/name).write_bytes(variants[0].read_bytes())
+          extra=sorted(set(sources)-set(expected))
+          print(f'PASS: {len(expected)} manifest-matched real F5-TTS MP3 files; ignored {len(extra)} unrelated artifact file(s): {extra[:10]}')
+          PY
       - name: Integrate actual newly synthesized MP3s and validate
         run: |
           python scripts/install_study_corrections_v27.py
