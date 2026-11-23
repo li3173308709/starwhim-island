@@ -56,6 +56,7 @@ js=fix(js);html=fix(html)
 m=re.search(r'(window\.StarwhimVoicePack\s*=\s*)({.*?})(;\s*</script>)',html,re.S)
 assert m
 pack=json.loads(m.group(2));oldkeys=set(pack['audio']);assert len(oldkeys)==914
+other_before={k:v for k,v in pack['audio'].items() if k not in scripts}
 for r in rows:
  p=root/'generated'/(r['id']+'.mp3')
  if not p.exists() or p.stat().st_size<950:raise RuntimeError('Missing '+str(p))
@@ -63,6 +64,7 @@ for r in rows:
  if d[:3]!=b'ID3' and d[:2] not in (b'\xff\xfb',b'\xff\xf3'):raise RuntimeError('Bad MP3 '+r['key'])
  pack['audio'][r['key']]='data:audio/mpeg;base64,'+base64.b64encode(d).decode()
 assert set(pack['audio'])==oldkeys
+assert all(pack['audio'][k]==v for k,v in other_before.items()), 'Unrelated girl recordings changed!'
 html=html[:m.start(2)]+json.dumps(pack,ensure_ascii=False,separators=(',',':'))+html[m.end(2):]
 # Exact text→MP3 map: no partial sentence or Hanzi word guessing.
 p=re.search(r'var exactText=({.*?});',n,re.S)
