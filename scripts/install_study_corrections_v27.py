@@ -92,7 +92,7 @@ new=""" }else{
    }
 """
 n=n[:start]+new+n[end:]
-n=strict(n,"'.eng-pill,.note,.lesson .glyph,.lesson h3,.v19>h3,.v19>p,#hanziFeedback'", "'.eng-pill,.note,.lesson .glyph,.lesson h3,.hanzi-generic,.hanzi-example,.v19>h3,.v19>p'")
+n=strict(n,".eng-pill,.note,.lesson .glyph,.lesson h3,.v19>h3,.v19>p,#hanziFeedback", ".eng-pill,.note,.lesson .glyph,.lesson h3,.hanzi-generic,.hanzi-example,.v19>h3,.v19>p")
 n=strict(n,"stripped('中文意思是：'+w.zh+'。')","stripped('中文是：'+w.zh+'。')")
 n=strict(n,"replace(/^意思是[：:]?\\s*/,'')",
          "replace(/^(?:意思是|中文意思是|中文是)[：:]?\\s*/,'')")
