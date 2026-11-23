@@ -41,7 +41,7 @@ jobs:
           s=Path('index.html').read_text()
           assert '已补上全部汉字的可点击朗读功能' not in s
           assert '正式配音将朗读汉字和例词' not in s
-          assert '大米的米。' in s
+          assert '"char":"米","py":"mǐ","word":"大米"' in s
           assert '中文是：猫。' in s
           assert 'var ch=node.dataset.hanziChar' in s
           print('PASS preflight: 200 words and per-character voice binding')
