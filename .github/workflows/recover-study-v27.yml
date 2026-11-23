@@ -45,7 +45,7 @@ jobs:
             assert base64.b64decode(a[row['key']].split(',',1)[1])==src,row['key']
           assert '已补上全部汉字的可点击朗读功能' not in s
           assert '正式配音将朗读汉字和例词' not in s
-          assert '大米的米。' in s and '米饭的饭。' in s and '中文是：猫。' in s
+          assert '"char":"米","py":"mǐ","word":"大米"' in s and '"char":"饭","py":"fàn","word":"米饭"' in s and '中文是：猫。' in s
           assert "window.StarwhimEnglishPronunciationPack=" in s
           print('PASS 403 actual synthesized files byte-identical to HTML MP3, 914 Chinese/girl + 200 English')
           print('HTML_SHA256',hashlib.sha256(s.encode()).hexdigest())
