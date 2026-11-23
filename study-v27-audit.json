@@ -1,0 +1,12 @@
+{
+  "version": 27,
+  "replaced_audio": 403,
+  "hanzi_count": 200,
+  "english_meaning_count": 200,
+  "girl_mp3": 914,
+  "separate_english_mp3": 200,
+  "one_phrase_hanzi_example": "大米的米。",
+  "english_meaning_example": "中文是：猫。",
+  "topic_note_removed": true,
+  "hanzi_hint_bound_by_explicit_id": true
+}

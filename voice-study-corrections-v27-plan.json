@@ -1,0 +1,3633 @@
+{
+  "version": 27,
+  "count": 403,
+  "lines": [
+    {
+      "id": "study2750210bb56db60a27f",
+      "key": "hanzi:日",
+      "text": "日光的日。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274981906715ab8ace0",
+      "key": "hanzi:月",
+      "text": "月亮的月。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ac7abe29fe5404947",
+      "key": "hanzi:水",
+      "text": "喝水的水。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2705d10443cba192c79",
+      "key": "hanzi:火",
+      "text": "火苗的火。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a6a62c6a34eddc93c",
+      "key": "hanzi:山",
+      "text": "高山的山。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a98e9da3257f34339",
+      "key": "hanzi:田",
+      "text": "田野的田。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27dd962c20e962e1ec2",
+      "key": "hanzi:土",
+      "text": "泥土的土。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study272ca90dff7396a960a",
+      "key": "hanzi:石",
+      "text": "石头的石。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ae51be941c179fbfe",
+      "key": "hanzi:风",
+      "text": "大风的风。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f6b4b62f4e4ff80dc",
+      "key": "hanzi:雨",
+      "text": "下雨的雨。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f5db571f35792bf97",
+      "key": "hanzi:云",
+      "text": "白云的云。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2789afebf8a97e54b88",
+      "key": "hanzi:雪",
+      "text": "雪花的雪。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2712a900472048e2036",
+      "key": "hanzi:雷",
+      "text": "打雷的雷。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e1591e2be145ead99",
+      "key": "hanzi:电",
+      "text": "闪电的电。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277b1c5e236611a3707",
+      "key": "hanzi:冰",
+      "text": "冰块的冰。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e1db0a17944908529",
+      "key": "hanzi:光",
+      "text": "阳光的光。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f280623681762be31",
+      "key": "hanzi:星",
+      "text": "星星的星。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274e3ac52066f8b64d7",
+      "key": "hanzi:空",
+      "text": "天空的空。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2778b6d1fc5e66ac1bc",
+      "key": "hanzi:天",
+      "text": "蓝天的天。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27347ba0b6c49de15f9",
+      "key": "hanzi:海",
+      "text": "大海的海。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2706d6870d773c55a34",
+      "key": "hanzi:猫",
+      "text": "小猫的猫。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e2e20a0f572222791",
+      "key": "hanzi:狗",
+      "text": "小狗的狗。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27fcb8b118d50fd61e2",
+      "key": "hanzi:鸟",
+      "text": "小鸟的鸟。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2799c183bd4893b7aa1",
+      "key": "hanzi:鱼",
+      "text": "小鱼的鱼。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2751984ab4cfb216cf7",
+      "key": "hanzi:马",
+      "text": "小马的马。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b41f3b4c83522dfbd",
+      "key": "hanzi:牛",
+      "text": "水牛的牛。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ece95d4b0f03d9e9b",
+      "key": "hanzi:羊",
+      "text": "山羊的羊。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276beda584456f728ef",
+      "key": "hanzi:鸡",
+      "text": "小鸡的鸡。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27084f66d5dc2677077",
+      "key": "hanzi:鸭",
+      "text": "鸭子的鸭。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a75617b1c4f1d0033",
+      "key": "hanzi:鹅",
+      "text": "白鹅的鹅。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2778e595891f6e07f19",
+      "key": "hanzi:兔",
+      "text": "兔子的兔。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274a51d0eec0d974b5a",
+      "key": "hanzi:虎",
+      "text": "老虎的虎。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27de182e0515575448b",
+      "key": "hanzi:龙",
+      "text": "飞龙的龙。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2784d85c049bc2980fc",
+      "key": "hanzi:蛇",
+      "text": "小蛇的蛇。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276e5325320aeed3406",
+      "key": "hanzi:虫",
+      "text": "虫子的虫。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e07632f6419625448",
+      "key": "hanzi:蛙",
+      "text": "青蛙的蛙。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f2852736235db769f",
+      "key": "hanzi:蜂",
+      "text": "蜜蜂的蜂。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273472e033bc4c35b49",
+      "key": "hanzi:蝶",
+      "text": "蝴蝶的蝶。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2796573560134881aa3",
+      "key": "hanzi:熊",
+      "text": "小熊的熊。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2701803106613aa19ed",
+      "key": "hanzi:象",
+      "text": "大象的象。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study270f4dc832918be5405",
+      "key": "hanzi:爸",
+      "text": "爸爸的爸。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f4e11725dc2fe65c0",
+      "key": "hanzi:妈",
+      "text": "妈妈的妈。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27238c1a3b4d46c8266",
+      "key": "hanzi:爷",
+      "text": "爷爷的爷。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276e4882ea5f0361642",
+      "key": "hanzi:奶",
+      "text": "奶奶的奶。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279d24bd93c1fa99b66",
+      "key": "hanzi:哥",
+      "text": "哥哥的哥。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27918feb45e91e7c5e9",
+      "key": "hanzi:姐",
+      "text": "姐姐的姐。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2746b2938ad34a60ebc",
+      "key": "hanzi:弟",
+      "text": "弟弟的弟。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275694f99b7e93e417b",
+      "key": "hanzi:妹",
+      "text": "妹妹的妹。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275bdc5895a4153ce5b",
+      "key": "hanzi:儿",
+      "text": "儿子的儿。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279d01c7ec14da6c123",
+      "key": "hanzi:子",
+      "text": "孩子的子。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a5148f8173711ef26",
+      "key": "hanzi:女",
+      "text": "女孩的女。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b216aa92163f84282",
+      "key": "hanzi:友",
+      "text": "朋友的友。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273961e113d380ca681",
+      "key": "hanzi:朋",
+      "text": "朋友的朋。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27978698bbc6c15d6e6",
+      "key": "hanzi:人",
+      "text": "人们的人。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2728b24e89ddc2108ff",
+      "key": "hanzi:我",
+      "text": "我们的我。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279dc8a8cbbb8a5366b",
+      "key": "hanzi:你",
+      "text": "你好的你。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2703e3dda4eb217474f",
+      "key": "hanzi:他",
+      "text": "他们的他。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2746fa4d7018733ac48",
+      "key": "hanzi:她",
+      "text": "她们的她。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c16d0c6bfacf48895",
+      "key": "hanzi:们",
+      "text": "我们的们。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27d0b085e8c0cd11757",
+      "key": "hanzi:亲",
+      "text": "亲人的亲。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b73af162d274d6f97",
+      "key": "hanzi:头",
+      "text": "头发的头。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2797b46e9e82f7ca512",
+      "key": "hanzi:手",
+      "text": "小手的手。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271b116f08fe57d9803",
+      "key": "hanzi:脚",
+      "text": "脚步的脚。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study278f5879fd21bda128c",
+      "key": "hanzi:眼",
+      "text": "眼睛的眼。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a178f22cc2a2c889e",
+      "key": "hanzi:耳",
+      "text": "耳朵的耳。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27503bcdf7f31fddf57",
+      "key": "hanzi:鼻",
+      "text": "鼻子的鼻。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a77f2d921e682d872",
+      "key": "hanzi:口",
+      "text": "口水的口。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279a9dc0f954ed517d0",
+      "key": "hanzi:牙",
+      "text": "牙齿的牙。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2765309c60f07254ec4",
+      "key": "hanzi:脸",
+      "text": "笑脸的脸。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2757293131c65353039",
+      "key": "hanzi:心",
+      "text": "爱心的心。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c0a7e4b2f83e4dff6",
+      "key": "hanzi:肚",
+      "text": "肚子的肚。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study278964333185c160323",
+      "key": "hanzi:背",
+      "text": "背包的背。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27dacdc7c74280f04f0",
+      "key": "hanzi:腿",
+      "text": "大腿的腿。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27965c2d1b1e4bae5c2",
+      "key": "hanzi:发",
+      "text": "头发的发。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f5b6dd41d41bcccc7",
+      "key": "hanzi:毛",
+      "text": "毛发的毛。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2712f1fd4253924ce20",
+      "key": "hanzi:身",
+      "text": "身体的身。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e27d376a2ccae9922",
+      "key": "hanzi:血",
+      "text": "血液的血。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2757263d5242a80f860",
+      "key": "hanzi:骨",
+      "text": "骨头的骨。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b753ca97c3fef5ca7",
+      "key": "hanzi:皮",
+      "text": "皮肤的皮。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study270e40d19fc4ac35761",
+      "key": "hanzi:指",
+      "text": "手指的指。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e66a2e2893a4fae9c",
+      "key": "hanzi:米",
+      "text": "大米的米。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279b1fdde94389a0e10",
+      "key": "hanzi:饭",
+      "text": "米饭的饭。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a5b3aa36fbd2915b2",
+      "key": "hanzi:面",
+      "text": "面条的面。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f90330a42109d70d8",
+      "key": "hanzi:包",
+      "text": "面包的包。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273177972a28027a10a",
+      "key": "hanzi:果",
+      "text": "水果的果。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ef431b90046b453b8",
+      "key": "hanzi:菜",
+      "text": "蔬菜的菜。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27fcbc24c156a0ea303",
+      "key": "hanzi:茶",
+      "text": "茶水的茶。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277ce8e66b327c4e5c9",
+      "key": "hanzi:乳",
+      "text": "乳汁的乳。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27422b6637ab06c903c",
+      "key": "hanzi:肉",
+      "text": "肉片的肉。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a5e9b15486f9b4624",
+      "key": "hanzi:蛋",
+      "text": "鸡蛋的蛋。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27296294124ff90297b",
+      "key": "hanzi:糖",
+      "text": "糖果的糖。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2751b946c68fda92be0",
+      "key": "hanzi:盐",
+      "text": "食盐的盐。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study278c74d8a1cdeba8e1e",
+      "key": "hanzi:酸",
+      "text": "酸味的酸。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f0a7d9690c8f85fb1",
+      "key": "hanzi:甜",
+      "text": "甜点的甜。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study270eb115420d7b87484",
+      "key": "hanzi:香",
+      "text": "香味的香。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274ad641939d4bdb224",
+      "key": "hanzi:饼",
+      "text": "饼干的饼。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f7c21e13b3cecc041",
+      "key": "hanzi:瓜",
+      "text": "西瓜的瓜。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b1e2b653ec1bbf284",
+      "key": "hanzi:桃",
+      "text": "桃子的桃。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a82dbd9c75170bc5b",
+      "key": "hanzi:梨",
+      "text": "雪梨的梨。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27d7dd0a02706715577",
+      "key": "hanzi:豆",
+      "text": "豆子的豆。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279f9f4c9bffde9969b",
+      "key": "hanzi:一",
+      "text": "一个的一。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27957f37b44f76347a3",
+      "key": "hanzi:二",
+      "text": "二十的二。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study272e707d83afac90db4",
+      "key": "hanzi:三",
+      "text": "三个的三。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2755058d96e0d804922",
+      "key": "hanzi:四",
+      "text": "四个的四。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27d009cb0551f9f94e6",
+      "key": "hanzi:五",
+      "text": "五个的五。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2765093de052a4eaa56",
+      "key": "hanzi:六",
+      "text": "六个的六。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2796bbfe4d1b83c1a96",
+      "key": "hanzi:七",
+      "text": "七个的七。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27830d4ce850f763924",
+      "key": "hanzi:八",
+      "text": "八个的八。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27598598ea4a1c312d4",
+      "key": "hanzi:九",
+      "text": "九个的九。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27cd28b150d1c86a3af",
+      "key": "hanzi:十",
+      "text": "十个的十。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277c0f118841ac190a1",
+      "key": "hanzi:百",
+      "text": "一百的百。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c8b1848641cc768da",
+      "key": "hanzi:千",
+      "text": "一千的千。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27dc653ae1a044fa7ce",
+      "key": "hanzi:早",
+      "text": "早上的早。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2730fc7f1659521b592",
+      "key": "hanzi:晚",
+      "text": "晚上的晚。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2774eaa7213641cdcbe",
+      "key": "hanzi:昨",
+      "text": "昨天的昨。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ccc4ae53840c4904a",
+      "key": "hanzi:今",
+      "text": "今天的今。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2765f8789076bcd82ba",
+      "key": "hanzi:明",
+      "text": "明天的明。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study278f1a72264a3f47abf",
+      "key": "hanzi:年",
+      "text": "新年的年。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f8190a52b08306683",
+      "key": "hanzi:时",
+      "text": "时间的时。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study270196fb4c31a4bf3ac",
+      "key": "hanzi:分",
+      "text": "分钟的分。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27878091af38ccab797",
+      "key": "hanzi:上",
+      "text": "上面的上。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274d31e154e2e1c5b35",
+      "key": "hanzi:下",
+      "text": "下面的下。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27cb7164f7bb9dbcc34",
+      "key": "hanzi:左",
+      "text": "左边的左。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2751bda3c691f0faf1e",
+      "key": "hanzi:右",
+      "text": "右边的右。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271caa9cfddc4934c1c",
+      "key": "hanzi:前",
+      "text": "前面的前。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b0f862162b1f40088",
+      "key": "hanzi:后",
+      "text": "后面的后。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2706c6e36ae2f888d45",
+      "key": "hanzi:里",
+      "text": "里面的里。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27329399016d3d2be14",
+      "key": "hanzi:外",
+      "text": "外面的外。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2753a5ab940cbfd6bcd",
+      "key": "hanzi:东",
+      "text": "东方的东。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275b9deb563bace650a",
+      "key": "hanzi:西",
+      "text": "西方的西。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27acd24cc72e444a1ef",
+      "key": "hanzi:南",
+      "text": "南方的南。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27d5d56e0fc0cf0a06e",
+      "key": "hanzi:北",
+      "text": "北方的北。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273778a7c351233f292",
+      "key": "hanzi:来",
+      "text": "过来的来。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273cc5d434d3c151818",
+      "key": "hanzi:去",
+      "text": "过去的去。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c371ff36e036d5875",
+      "key": "hanzi:走",
+      "text": "走路的走。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ebdb9bf4db790adc9",
+      "key": "hanzi:跑",
+      "text": "跑步的跑。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276197a8807aa7b2ac6",
+      "key": "hanzi:跳",
+      "text": "跳高的跳。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27cfcf531ce172e1ade",
+      "key": "hanzi:坐",
+      "text": "坐下的坐。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e0565d4982098e128",
+      "key": "hanzi:站",
+      "text": "站立的站。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e2b600335a302ef31",
+      "key": "hanzi:飞",
+      "text": "飞翔的飞。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271e651b16ebe8dcc83",
+      "key": "hanzi:学",
+      "text": "学习的学。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279d10d64ea5b7d0d79",
+      "key": "hanzi:校",
+      "text": "学校的校。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27d5c3294b14e706c1c",
+      "key": "hanzi:书",
+      "text": "书本的书。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27355af7246e27b42a8",
+      "key": "hanzi:本",
+      "text": "课本的本。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27df1e66acaaf5e31ba",
+      "key": "hanzi:笔",
+      "text": "铅笔的笔。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2723c1f697130eebbda",
+      "key": "hanzi:纸",
+      "text": "白纸的纸。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e24e526c7e97b4315",
+      "key": "hanzi:字",
+      "text": "汉字的字。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2737f1b91465ccca41f",
+      "key": "hanzi:画",
+      "text": "画画的画。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a0708ce77138fa02c",
+      "key": "hanzi:桌",
+      "text": "桌子的桌。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274b5f78e08856da03e",
+      "key": "hanzi:椅",
+      "text": "椅子的椅。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f53b0721471848e68",
+      "key": "hanzi:门",
+      "text": "大门的门。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277a357cd26f1fb45a9",
+      "key": "hanzi:窗",
+      "text": "窗户的窗。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27380aeec484093d3a6",
+      "key": "hanzi:灯",
+      "text": "电灯的灯。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2778c7c3e9971471700",
+      "key": "hanzi:钟",
+      "text": "时钟的钟。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study270db89969f19a10a1e",
+      "key": "hanzi:车",
+      "text": "汽车的车。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279b734ced775aa8418",
+      "key": "hanzi:船",
+      "text": "小船的船。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274575caea996df0af6",
+      "key": "hanzi:路",
+      "text": "马路的路。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27dd4a711a1bde0c4cd",
+      "key": "hanzi:桥",
+      "text": "大桥的桥。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e4b89619e11a7cad1",
+      "key": "hanzi:球",
+      "text": "皮球的球。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2794810651e61d7888f",
+      "key": "hanzi:伞",
+      "text": "雨伞的伞。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2711ecdba71bff53681",
+      "key": "hanzi:红",
+      "text": "红色的红。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27dfe2a7b5ffc65b83f",
+      "key": "hanzi:黄",
+      "text": "黄色的黄。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2745ceffa28f92a28e7",
+      "key": "hanzi:蓝",
+      "text": "蓝色的蓝。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279e945dd5091bb52d4",
+      "key": "hanzi:绿",
+      "text": "绿色的绿。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ac052ae376061fb3d",
+      "key": "hanzi:白",
+      "text": "白色的白。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2706c0a10a94cfb5c52",
+      "key": "hanzi:黑",
+      "text": "黑色的黑。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273f5ca30c2e647cbc2",
+      "key": "hanzi:紫",
+      "text": "紫色的紫。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27bd7c8ad23bdb026f2",
+      "key": "hanzi:粉",
+      "text": "粉色的粉。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27073284c84761c9a6e",
+      "key": "hanzi:灰",
+      "text": "灰色的灰。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2748989f163aad66a9b",
+      "key": "hanzi:金",
+      "text": "金色的金。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2727cecbe505cee67fd",
+      "key": "hanzi:银",
+      "text": "银色的银。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e92a3bbf186a46016",
+      "key": "hanzi:圆",
+      "text": "圆形的圆。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27889d36e2f220a47e2",
+      "key": "hanzi:方",
+      "text": "方形的方。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27cef8f1c06fd502f77",
+      "key": "hanzi:长",
+      "text": "长方形的长。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2790ace562d63969404",
+      "key": "hanzi:短",
+      "text": "长短的短。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2706824d63abaa72c0c",
+      "key": "hanzi:高",
+      "text": "高个子的高。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c6a2782985dc141f9",
+      "key": "hanzi:低",
+      "text": "低处的低。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279d9515b5ff5fb6635",
+      "key": "hanzi:大",
+      "text": "大小的大。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271c681b04a6fb7af44",
+      "key": "hanzi:小",
+      "text": "大小的小。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study278388df2662261c380",
+      "key": "hanzi:宽",
+      "text": "宽阔的宽。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273cead9717dedb2069",
+      "key": "hanzi:笑",
+      "text": "微笑的笑。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2769f6ac22dc98422aa",
+      "key": "hanzi:哭",
+      "text": "哭泣的哭。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ed4ef176a4522a942",
+      "key": "hanzi:乐",
+      "text": "快乐的乐。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2776ec398ab222be3d5",
+      "key": "hanzi:爱",
+      "text": "爱心的爱。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2784be4a50fb4806ca8",
+      "key": "hanzi:喜",
+      "text": "喜欢的喜。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276c06ceac98080e51f",
+      "key": "hanzi:欢",
+      "text": "欢乐的欢。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b9561688892885fa2",
+      "key": "hanzi:好",
+      "text": "美好的好。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277d46810d1b1d80224",
+      "key": "hanzi:坏",
+      "text": "坏了的坏。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27532207fdec0117e79",
+      "key": "hanzi:快",
+      "text": "快乐的快。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27380257aab00f284d6",
+      "key": "hanzi:慢",
+      "text": "快慢的慢。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27699b437a8acf493bc",
+      "key": "hanzi:美",
+      "text": "美丽的美。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27758647552ffe2d43f",
+      "key": "hanzi:丑",
+      "text": "丑小鸭的丑。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276f3a8d965df347385",
+      "key": "hanzi:真",
+      "text": "真实的真。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study270dc61a8a2b03f18ac",
+      "key": "hanzi:善",
+      "text": "善良的善。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b1f45d3c14e749abe",
+      "key": "hanzi:勇",
+      "text": "勇敢的勇。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27871ef11e744dd6290",
+      "key": "hanzi:敢",
+      "text": "勇敢的敢。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27dfe93863a7b975b6a",
+      "key": "hanzi:静",
+      "text": "安静的静。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b9f1f8feac4636e3d",
+      "key": "hanzi:轻",
+      "text": "轻重的轻。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277d43f1f8ee4bda22d",
+      "key": "hanzi:重",
+      "text": "重量的重。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276ddc33a15446a0f77",
+      "key": "hanzi:暖",
+      "text": "温暖的暖。",
+      "context": "自然普通话儿童识字。只读一遍例词加目标汉字，不要念拼音字母",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275b9f0e3daf8c084ec",
+      "key": "cn:meaning:cat",
+      "text": "中文是：猫。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27df79d6e63d885907b",
+      "key": "cn:meaning:dog",
+      "text": "中文是：狗。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study272a2e88f0ae3f06525",
+      "key": "cn:meaning:bird",
+      "text": "中文是：鸟。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2709547d0e38369a7b8",
+      "key": "cn:meaning:fish",
+      "text": "中文是：鱼。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27aad54475ae177eac3",
+      "key": "cn:meaning:lion",
+      "text": "中文是：狮子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a378a8ea77653a5ea",
+      "key": "cn:meaning:tiger",
+      "text": "中文是：老虎。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study272d9fdc7c4c550cf6a",
+      "key": "cn:meaning:duck",
+      "text": "中文是：鸭子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275dff4dc8438be5894",
+      "key": "cn:meaning:bear",
+      "text": "中文是：熊。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ecf236698acfe504c",
+      "key": "cn:meaning:frog",
+      "text": "中文是：青蛙。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27abc160ca4d532ca06",
+      "key": "cn:meaning:rabbit",
+      "text": "中文是：兔子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27821fa437f10051c70",
+      "key": "cn:meaning:apple",
+      "text": "中文是：苹果。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ccf504d870f51117b",
+      "key": "cn:meaning:banana",
+      "text": "中文是：香蕉。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a8024bb097e92d3b1",
+      "key": "cn:meaning:milk",
+      "text": "中文是：牛奶。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274fc01cdd5a0e35983",
+      "key": "cn:meaning:bread",
+      "text": "中文是：面包。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b1c04da8779eba992",
+      "key": "cn:meaning:cake",
+      "text": "中文是：蛋糕。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2767b69c18bd9ce5a8a",
+      "key": "cn:meaning:egg",
+      "text": "中文是：鸡蛋。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2758d6bf68c63285c33",
+      "key": "cn:meaning:rice",
+      "text": "中文是：米饭。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study278f61a320d9f46b6b2",
+      "key": "cn:meaning:grape",
+      "text": "中文是：葡萄。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27852720584bdabd64c",
+      "key": "cn:meaning:pear",
+      "text": "中文是：梨。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2704f64d328044a1388",
+      "key": "cn:meaning:cookie",
+      "text": "中文是：饼干。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27519ff84626f7facef",
+      "key": "cn:meaning:red",
+      "text": "中文是：红色。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2750edc8db7a912c98b",
+      "key": "cn:meaning:blue",
+      "text": "中文是：蓝色。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27817f46715de1bbfdf",
+      "key": "cn:meaning:green",
+      "text": "中文是：绿色。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279f1e1cb9059e811c7",
+      "key": "cn:meaning:yellow",
+      "text": "中文是：黄色。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275d5fe35f33f35afda",
+      "key": "cn:meaning:pink",
+      "text": "中文是：粉色。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ea62add683ec41781",
+      "key": "cn:meaning:purple",
+      "text": "中文是：紫色。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27885fd0995db163b31",
+      "key": "cn:meaning:black",
+      "text": "中文是：黑色。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e5c945fd9929ee421",
+      "key": "cn:meaning:white",
+      "text": "中文是：白色。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276c3c398a9f8a6ab08",
+      "key": "cn:meaning:orange",
+      "text": "中文是：橙色。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2705af6ef5c16a391fd",
+      "key": "cn:meaning:brown",
+      "text": "中文是：棕色。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2783cfaa711476da6d9",
+      "key": "cn:meaning:mom",
+      "text": "中文是：妈妈。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2705cf16d453b46c4c0",
+      "key": "cn:meaning:dad",
+      "text": "中文是：爸爸。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27628cb79646be12671",
+      "key": "cn:meaning:baby",
+      "text": "中文是：宝宝。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273ef73caffe20d9ddd",
+      "key": "cn:meaning:sister",
+      "text": "中文是：姐姐。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27cfe1a5a304053ceaf",
+      "key": "cn:meaning:brother",
+      "text": "中文是：哥哥。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271aab62bff6179a30f",
+      "key": "cn:meaning:family",
+      "text": "中文是：家庭。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271eb6e3aa144818a14",
+      "key": "cn:meaning:friend",
+      "text": "中文是：朋友。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277a438f7c3f5e660fe",
+      "key": "cn:meaning:home",
+      "text": "中文是：家。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276a2ea08d8e506dcc1",
+      "key": "cn:meaning:grandma",
+      "text": "中文是：奶奶。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277470204c5eeb6b763",
+      "key": "cn:meaning:grandpa",
+      "text": "中文是：爷爷。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27745ff134cdf90fb24",
+      "key": "cn:meaning:sun",
+      "text": "中文是：太阳。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27357c3c7b027d9c5e7",
+      "key": "cn:meaning:moon",
+      "text": "中文是：月亮。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2761839fe8f653eda9c",
+      "key": "cn:meaning:star",
+      "text": "中文是：星星。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study278bc4eb5fb4725951e",
+      "key": "cn:meaning:cloud",
+      "text": "中文是：云。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2763384aef7d2931c29",
+      "key": "cn:meaning:rain",
+      "text": "中文是：雨。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273b7b3530fb13381a3",
+      "key": "cn:meaning:snow",
+      "text": "中文是：雪。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277621ae37f36f3558a",
+      "key": "cn:meaning:tree",
+      "text": "中文是：树。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27df1db1a6b178aa70c",
+      "key": "cn:meaning:flower",
+      "text": "中文是：花。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27972311e880a90f8cd",
+      "key": "cn:meaning:river",
+      "text": "中文是：河流。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275f952226f555a5809",
+      "key": "cn:meaning:rainbow",
+      "text": "中文是：彩虹。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2764027769ac5caca8b",
+      "key": "cn:meaning:book",
+      "text": "中文是：书。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2749bd1d6d7ad4e5d57",
+      "key": "cn:meaning:pen",
+      "text": "中文是：笔。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study272436afdd6743c9d99",
+      "key": "cn:meaning:pencil",
+      "text": "中文是：铅笔。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27875425f66c8821823",
+      "key": "cn:meaning:bag",
+      "text": "中文是：书包。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2701849bc71023a11b4",
+      "key": "cn:meaning:desk",
+      "text": "中文是：课桌。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275efcb4afd23dc7d4f",
+      "key": "cn:meaning:chair",
+      "text": "中文是：椅子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b951522577ffb0752",
+      "key": "cn:meaning:school",
+      "text": "中文是：学校。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f185fc7af6304346f",
+      "key": "cn:meaning:paper",
+      "text": "中文是：纸。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271f2446b671813386f",
+      "key": "cn:meaning:clock",
+      "text": "中文是：时钟。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e792754ae4bc06dea",
+      "key": "cn:meaning:ball",
+      "text": "中文是：球。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27d3cac00d4a9a0a381",
+      "key": "cn:meaning:run",
+      "text": "中文是：跑。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27fd272da473e61c5b5",
+      "key": "cn:meaning:jump",
+      "text": "中文是：跳。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279b3c0dcbb689fc61d",
+      "key": "cn:meaning:walk",
+      "text": "中文是：走路。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27539dac954c5ffe4f9",
+      "key": "cn:meaning:dance",
+      "text": "中文是：跳舞。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271d8735a7b1c0a33c6",
+      "key": "cn:meaning:sing",
+      "text": "中文是：唱歌。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2724962b44b1d901aaf",
+      "key": "cn:meaning:read",
+      "text": "中文是：阅读。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273822f4be2df28ba51",
+      "key": "cn:meaning:write",
+      "text": "中文是：写字。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b68fb3b6b7d05b81b",
+      "key": "cn:meaning:swim",
+      "text": "中文是：游泳。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27eb2cf4c56c88c0148",
+      "key": "cn:meaning:sleep",
+      "text": "中文是：睡觉。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2702e8a87da9fb9a81f",
+      "key": "cn:meaning:smile",
+      "text": "中文是：微笑。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273e1818eeb7302e9f5",
+      "key": "cn:meaning:car",
+      "text": "中文是：汽车。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2702015d8ae19c23726",
+      "key": "cn:meaning:bus",
+      "text": "中文是：公交车。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279f2f5bd4ac404803f",
+      "key": "cn:meaning:train",
+      "text": "中文是：火车。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279f08186433882423e",
+      "key": "cn:meaning:bike",
+      "text": "中文是：自行车。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2727c2c0b6cc37c26c4",
+      "key": "cn:meaning:boat",
+      "text": "中文是：船。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279a693a622893d277c",
+      "key": "cn:meaning:plane",
+      "text": "中文是：飞机。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27526bd8abde385bfa0",
+      "key": "cn:meaning:road",
+      "text": "中文是：道路。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27573a4208f7d5c4f99",
+      "key": "cn:meaning:park",
+      "text": "中文是：公园。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e800395507a0e0bda",
+      "key": "cn:meaning:house",
+      "text": "中文是：房子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27497077082c9cb6683",
+      "key": "cn:meaning:bridge",
+      "text": "中文是：桥。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study278dc5d81e347076b07",
+      "key": "cn:meaning:happy",
+      "text": "中文是：开心。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279ac4be60824a5974b",
+      "key": "cn:meaning:sad",
+      "text": "中文是：难过。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274028c0fe249350d92",
+      "key": "cn:meaning:angry",
+      "text": "中文是：生气。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27453950551e223a250",
+      "key": "cn:meaning:tired",
+      "text": "中文是：疲倦。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study270ff95d2822298301c",
+      "key": "cn:meaning:laugh",
+      "text": "中文是：大笑。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2731603cfa650242c4f",
+      "key": "cn:meaning:hello",
+      "text": "中文是：你好。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b1dd33c9cca99afc5",
+      "key": "cn:meaning:goodbye",
+      "text": "中文是：再见。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27eefa8d3030762f11c",
+      "key": "cn:meaning:please",
+      "text": "中文是：请。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27922ab8885d3cb7a4e",
+      "key": "cn:meaning:thank you",
+      "text": "中文是：谢谢。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27bb27039e7e1335146",
+      "key": "cn:meaning:sorry",
+      "text": "中文是：对不起。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27892039be445452593",
+      "key": "cn:meaning:head",
+      "text": "中文是：头。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275187eff97e9627b74",
+      "key": "cn:meaning:eye",
+      "text": "中文是：眼睛。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2722eddff2034d80d9b",
+      "key": "cn:meaning:ear",
+      "text": "中文是：耳朵。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27cadc0aa6d73745cba",
+      "key": "cn:meaning:nose",
+      "text": "中文是：鼻子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279826a367cedd59d88",
+      "key": "cn:meaning:mouth",
+      "text": "中文是：嘴巴。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2735237147b8ac86fe5",
+      "key": "cn:meaning:hand",
+      "text": "中文是：手。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a078057cfc71fd9df",
+      "key": "cn:meaning:foot",
+      "text": "中文是：脚。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2763287b4de18c6f0da",
+      "key": "cn:meaning:spring",
+      "text": "中文是：春天。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2793070df4b7328872a",
+      "key": "cn:meaning:summer",
+      "text": "中文是：夏天。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a7d94984a0edd0e13",
+      "key": "cn:meaning:winter",
+      "text": "中文是：冬天。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2735007fdea2aa93838",
+      "key": "cn:meaning:one",
+      "text": "中文是：一。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273700dd254f7627eba",
+      "key": "cn:meaning:two",
+      "text": "中文是：二。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27548431a5db9a27fc1",
+      "key": "cn:meaning:three",
+      "text": "中文是：三。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2713ad32031a92f69c5",
+      "key": "cn:meaning:four",
+      "text": "中文是：四。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c3986c0cad274e93f",
+      "key": "cn:meaning:five",
+      "text": "中文是：五。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27cdfc5c6f1ad62741e",
+      "key": "cn:meaning:six",
+      "text": "中文是：六。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275127f4a0c5be88240",
+      "key": "cn:meaning:seven",
+      "text": "中文是：七。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2741e280bb77ba8dc31",
+      "key": "cn:meaning:eight",
+      "text": "中文是：八。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27d9e143ae4c6dc2e83",
+      "key": "cn:meaning:nine",
+      "text": "中文是：九。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27d67d867af233bde06",
+      "key": "cn:meaning:ten",
+      "text": "中文是：十。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2713163ef03a355f1d7",
+      "key": "cn:meaning:circle",
+      "text": "中文是：圆形。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274b04955e55eb67526",
+      "key": "cn:meaning:square",
+      "text": "中文是：正方形。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study272997a227dc064d273",
+      "key": "cn:meaning:triangle",
+      "text": "中文是：三角形。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275024a251582db245d",
+      "key": "cn:meaning:heart",
+      "text": "中文是：心形。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276fdcc147a795ec48e",
+      "key": "cn:meaning:rectangle",
+      "text": "中文是：长方形。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2798339e2a9a0ecc854",
+      "key": "cn:meaning:oval",
+      "text": "中文是：椭圆形。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27eb59314cb360e4ec0",
+      "key": "cn:meaning:line",
+      "text": "中文是：线。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27d45376541b4135478",
+      "key": "cn:meaning:dot",
+      "text": "中文是：点。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2770b5613da4cf5a931",
+      "key": "cn:meaning:diamond",
+      "text": "中文是：菱形。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2796f05fdc221004336",
+      "key": "cn:meaning:cube",
+      "text": "中文是：立方体。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276879d72f7a6fdddb8",
+      "key": "cn:meaning:shirt",
+      "text": "中文是：衬衫。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271d6a0e3c1d480b4fc",
+      "key": "cn:meaning:dress",
+      "text": "中文是：裙子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a0fb91f3ae5257616",
+      "key": "cn:meaning:coat",
+      "text": "中文是：外套。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277ae687e3f52f9d47e",
+      "key": "cn:meaning:hat",
+      "text": "中文是：帽子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277d2c476a50e27ed13",
+      "key": "cn:meaning:shoes",
+      "text": "中文是：鞋子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f7aca8811e0d06548",
+      "key": "cn:meaning:socks",
+      "text": "中文是：袜子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276e87f058a9b468c25",
+      "key": "cn:meaning:pants",
+      "text": "中文是：裤子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e9f6f4aded6758b9e",
+      "key": "cn:meaning:skirt",
+      "text": "中文是：半身裙。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f840e3b12d7df5487",
+      "key": "cn:meaning:scarf",
+      "text": "中文是：围巾。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27accb398e6e05931e7",
+      "key": "cn:meaning:gloves",
+      "text": "中文是：手套。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f1b2cd1b91388e8f2",
+      "key": "cn:meaning:toy",
+      "text": "中文是：玩具。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ab444691be6ce7fde",
+      "key": "cn:meaning:doll",
+      "text": "中文是：娃娃。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a146c46e25f624d32",
+      "key": "cn:meaning:teddy",
+      "text": "中文是：泰迪熊。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b71d563989e673e46",
+      "key": "cn:meaning:kite",
+      "text": "中文是：风筝。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2746dbda57f2a9c28b8",
+      "key": "cn:meaning:puzzle",
+      "text": "中文是：拼图。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27364f429a0a4a13e38",
+      "key": "cn:meaning:robot",
+      "text": "中文是：机器人。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c807925eac3aca0b4",
+      "key": "cn:meaning:blocks",
+      "text": "中文是：积木。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27e4bd3176f4dc2bbce",
+      "key": "cn:meaning:balloon",
+      "text": "中文是：气球。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27728929e89ffa1a081",
+      "key": "cn:meaning:drum",
+      "text": "中文是：鼓。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27926b6052d898dac12",
+      "key": "cn:meaning:yo-yo",
+      "text": "中文是：悠悠球。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f098f5cc9f69dad47",
+      "key": "cn:meaning:watermelon",
+      "text": "中文是：西瓜。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27dc29caf60817bf7f7",
+      "key": "cn:meaning:strawberry",
+      "text": "中文是：草莓。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study272e7ee3e61c5ebe8bd",
+      "key": "cn:meaning:cherry",
+      "text": "中文是：樱桃。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c472cdb28b7ce52eb",
+      "key": "cn:meaning:peach",
+      "text": "中文是：桃子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b24e4e97076cc2ae3",
+      "key": "cn:meaning:lemon",
+      "text": "中文是：柠檬。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2755d17c2027c442693",
+      "key": "cn:meaning:pineapple",
+      "text": "中文是：菠萝。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27fdfe3d87657afc1c1",
+      "key": "cn:meaning:carrot",
+      "text": "中文是：胡萝卜。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271c096bc0e42f34c9f",
+      "key": "cn:meaning:corn",
+      "text": "中文是：玉米。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2792be5a890e69de543",
+      "key": "cn:meaning:potato",
+      "text": "中文是：土豆。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c80496e5b2b638fa4",
+      "key": "cn:meaning:tomato",
+      "text": "中文是：西红柿。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27dd7375314d1af9821",
+      "key": "cn:meaning:sunny",
+      "text": "中文是：晴天的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2722bd70746178c95fc",
+      "key": "cn:meaning:rainy",
+      "text": "中文是：下雨的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2723c01cbeed367fbbc",
+      "key": "cn:meaning:windy",
+      "text": "中文是：有风的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c0e39a885d0160436",
+      "key": "cn:meaning:cloudy",
+      "text": "中文是：多云的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27bc17c3c1ac2988459",
+      "key": "cn:meaning:foggy",
+      "text": "中文是：有雾的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27efba7d497db6676be",
+      "key": "cn:meaning:storm",
+      "text": "中文是：暴风雨。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study270cb82e6204c0904d4",
+      "key": "cn:meaning:warm",
+      "text": "中文是：温暖的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2719301f4c3f528d09f",
+      "key": "cn:meaning:cold",
+      "text": "中文是：寒冷的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276f1cfeb13a1592793",
+      "key": "cn:meaning:hot",
+      "text": "中文是：炎热的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274ea0310faa2768b65",
+      "key": "cn:meaning:weather",
+      "text": "中文是：天气。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2725eccfdefe74955b0",
+      "key": "cn:meaning:hospital",
+      "text": "中文是：医院。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274d576568fa79a2748",
+      "key": "cn:meaning:shop",
+      "text": "中文是：商店。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27996a18e646895cceb",
+      "key": "cn:meaning:library",
+      "text": "中文是：图书馆。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27aabb20a4d557eca3c",
+      "key": "cn:meaning:zoo",
+      "text": "中文是：动物园。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27752ce50dfe2cd2cbd",
+      "key": "cn:meaning:farm",
+      "text": "中文是：农场。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ced90e89b5629464e",
+      "key": "cn:meaning:beach",
+      "text": "中文是：海滩。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study273a361303052503d1d",
+      "key": "cn:meaning:mountain",
+      "text": "中文是：山。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27c4985b8d898c79556",
+      "key": "cn:meaning:garden",
+      "text": "中文是：花园。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276d649d0e184a077f4",
+      "key": "cn:meaning:station",
+      "text": "中文是：车站。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ca7e0d308f644b0f7",
+      "key": "cn:meaning:museum",
+      "text": "中文是：博物馆。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27843cdb5edc0d0ec50",
+      "key": "cn:meaning:eat",
+      "text": "中文是：吃。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2740aa8584b8ce1b319",
+      "key": "cn:meaning:drink",
+      "text": "中文是：喝。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2745a1b3f2b2cb4bf9c",
+      "key": "cn:meaning:play",
+      "text": "中文是：玩。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27078354ea21c72eee9",
+      "key": "cn:meaning:draw",
+      "text": "中文是：画。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27618caa4331fe4effd",
+      "key": "cn:meaning:open",
+      "text": "中文是：打开。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271fc9ca141024c4e78",
+      "key": "cn:meaning:close",
+      "text": "中文是：关闭。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2724a3a5838dd73f1dd",
+      "key": "cn:meaning:listen",
+      "text": "中文是：听。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2721008a4c97636e654",
+      "key": "cn:meaning:look",
+      "text": "中文是：看。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2738c46bd436500698c",
+      "key": "cn:meaning:clap",
+      "text": "中文是：拍手。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study279c775d55aad5ba956",
+      "key": "cn:meaning:hug",
+      "text": "中文是：拥抱。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2786c18785df87a1ab1",
+      "key": "cn:meaning:butterfly",
+      "text": "中文是：蝴蝶。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27101084e2a3531a51e",
+      "key": "cn:meaning:bee",
+      "text": "中文是：蜜蜂。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27cf9e9559ea7710650",
+      "key": "cn:meaning:ant",
+      "text": "中文是：蚂蚁。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2795388401d96b61ab4",
+      "key": "cn:meaning:elephant",
+      "text": "中文是：大象。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b5773ed6fcc14b9a5",
+      "key": "cn:meaning:monkey",
+      "text": "中文是：猴子。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271ab8f6e5b9757f56f",
+      "key": "cn:meaning:panda",
+      "text": "中文是：熊猫。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b3723b16c519e8181",
+      "key": "cn:meaning:penguin",
+      "text": "中文是：企鹅。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ec26effb9cc9f1745",
+      "key": "cn:meaning:dolphin",
+      "text": "中文是：海豚。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2736e708da9abfd7a8a",
+      "key": "cn:meaning:whale",
+      "text": "中文是：鲸鱼。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study276de1933f2a85618b1",
+      "key": "cn:meaning:turtle",
+      "text": "中文是：乌龟。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27b461ecf5fbbe0e679",
+      "key": "cn:meaning:excited",
+      "text": "中文是：兴奋的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27525cf90ad7827cbaf",
+      "key": "cn:meaning:calm",
+      "text": "中文是：平静的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27f2fa8a2af3effb5ed",
+      "key": "cn:meaning:brave",
+      "text": "中文是：勇敢的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2785fa7929e22f9e3f8",
+      "key": "cn:meaning:kind",
+      "text": "中文是：友善的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study278b79201c40a401a1e",
+      "key": "cn:meaning:shy",
+      "text": "中文是：害羞的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study2777cd2b78821985970",
+      "key": "cn:meaning:proud",
+      "text": "中文是：自豪的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27624bc48eb1dc5cc8a",
+      "key": "cn:meaning:scared",
+      "text": "中文是：害怕的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27a4b10c0bee743813f",
+      "key": "cn:meaning:surprised",
+      "text": "中文是：惊讶的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study271b511cb77cad74a52",
+      "key": "cn:meaning:curious",
+      "text": "中文是：好奇的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study27ebc23d5da62bb495e",
+      "key": "cn:meaning:friendly",
+      "text": "中文是：友好的。",
+      "context": "儿童英语教学中文释义，避免以前意思的思发音异常",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study275623dceb8d315ebb8",
+      "key": "cn:ui:home",
+      "text": "丁一一，我们先看图片，认识英文和中文。听一听英语发音，学会五个单词，再和小精灵一起闯关。",
+      "context": "替换“意思”发音不清楚的中文教学引导",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study277ad605475708fb3bd",
+      "key": "cn:ui:teaching",
+      "text": "今天认识一个新单词。先看图，再听英语发音，记住它的中文。",
+      "context": "替换“意思”发音不清楚的中文教学引导",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    },
+    {
+      "id": "study274c6ec96a93935b62a",
+      "key": "cn:ui:practice-wrong",
+      "text": "再试一次，看看图片，想想这个单词的中文是什么。",
+      "context": "替换“意思”发音不清楚的中文教学引导",
+      "role": "narrator",
+      "voice_name": "用户参考的活泼女孩音色",
+      "provider": "F5-TTS"
+    }
+  ]
+}
