@@ -1,0 +1,128 @@
+name: Correct 200 Hanzi and 200 Chinese meanings in original girl voice
+on:
+  push:
+    paths:
+      - '.github/workflows/study-voices-v27.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: starwhim-study-voices-v27
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/prepare_study_corrections_v27.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v27-corrected-study-manifest
+          path: voice-study-corrections-v27-plan.json
+          if-no-files-found: error
+  synthesize:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    env:
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      HF_HUB_DOWNLOAD_TIMEOUT: '180'
+      OMP_NUM_THREADS: '4'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          name: v27-corrected-study-manifest
+      - name: Install F5-TTS reference-girl voice synthesizer
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          printf 'numpy==1.26.4\npyarrow==25.0.1\ndatasets==5.0.1\ntorch==2.5.1+cpu\ntorchaudio==2.5.1+cpu\n' > /tmp/starwhim-constraints.txt
+          python -m pip install -c /tmp/starwhim-constraints.txt 'f5-tts==1.1.5' 'transformers<5'
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface/hub
+            ~/.cache/torch/hub
+          key: starwhim-f5tts-model-v1-20261118
+      - name: Generate corrected single-phrase Hanzi and Chinese meaning MP3
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: python -u scripts/clone_on_github.py --manifest voice-study-corrections-v27-plan.json --shard "$SHARD" --shards 20
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v27-corrected-girl-mp3-${{ matrix.shard }}
+          path: generated/*.mp3
+          retention-days: 7
+          if-no-files-found: error
+  package:
+    needs: synthesize
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          name: v27-corrected-study-manifest
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: v27-corrected-girl-mp3-*
+          path: generated
+          merge-multiple: true
+      - name: Replace old 403 recordings and repair all exact mappings
+        run: |
+          python scripts/install_study_corrections_v27.py
+          python scripts/audit_full_voice.py
+          python - <<'PY'
+          import json,re,hashlib
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf8')
+          m=re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S)
+          a=json.loads(m.group(1))['audio']
+          assert len(a)==914 and s.count('data:audio/mpeg;base64,')==1114
+          assert '大米的米。' in s and '米饭的饭。' in s
+          assert '中文是：猫。' in s and '中文意思是：猫。' not in s
+          assert '已补上全部汉字的可点击朗读功能' not in s
+          assert '正式配音将朗读汉字和例词' not in s
+          assert "window.StarwhimEnglishPronunciationPack=" in s
+          print('PASS: 200 contextual Hanzi, 200 clean English meanings, 914 original keys + 200 independent English sounds')
+          print('HTML_SHA256',hashlib.sha256(s.encode()).hexdigest())
+          PY
+      - name: Commit completed and corrected game
+        run: |
+          git config user.name starwhim-voice-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html scripts/learning_v22.js scripts/learning_ui_voices_v23.js voice-study-corrections-v27-plan.json study-v27-audit.json
+          git commit -m "fix: 200 natural Hanzi pronunciations, 200 clear Chinese meanings, exact note voices"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Export offline playable HTML
+        run: cp index.html starwhim-island-hanzi-voice-v27.html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: starwhim-island-hanzi-voice-v27
+          path: starwhim-island-hanzi-voice-v27.html
+          retention-days: 30
+          if-no-files-found: error
