@@ -1,5 +1,8 @@
 name: Recover v27 synthesized recordings and finish package
 on:
+  push:
+    paths:
+      - '.github/workflows/recover-study-v27.yml'
   workflow_dispatch:
 permissions:
   contents: write
