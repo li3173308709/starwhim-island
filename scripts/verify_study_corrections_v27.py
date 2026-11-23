@@ -50,7 +50,7 @@ with sync_playwright() as pw:
   page.locator('#miniBody [data-act="learn"]').click()
   page.wait_for_selector('#miniBody .glyph')
   card=page.locator('#miniBody .lesson')
-  assert card.locator('.glyph').inner_text()=='米',(device,card.inner_text())
+  assert card.locator('.glyph').inner_text().replace('🔊','').strip()=='米',(device,card.inner_text())
   assert page.locator('#miniBody .hanzi-example').inner_text().replace('🔊','').strip()=='大米的米。'
   resolution=page.evaluate("""()=>{
      const v=window.StarwhimChineseNarratorV23;
