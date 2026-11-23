@@ -26,3 +26,26 @@ jobs:
           google-chrome --version
       - name: Verify actual Mandarin voice binding and Chinese meaning across screen sizes
         run: python -u scripts/verify_study_corrections_v27.py
+
+  voice_quality:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install independent Chinese speech recognition checker
+        run: python -m pip install 'faster-whisper==1.2.1'
+      - name: Check 33 representative Hanzi and English Chinese meaning recordings
+        run: python -u scripts/audit_study_spoken_v27.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: study-v27-asr-screening
+          path: study-v27-spoken-asr-audit.json
+          if-no-files-found: ignore
+          retention-days: 14
