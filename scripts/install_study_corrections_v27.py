@@ -18,8 +18,10 @@ def strict(t,old,new,count=1):
  return t.replace(old,new)
 def fix(t):
  matches=list(re.finditer(r'const HANZI=(\[.*?\]);',t,re.S))
- if len(matches)!=1:raise RuntimeError('HANZI inventory not unique')
- m=matches[0];data=json.loads(m.group(1))
+ if not matches:raise RuntimeError('HANZI inventory missing')
+ # Older v19 module also embeds a dataset; v22 overrides it later.
+ # Edit the LAST (active learning) module only.
+ m=matches[-1];data=json.loads(m.group(1))
  assert len(data)==200
  for x in data:
   x['word']=override.get(x['char'],x['word'])
@@ -29,8 +31,11 @@ def fix(t):
  t=strict(t,'<div class="note">已补上全部汉字的可点击朗读功能。点“🔊 听一听”朗读标准普通话汉字和例词；拼音只显示声调，不会作为英文字母朗读。</div>','')
  t=strict(t,'<p class="note">正式配音将朗读汉字和例词，拼音只用于认读和辨认声调。</p>',
    '<p class="note hanzi-example" data-hanzi-char="${a.char}">${a.word}的${a.char}。</p>')
- t=strict(t,'<div class="glyph">${a.char}</div>',
-   '<div class="glyph" data-hanzi-char="${a.char}">${a.char}</div>')
+ old_glyph='<div class="glyph">${a.char}</div>'
+ new_glyph='<div class="glyph" data-hanzi-char="${a.char}">${a.char}</div>'
+ assert old_glyph in t
+ at=t.rfind(old_glyph)
+ t=t[:at]+new_glyph+t[at+len(old_glyph):]
  t=strict(t,"b('🔊 听题目','hear','main')","b('🔊 听本字示范','hear','main')")
  t=strict(t,'<p class="note" id="hanziFeedback">认真观察，找到正确的汉字。</p>',
    """<p class="note" id="hanziFeedback" data-voice-key="${mode==='pinyin'?'cn:ui:hanzi-pinyin':mode==='word'?'cn:ui:hanzi-word':mode==='review'?'cn:ui:hanzi-review':'cn:ui:hanzi-picture'}">${mode==='pinyin'?'观察拼音和声调，找到正确的汉字。':mode==='word'?'给词语补上缺少的那个汉字。':mode==='review'?'复习之前做错的汉字，一点一点记住它们。':'看看图画，选出对应的汉字。'}</p>""")
