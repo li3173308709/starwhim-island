@@ -102,7 +102,7 @@ jobs:
           m=re.search(r'window\.StarwhimVoicePack\s*=\s*({.*?});\s*</script>',s,re.S)
           a=json.loads(m.group(1))['audio']
           assert len(a)==914 and s.count('data:audio/mpeg;base64,')==1114
-          assert '大米的米。' in s and '米饭的饭。' in s
+          assert '"char":"米","py":"mǐ","word":"大米"' in s and '"char":"饭","py":"fàn","word":"米饭"' in s
           assert '中文是：猫。' in s
           assert '已补上全部汉字的可点击朗读功能' not in s
           assert '正式配音将朗读汉字和例词' not in s
