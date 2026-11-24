@@ -14,6 +14,7 @@ scripts={r['key']:r['text'] for r in rows}
 override={'二':'二十','短':'长短','大':'大小','小':'大小','慢':'快慢','轻':'轻重'}
 def strict(t,old,new,count=1):
  found=t.count(old)
+ if found==0 and (not new or t.count(new)>=count):return t
  if found!=count:raise RuntimeError('Expected '+str(count)+' found '+str(found)+' for '+repr(old[:130]))
  return t.replace(old,new)
 def fix(t):
@@ -33,9 +34,10 @@ def fix(t):
    '<p class="note hanzi-example" data-hanzi-char="${a.char}">${a.word}的${a.char}。</p>')
  old_glyph='<div class="glyph">${a.char}</div>'
  new_glyph='<div class="glyph" data-hanzi-char="${a.char}">${a.char}</div>'
- assert old_glyph in t
- at=t.rfind(old_glyph)
- t=t[:at]+new_glyph+t[at+len(old_glyph):]
+ if new_glyph not in t:
+  assert old_glyph in t
+  at=t.rfind(old_glyph)
+  t=t[:at]+new_glyph+t[at+len(old_glyph):]
  t=strict(t,"b('🔊 听题目','hear','main')","b('🔊 听本字示范','hear','main')")
  t=strict(t,'<p class="note" id="hanziFeedback">认真观察，找到正确的汉字。</p>',
    """<p class="note" id="hanziFeedback" data-voice-key="${mode==='pinyin'?'cn:ui:hanzi-pinyin':mode==='word'?'cn:ui:hanzi-word':mode==='review'?'cn:ui:hanzi-review':'cn:ui:hanzi-picture'}">${mode==='pinyin'?'观察拼音和声调，找到正确的汉字。':mode==='word'?'给词语补上缺少的那个汉字。':mode==='review'?'复习之前做错的汉字，一点一点记住它们。':'看看图画，选出对应的汉字。'}</p>""")
