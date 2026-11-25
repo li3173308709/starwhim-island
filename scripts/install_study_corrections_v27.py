@@ -65,6 +65,18 @@ for r in rows:
  d=p.read_bytes()
  if d[:3]!=b'ID3' and d[:2] not in (b'\xff\xfb',b'\xff\xf3'):raise RuntimeError('Bad MP3 '+r['key'])
  pack['audio'][r['key']]='data:audio/mpeg;base64,'+base64.b64encode(d).decode()
+# Preserve a machine-readable transcript of the actual newly installed clips.
+# Verify every embedded payload against its source artifact before recording it.
+import hashlib
+transcripts={}
+for r in rows:
+ d=(root/'generated'/(r['id']+'.mp3')).read_bytes()
+ assert base64.b64decode(pack['audio'][r['key']].split(',',1)[1])==d
+ transcripts[r['key']]={'text':r['text'],'sha256':hashlib.sha256(d).hexdigest()}
+assert transcripts['hanzi:米']['text']=='大米的米。'
+assert transcripts['hanzi:饭']['text']=='米饭的饭。'
+assert transcripts['cn:meaning:cat']['text']=='中文是：猫。'
+pack['studyV27Transcripts']=transcripts
 assert set(pack['audio'])==oldkeys
 assert all(pack['audio'][k]==v for k,v in other_before.items()), 'Unrelated girl recordings changed!'
 html=html[:m.start(2)]+json.dumps(pack,ensure_ascii=False,separators=(',',':'))+html[m.end(2):]
