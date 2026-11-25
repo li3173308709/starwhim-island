@@ -76,7 +76,9 @@ for key,val in scripts.items():
  if key.startswith('cn:'):exact[key]=val
 n=n[:p.start(1)]+json.dumps(exact,ensure_ascii=False,separators=(',',':'))+n[p.end(1):]
 old=" }else{\n   if(cl.includes('phonetic'))"
-start=n.index(old,n.index('function keysFor(node){'))
+start=n.find(old,n.index('function keysFor(node){'))
+if start<0:
+ start=n.index(" }else{\n   var ch=node.dataset.hanziChar",n.index('function keysFor(node){'))
 end=n.index("\n }\n return k.filter",start)
 new=""" }else{
    var ch=node.dataset.hanziChar||'';
